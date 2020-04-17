@@ -1,4 +1,5 @@
-﻿using System.Collections.ObjectModel;
+﻿using System;
+using System.Collections.ObjectModel;
 using System.Linq;
 using System.Windows.Input;
 
@@ -15,11 +16,12 @@ namespace GoogleDriveTreeView
         /// </summary>
         /// <param name="fullPath">The full path of the item</param>
         /// <param name="type">The type of the item</param>
-        public DirectoryItemViewModel(string fullPath, DirectoryItemType type)
+        public DirectoryItemViewModel(string name, string id, DirectoryItemType type)
         {
             this.ExpandCommand = new RelayCommand(Expand);
 
-            this.FullPath = fullPath;
+            this.Name = name;
+            this.Id = id;
             this.Type = type;
 
             this.ClearChildren();
@@ -35,13 +37,13 @@ namespace GoogleDriveTreeView
         /// <summary>
         /// The full path of the item
         /// </summary>
-        public string FullPath { get; set; }
+        public string Id { get; set; }
 
         /// <summary>
         /// The name of the item
         /// </summary>
-        public string Name { get { return this.Type == DirectoryItemType.Drive ? this.FullPath : DirectoryStructure.GetFileFolderName(this.FullPath); } }
-        
+        public string Name { get; set; }
+
         /// <summary>
         /// A list of item's children
         /// </summary>
@@ -88,9 +90,9 @@ namespace GoogleDriveTreeView
             if (this.Type == DirectoryItemType.File)
                 return;
 
-            var children = DirectoryStructure.GetDirectoryContents(this.FullPath);
+            var children = DirectoryStructure.GetDirectoryContents(this.Id);
             this.Children = new ObservableCollection<DirectoryItemViewModel>(
-                                children.Select(content => new DirectoryItemViewModel(content.FullPath, content.Type)));
+                                children.Select(content => new DirectoryItemViewModel(content.Name, content.Id, content.Type)));
 
         }
 

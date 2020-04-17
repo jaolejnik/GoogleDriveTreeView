@@ -1,62 +1,77 @@
-﻿using System.Collections.Generic;
-using System.IO;
-using System.Linq;
+﻿using System;
+using System.Collections.Generic;
 
 namespace GoogleDriveTreeView
-{   
+{
     /// <summary>
     /// A helper class for better directory information retrieval. 
     /// </summary>
     public static class DirectoryStructure
-    {   
+    {
+        public static GoogleDriveAPI DriveAPI = new GoogleDriveAPI();
+        
         /// <summary>
         /// Gets all logical drive on the computer
         /// </summary>
         /// <returns></returns>
-        public static List<DirectoryItem> GetLogicalDrives()
+        public static List<DirectoryItem> GetDrives()
         {
-            // Get every logical drive
-            return Directory.GetLogicalDrives().Select(drive => 
-                new DirectoryItem { FullPath = drive, 
-                                    Type = DirectoryItemType.Drive 
-                                  }).ToList();
+            var root = DriveAPI.GetRootId();
+            List<DirectoryItem> drives = new List<DirectoryItem>();
+            drives.Add(new DirectoryItem
+            {
+                Name = root.Name,
+                Id = root.Id,
+                Type = DirectoryItemType.Drive
+            });
+
+            return drives;
         }
 
         /// <summary>
         /// Gets the top level of directories content
         /// </summary>
-        /// <param name="fullPath">The full path of the directory</param>
+        /// <param name="parentId">The id of the directory</param>
         /// <returns></returns>
-        public static List<DirectoryItem> GetDirectoryContents(string fullPath)
+        public static List<DirectoryItem> GetDirectoryContents(string parentId)
         {
             var items = new List<DirectoryItem>();
 
             #region Get Folders
             try
             {
-                var dirs = Directory.GetDirectories(fullPath);
+                var dirs = DriveAPI.GetDirectories(parentId);
 
-                if (dirs.Length > 0)
-                    items.AddRange(dirs.Select(dir => new DirectoryItem 
-                    {   FullPath = dir, 
-                        Type = DirectoryItemType.Folder 
-                    }));
+                foreach (var folder in dirs.Files)
+                {
+                    var newItem = new DirectoryItem()
+                    {
+                        Name = folder.Name,
+                        Id = folder.Id,
+                        Type = DirectoryItemType.Folder
+                    };
+                    items.Add(newItem);
+                }
             }
             catch { }
             #endregion
 
             #region Get files
-            
+
             try
             {
-                var fs = Directory.GetFiles(fullPath);
+                var fs = DriveAPI.GetFiles(parentId);
 
-                if (fs.Length > 0)
-                    items.AddRange(fs.Select(file => new DirectoryItem
+                foreach (var file in fs.Files)
+                {
+                    var newItem = new DirectoryItem()
                     {
-                        FullPath = file,
+                        Name = file.Name,
+                        Id = file.Id,
                         Type = DirectoryItemType.File
-                    }));
+                    };
+                    items.Add(newItem);
+                }
             }
             catch { }
             #endregion
@@ -85,4 +100,5 @@ namespace GoogleDriveTreeView
         }
         #endregion
     }
+
 }
