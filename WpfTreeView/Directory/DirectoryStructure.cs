@@ -7,16 +7,14 @@ namespace GoogleDriveTreeView
     /// A helper class for better directory information retrieval. 
     /// </summary>
     public static class DirectoryStructure
-    {
-        public static GoogleDriveAPI DriveAPI = new GoogleDriveAPI();
-        
+    {        
         /// <summary>
         /// Gets all logical drive on the computer
         /// </summary>
         /// <returns></returns>
         public static List<DirectoryItem> GetDrives()
         {
-            var root = DriveAPI.GetRootId();
+            var root = GoogleDriveAPI.GetRootId();
             List<DirectoryItem> drives = new List<DirectoryItem>();
             drives.Add(new DirectoryItem
             {
@@ -40,7 +38,7 @@ namespace GoogleDriveTreeView
             #region Get Folders
             try
             {
-                var dirs = DriveAPI.GetDirectories(parentId);
+                var dirs = GoogleDriveAPI.GetDirectories(parentId);
 
                 foreach (var folder in dirs.Files)
                 {
@@ -48,7 +46,7 @@ namespace GoogleDriveTreeView
                     {
                         Name = folder.Name,
                         Id = folder.Id,
-                        Type = DirectoryItemType.Folder
+                        Type = DirectoryItemType.Folder,
                     };
                     items.Add(newItem);
                 }
@@ -60,7 +58,7 @@ namespace GoogleDriveTreeView
 
             try
             {
-                var fs = DriveAPI.GetFiles(parentId);
+                var fs = GoogleDriveAPI.GetFiles(parentId);
 
                 foreach (var file in fs.Files)
                 {
@@ -68,7 +66,7 @@ namespace GoogleDriveTreeView
                     {
                         Name = file.Name,
                         Id = file.Id,
-                        Type = DirectoryItemType.File
+                        Type = DirectoryItemType.File,
                     };
                     items.Add(newItem);
                 }

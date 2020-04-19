@@ -4,24 +4,19 @@ using Google.Apis.Drive.v3.Data;
 using Google.Apis.Services;
 using Google.Apis.Util.Store;
 using System;
-using System.Collections.Generic;
 using System.IO;
-using System.Linq;
-using System.Text;
 using System.Threading;
-using System.Threading.Tasks;
 
 namespace GoogleDriveTreeView
 {
-    public class GoogleDriveAPI
+    public static class GoogleDriveAPI
     {
         // If modifying these scopes, delete your previously saved credentials
         // at ~/.credentials/drive-dotnet-quickstart.json
-        private string[] Scopes = { DriveService.Scope.DriveReadonly };
-        private string ApplicationName = "Drive API .NET Quickstart";
-        private DriveService service { get; set;}
+        private static string[] Scopes = { DriveService.Scope.DriveReadonly };
+        private static string ApplicationName = "Drive API .NET Quickstart";
 
-        public GoogleDriveAPI()
+        private static DriveService initService()
         {
             UserCredential credential;
 
@@ -46,17 +41,31 @@ namespace GoogleDriveTreeView
                 HttpClientInitializer = credential,
                 ApplicationName = ApplicationName,
             });
-   
-        }
 
-        public Google.Apis.Drive.v3.Data.File GetRootId()
+            return service;
+        }
+        /// <summary>
+        /// Service field that let's the app to send requests.
+        /// </summary>
+        private static DriveService service = initService();
+
+        /// <summary>
+        /// Gets the id of the root directory on the drive (My Drive).
+        /// </summary>
+        /// <returns></returns>
+        public static Google.Apis.Drive.v3.Data.File GetRootId()
         {
             var rootRequest = service.Files.Get("root");
             var root = rootRequest.Execute();
             return root;
         }
 
-        public FileList GetDirectories(string parentId)
+        /// <summary>
+        /// Gets directories in the parent directory of given id. 
+        /// </summary>
+        /// <param name="parentId">The id of the parent directory.</param>
+        /// <returns></returns>
+        public static FileList GetDirectories(string parentId)
         {
             FilesResource.ListRequest listRequest = service.Files.List();
             listRequest.Fields = "nextPageToken, files(id, name, parents)";
@@ -64,12 +73,62 @@ namespace GoogleDriveTreeView
             return listRequest.Execute();
         }
 
-        public FileList GetFiles(string parentId)
+        /// <summary>
+        /// Gets files in the parent directory of given id. 
+        /// </summary>
+        /// <param name="parentId">The id of the parent directory.</param>
+        /// <returns></returns>
+        public static FileList GetFiles(string parentId)
         {
             FilesResource.ListRequest listRequest = service.Files.List();
             listRequest.Fields = "nextPageToken, files(id, name, parents)";
             listRequest.Q = $"mimeType != 'application/vnd.google-apps.folder' and '{parentId}' in parents";
             return listRequest.Execute();
+        }
+
+        /// <summary>
+        /// Downloads the file
+        /// </summary>
+        /// <param name="fileId">The id of the file</param>
+        /// <param name="fileName">The name of the file</param>
+        /// <param name="savePath">The path where to save the file</param>
+        public static void DownloadFile(string fileId, string fileName, string savePath)
+        {
+
+            savePath += '\\' + fileName;
+            MemoryStream outputStream = new MemoryStream();
+            service.Files.Get(fileId).Download(outputStream);
+            using (var fileStream = new FileStream(savePath, FileMode.Create, FileAccess.Write))
+            {
+                fileStream.Write(outputStream.GetBuffer(), 0, outputStream.GetBuffer().Length);
+            }
+        }
+
+        /// <summary>
+        /// Downloads the whole directory and it's content.
+        /// </summary>
+        /// <param name="dirId">The id of the driectory</param>
+        /// <param name="dirName">The name of the directory</param>
+        /// <param name="savePath">The path where to save the directory</param>
+        public static void DownloadDirectory(string dirId, string dirName, string savePath)
+        {
+            savePath += '\\' + dirName;
+            if (!Directory.Exists(savePath))
+                Directory.CreateDirectory(savePath);
+
+            // Recursively download nested directories.
+            var dirs = GetDirectories(dirId);
+            foreach (var dir in dirs.Files)
+            {
+                DownloadDirectory(dir.Id, dir.Name, savePath);
+            }
+
+            // Dowload all files in the directory.
+            var fs = GetFiles(dirId);
+            foreach (var file in fs.Files)
+            {
+                DownloadFile(file.Id, file.Name, savePath);
+            }
         }
     }
 }

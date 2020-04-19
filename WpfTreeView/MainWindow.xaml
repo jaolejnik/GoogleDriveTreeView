@@ -22,10 +22,19 @@
                             Width="20" 
                             Margin="3" 
                             Source="{Binding Type,
-                            
-                                            Converter={x:Static local:HeaderToImageConverter.Instance}}"
+                                    Converter={x:Static local:HeaderToImageConverter.Instance}}"
                                     />
                         <TextBlock VerticalAlignment="Center" Text="{Binding Name}"/>
+                        <StackPanel.ContextMenu>
+                            <ContextMenu ItemsSource="{Binding ContextMenuItems}">
+                                <ContextMenu.ItemContainerStyle>
+                                    <Style TargetType="MenuItem">
+                                        <Setter Property="Command" Value="{Binding ItemAction}"/>
+                                        <Setter Property="Header" Value="{Binding ItemHeader}"/>
+                                    </Style>
+                                </ContextMenu.ItemContainerStyle>
+                            </ContextMenu>
+                        </StackPanel.ContextMenu>
                     </StackPanel>
                 </HierarchicalDataTemplate>
             </TreeView.ItemTemplate>

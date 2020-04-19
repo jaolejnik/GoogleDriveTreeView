@@ -1,7 +1,9 @@
 ﻿using System;
+using System.Collections.Generic;
 using System.Collections.ObjectModel;
 using System.Linq;
 using System.Windows.Input;
+using System.Windows.Forms;
 
 namespace GoogleDriveTreeView
 {
@@ -14,11 +16,19 @@ namespace GoogleDriveTreeView
         /// <summary>
         /// Default constructor
         /// </summary>
-        /// <param name="fullPath">The full path of the item</param>
+        /// <param name="name">The full path of the item</param>
+        /// <param name="id">The id of the item</param>
         /// <param name="type">The type of the item</param>
         public DirectoryItemViewModel(string name, string id, DirectoryItemType type)
         {
             this.ExpandCommand = new RelayCommand(Expand);
+
+            ContextMenuItems = new List<ContextMenuItem>();
+            ContextMenuItems.Add(new ContextMenuItem()
+            {
+                ItemHeader = "Download",
+                ItemAction = new RelayCommand(DownloadItem)
+            });
 
             this.Name = name;
             this.Id = id;
@@ -45,9 +55,39 @@ namespace GoogleDriveTreeView
         public string Name { get; set; }
 
         /// <summary>
+        /// The extension of the item
+        /// </summary>
+        public string Extension { get; set; }
+
+        /// <summary>
         /// A list of item's children
         /// </summary>
         public ObservableCollection<DirectoryItemViewModel> Children { get; set; }
+
+        /// <summary>
+        /// A list of item's context menu options.
+        /// </summary>
+        public List<ContextMenuItem> ContextMenuItems { get; set; }
+
+        /// <summary>
+        /// Downloads the item and saves it to the chosen path.
+        /// </summary>
+        public void DownloadItem()
+        {
+            var dialog = new FolderBrowserDialog();            
+            dialog.Description = "Choose a location to save the file:";
+            DialogResult result = dialog.ShowDialog();
+
+            if (result == DialogResult.OK)
+            {
+                if (this.Type == DirectoryItemType.File)
+                    GoogleDriveAPI.DownloadFile(this.Id, this.Name, dialog.SelectedPath);
+
+                if (this.Type == DirectoryItemType.Folder)
+                    GoogleDriveAPI.DownloadDirectory(this.Id, this.Name, dialog.SelectedPath);
+            }
+            
+        }
 
         /// <summary>
         /// Indicates if the item can be expanded
@@ -78,6 +118,7 @@ namespace GoogleDriveTreeView
         /// The command to expand the item
         /// </summary>
         public ICommand ExpandCommand { get; set; }
+        public ICommand DownloadCommand { get; set; }
 
         #endregion
 
