@@ -21,7 +21,7 @@ namespace GoogleDriveTreeView
         {
             var children = DirectoryStructure.GetDrives();
             this.Items = new ObservableCollection<DirectoryItemViewModel>(
-                             children.Select(drive => new DirectoryItemViewModel(drive.Name, drive.Id, DirectoryItemType.Drive)));
+                             children.Select(drive => new DirectoryItemViewModel(null, drive.Name, drive.Id, DirectoryItemType.Drive)));
         }
     }
 }

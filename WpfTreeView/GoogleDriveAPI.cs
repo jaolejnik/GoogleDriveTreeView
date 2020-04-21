@@ -4,6 +4,7 @@ using Google.Apis.Drive.v3.Data;
 using Google.Apis.Services;
 using Google.Apis.Util.Store;
 using System;
+using System.Collections.Generic;
 using System.IO;
 using System.Threading;
 
@@ -13,7 +14,7 @@ namespace GoogleDriveTreeView
     {
         // If modifying these scopes, delete your previously saved credentials
         // at ~/.credentials/drive-dotnet-quickstart.json
-        private static string[] Scopes = { DriveService.Scope.DriveReadonly };
+        private static string[] Scopes = { DriveService.Scope.Drive };
         private static string ApplicationName = "Drive API .NET Quickstart";
 
         private static DriveService initService()
@@ -128,6 +129,50 @@ namespace GoogleDriveTreeView
             foreach (var file in fs.Files)
             {
                 DownloadFile(file.Id, file.Name, savePath);
+            }
+        }
+
+        public static void Delete(string itemId)
+        {
+            service.Files.Delete(itemId).Execute();
+        }
+
+        /// <summary>
+        /// Creates a new directory on the drive
+        /// </summary>
+        public static void CreateDirectory(string dirName, string parentId)
+        {
+            var fileMetadata = new Google.Apis.Drive.v3.Data.File()
+            {
+                Name = dirName,
+                MimeType = "application/vnd.google-apps.folder"
+            };
+            fileMetadata.Parents = new List<string>();
+            fileMetadata.Parents.Add(parentId);
+
+            var dir = service.Files.Create(fileMetadata);
+            dir.Fields = "id";
+            dir.Execute();
+        }
+
+        /// <summary>
+        /// Uploads a new file to the drive
+        /// </summary>
+        public static void UploadFile(string filePath, string parentId)
+        {
+            var fileMetadata = new Google.Apis.Drive.v3.Data.File()
+            {
+                Name = DirectoryStructure.GetFileFolderName(filePath)
+            };
+            fileMetadata.Parents = new List<string>();
+            fileMetadata.Parents.Add(parentId);
+
+            FilesResource.CreateMediaUpload request;
+            using (var stream = new FileStream(filePath, FileMode.Open))
+            {
+                request = service.Files.Create(fileMetadata, stream, null);
+                request.Fields = "id, parents";
+                request.Upload();
             }
         }
     }
