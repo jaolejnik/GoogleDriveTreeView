@@ -33,7 +33,7 @@ namespace GoogleDriveTreeView
                     "user",
                     CancellationToken.None,
                     new FileDataStore(credPath, true)).Result;
-                Console.WriteLine("Credential file saved to: " + credPath);
+                //Console.WriteLine("Credential file saved to: " + credPath);
             }
 
             // Create Drive API service.
@@ -174,6 +174,17 @@ namespace GoogleDriveTreeView
                 request.Fields = "id, parents";
                 request.Upload();
             }
+        }
+
+        public static void Rename(string newName, string itemId)
+        {
+            var updatedFile = new Google.Apis.Drive.v3.Data.File();
+            updatedFile.Name = newName;
+            var request = service.Files.Update(updatedFile, itemId);
+            request.Execute();
+
+
+
         }
     }
 }

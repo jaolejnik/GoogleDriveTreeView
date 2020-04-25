@@ -1,4 +1,5 @@
 ﻿using System.Collections.ObjectModel;
+using System.ComponentModel;
 using System.Linq;
 
 
@@ -15,13 +16,20 @@ namespace GoogleDriveTreeView
         public ObservableCollection<DirectoryItemViewModel> Items { get; set; }
 
         /// <summary>
-        /// A list of all directories on the computer
+        /// A list of all directories on the drive
         /// </summary>
         public DirectoryStructureViewModel()
         {
             var children = DirectoryStructure.GetDrives();
             this.Items = new ObservableCollection<DirectoryItemViewModel>(
                              children.Select(drive => new DirectoryItemViewModel(null, drive.Name, drive.Id, DirectoryItemType.Drive)));
+            ActionType = new ObservableCollection<DirectoryItemActionType>();
+            ActionType.Add(DirectoryItemActionType.None);
         }
+
+        public static ObservableCollection<DirectoryItemActionType> ActionType { get; set; }
+
+
+
     }
 }

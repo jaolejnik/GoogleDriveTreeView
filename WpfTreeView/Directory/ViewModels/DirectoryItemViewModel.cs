@@ -53,6 +53,11 @@ namespace GoogleDriveTreeView
                 });
                 ContextMenuItems.Add(new ContextMenuItem()
                 {
+                    ItemHeader = "Rename",
+                    ItemAction = new RelayCommand(RenameItem)
+                });
+                ContextMenuItems.Add(new ContextMenuItem()
+                {
                     ItemHeader = "Delete",
                     ItemAction = new RelayCommand(DeleteItem)
                 });
@@ -83,7 +88,10 @@ namespace GoogleDriveTreeView
         /// </summary>
         public string Extension { get; set; }
 
-        private DirectoryItemViewModel Parent { get; set; }
+        /// <summary>
+        /// The parent of the item
+        /// </summary>
+        public DirectoryItemViewModel Parent { get; set; }
 
         /// <summary>
         /// A list of item's children
@@ -93,7 +101,7 @@ namespace GoogleDriveTreeView
         /// <summary>
         /// A list of item's context menu options.
         /// </summary>
-        public List<ContextMenuItem> ContextMenuItems { get; set; }
+        public List<ContextMenuItem> ContextMenuItems { get; set; }        
 
         /// <summary>
         /// Downloads the item and saves it to the chosen path.
@@ -111,8 +119,9 @@ namespace GoogleDriveTreeView
 
                 if (this.Type == DirectoryItemType.Folder)
                     GoogleDriveAPI.DownloadDirectory(this.Id, this.Name, dialog.SelectedPath);
+                    
+                DirectoryStructureViewModel.ActionType[0] = DirectoryItemActionType.Download;
             }
-
         }
 
         /// <summary>
@@ -122,6 +131,7 @@ namespace GoogleDriveTreeView
         {
             GoogleDriveAPI.Delete(this.Id);
             Parent.Expand();
+            DirectoryStructureViewModel.ActionType[0] = DirectoryItemActionType.Delete;
         }
 
         /// <summary>
@@ -129,8 +139,15 @@ namespace GoogleDriveTreeView
         /// </summary>
         public void CreateDirectory()
         {
-            GoogleDriveAPI.CreateDirectory("nowy folder", this.Id);
-            Expand();
+            var dialog = new InputWindow("Insert name here", "New folder");
+            dialog.ShowDialog();
+            if (dialog.Answer != "")
+            {
+                GoogleDriveAPI.CreateDirectory(dialog.Answer, this.Id);
+                Expand();
+                DirectoryStructureViewModel.ActionType[0] = DirectoryItemActionType.Create;
+            }
+            
         }
 
         /// <summary>
@@ -143,10 +160,26 @@ namespace GoogleDriveTreeView
             
             if (dialog.FileName != "")
             {
-                Console.WriteLine(dialog.FileName);
                 GoogleDriveAPI.UploadFile(dialog.FileName, this.Id);
                 Expand();
+                DirectoryStructureViewModel.ActionType[0] = DirectoryItemActionType.Upload;
             }
+        }
+
+        /// <summary>
+        /// Renames the item.
+        /// </summary>
+        public void RenameItem()
+        {
+            var dialog = new InputWindow("Insert name here");
+            dialog.ShowDialog();
+            if (dialog.Answer != "")
+            {
+                GoogleDriveAPI.Rename(dialog.Answer, this.Id); ;
+                Parent.Expand();
+            }
+            
+            
         }
 
 

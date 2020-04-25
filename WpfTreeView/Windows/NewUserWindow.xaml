@@ -1,0 +1,47 @@
+﻿<Window x:Class="GoogleDriveTreeView.NewUserWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:GoogleDriveTreeView"
+        mc:Ignorable="d"
+        Height="400" 
+        Width="450" 
+        WindowStartupLocation="CenterScreen">
+
+    <Grid Background="LightGray">
+        <Border>
+            <StackPanel Margin="20">
+                <Label Content="NEW USER" FontSize="25" HorizontalAlignment="Center" />
+                <Separator Background="SlateGray"/>
+                <Label Content="Set username" FontSize="15" HorizontalAlignment="Left" />
+                <TextBox x:Name="txtUsername" FontSize="20"/>
+                <Label Content="Set password" FontSize="15" HorizontalAlignment="Left" />
+                <PasswordBox x:Name="txtPassword" FontSize="20"/>
+                <Label Content="Confirm password" FontSize="15" HorizontalAlignment="Left" />
+                <PasswordBox x:Name="txtPasswordConfirm" FontSize="20"/>
+                <StackPanel  Margin="60, 30" Orientation="Horizontal">
+                    <Button 
+                        IsCancel="True"
+                        x:Name="btnCancel" 
+                        Content="CANCEL" 
+                        Background="PaleVioletRed" 
+                        FontSize="15" 
+                        Width="100"
+                        Margin="20, 0, 20, 0"
+                        />
+                    <Button 
+                        IsDefault="True"
+                        x:Name="btnAdd" 
+                        Content="ADD" 
+                        Click="btnAdd_Click"
+                        Background="PaleGreen" 
+                        FontSize="15"
+                        Width="100"
+                        Margin="20, 0, 10, 0"
+                        />
+                </StackPanel>
+            </StackPanel>
+        </Border>
+    </Grid>
+</Window>
