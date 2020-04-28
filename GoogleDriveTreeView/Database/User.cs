@@ -7,6 +7,8 @@ namespace GoogleDriveTreeView
     /// </summary>
     public class User
     {
+        #region Constructors
+
         /// <summary>
         /// Default constructor
         /// </summary>
@@ -23,6 +25,9 @@ namespace GoogleDriveTreeView
         /// </summary>
         public User() { }
 
+        #endregion
+
+        #region Public properties
         /// <summary>
         /// User's username (marked as PrimaryKey)
         /// </summary>
@@ -33,5 +38,7 @@ namespace GoogleDriveTreeView
         /// User's password
         /// </summary>
         public string Password { get; set; }
+
+        #endregion 
     }
 }

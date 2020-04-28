@@ -101,8 +101,16 @@ namespace GoogleDriveTreeView
         /// <summary>
         /// A list of item's context menu options.
         /// </summary>
-        public List<ContextMenuItem> ContextMenuItems { get; set; }        
+        public List<ContextMenuItem> ContextMenuItems { get; set; }
 
+        /// <summary>
+        /// The command to expand the item
+        /// </summary>
+        public ICommand ExpandCommand { get; set; }
+
+        #endregion
+
+        #region ContextMenu actions
         /// <summary>
         /// Downloads the item and saves it to the chosen path.
         /// </summary>
@@ -171,17 +179,18 @@ namespace GoogleDriveTreeView
         /// </summary>
         public void RenameItem()
         {
-            var dialog = new InputWindow("Insert name here");
+            var dialog = new InputWindow("Insert name here", this.Name);
             dialog.ShowDialog();
             if (dialog.Answer != "")
             {
                 GoogleDriveAPI.Rename(dialog.Answer, this.Id); ;
                 Parent.Expand();
             }
-            
-            
         }
 
+        #endregion
+
+        #region Helpers
 
         /// <summary>
         /// Indicates if the item can be expanded
@@ -204,18 +213,9 @@ namespace GoogleDriveTreeView
                     Expand();
                 else
                     this.ClearChildren();
-
             }
         }
 
-        /// <summary>
-        /// The command to expand the item
-        /// </summary>
-        public ICommand ExpandCommand { get; set; }
-
-        #endregion
-
-        #region Helpers
         /// <summary>
         /// Expands the item and collects all children
         /// </summary>

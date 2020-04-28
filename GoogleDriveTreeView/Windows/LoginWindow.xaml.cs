@@ -31,7 +31,7 @@ namespace GoogleDriveTreeView
         {
             if ( usersDb.ValidCredentials(txtUsername.Text, txtPassword.Password) )
             {
-                DriveWindow drive = new DriveWindow();
+                DriveWindow drive = new DriveWindow(txtUsername.Text);
                 drive.Show();
                 this.Close();
             }

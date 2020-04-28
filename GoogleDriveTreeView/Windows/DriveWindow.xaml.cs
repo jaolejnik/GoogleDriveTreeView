@@ -13,10 +13,12 @@ namespace GoogleDriveTreeView
         /// <summary>
         /// Defualt constructor
         /// </summary>
-        public DriveWindow()
+        public DriveWindow(string username)
         {
             InitializeComponent();
-            this.DataContext = new DirectoryStructureViewModel();
+            var dirVM = new DirectoryStructureViewModel();
+            dirVM.CurrentUser = username;
+            this.DataContext = dirVM;
         }
         #endregion
 

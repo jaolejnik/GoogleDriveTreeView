@@ -28,7 +28,10 @@ namespace GoogleDriveTreeView
 		/// <param name="e"></param>
 		private void btnDialogOk_Click(object sender, RoutedEventArgs e)
 		{
-			this.DialogResult = true;
+			if (txtAnswer.Text == "")
+				MessageBox.Show("This field can't be empty!");
+			else
+				this.DialogResult = true;
 		}
 
 		/// <summary>

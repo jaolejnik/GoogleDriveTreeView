@@ -12,6 +12,8 @@ namespace GoogleDriveTreeView
     /// </summary>
     public class UsersContext:DbContext 
     {
+        #region Constructor
+
         /// <summary>
         /// Default constructor
         /// </summary>
@@ -20,10 +22,18 @@ namespace GoogleDriveTreeView
 
         }
 
+        #endregion
+
+        #region Database set
+
         /// <summary>
         /// Set of Users 
         /// </summary>
         public DbSet<User> Users { set; get; }
+
+        #endregion
+
+        #region Helper functions
 
         /// <summary>
         /// Checks whether given credentials are valid. 
@@ -42,7 +52,6 @@ namespace GoogleDriveTreeView
                 return false;
         }
 
-
         /// <summary>
         /// Checks whether a user with the given username exists.
         /// </summary>
@@ -59,26 +68,6 @@ namespace GoogleDriveTreeView
                 return false;
         }
 
-        /// <summary>
-        /// Adds user to the database.
-        /// </summary>
-        /// <param name="newUser"></param>
-        /// <returns></returns>
-        public bool AddUser(User newUser)
-        {
-           
-            if (newUser.Username != "" || newUser.Password != "")
-            {
-                this.Users.Add(newUser);
-                this.SaveChanges();
-                return true;
-            }
-            else
-                return false;
-
-
-        }
-
-        
+        #endregion
     }
 }

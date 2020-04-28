@@ -18,7 +18,7 @@ namespace GoogleDriveTreeView
                 case DirectoryItemActionType.Download:
                     return "Download complete.";
                 case DirectoryItemActionType.Delete:
-                    return "An item hase been deleted.";
+                    return "An item has been deleted.";
                 case DirectoryItemActionType.Create:
                     return "A new item has been created.";
                 case DirectoryItemActionType.Upload:

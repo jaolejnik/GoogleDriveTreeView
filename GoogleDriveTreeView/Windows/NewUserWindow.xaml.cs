@@ -40,19 +40,24 @@ namespace GoogleDriveTreeView
         {
             string message = "";
 
-            if (!usersDb.UserExists(txtUsername.Text))
-                usersDb.AddUser(new User(txtUsername.Text, txtPassword.Password));
-            else
+            if (txtUsername.Text == "" || txtPassword.Password == "")
+                message += "* Username and password can't be empty!\n\n";
+
+            if (usersDb.UserExists(txtUsername.Text))
                 message += "* A user with the given username already exists!\n\n";
 
             if (txtPassword.Password != txtPasswordConfirm.Password)
                 message += "* Passwords don't match!\n\n";
 
-
             if (message != "")
                 MessageBox.Show(message);
             else
+            {
+                usersDb.Users.Add(new User(txtUsername.Text, txtPassword.Password));
+                usersDb.SaveChanges();
                 this.DialogResult = true;
+            }
+                
         }
 
         

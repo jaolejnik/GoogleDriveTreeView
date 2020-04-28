@@ -8,17 +8,18 @@ using System.Collections.Generic;
 using System.IO;
 using System.Threading;
 
+
 namespace GoogleDriveTreeView
 {
     public static class GoogleDriveAPI
     {
-        // If modifying these scopes, delete your previously saved credentials
-        // at ~/.credentials/drive-dotnet-quickstart.json
-        private static string[] Scopes = { DriveService.Scope.Drive };
-        private static string ApplicationName = "Drive API .NET Quickstart";
-
-        private static DriveService initService()
+        public static DriveService initService()
         {
+            // If modifying these scopes, delete your previously saved credentials
+            // at ~/.credentials/drive-dotnet-quickstart.json
+            string[] Scopes = { DriveService.Scope.Drive };
+            string ApplicationName = "Drive API .NET GoogleDriveTreeView";
+
             UserCredential credential;
 
             using (var stream =
@@ -45,6 +46,7 @@ namespace GoogleDriveTreeView
 
             return service;
         }
+
         /// <summary>
         /// Service field that let's the app to send requests.
         /// </summary>
@@ -182,9 +184,6 @@ namespace GoogleDriveTreeView
             updatedFile.Name = newName;
             var request = service.Files.Update(updatedFile, itemId);
             request.Execute();
-
-
-
         }
     }
 }

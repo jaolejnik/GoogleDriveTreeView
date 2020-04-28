@@ -12,6 +12,6 @@ namespace GoogleDriveTreeView
         Download = 1,
         Upload = 2,
         Create = 3,
-        Delete = 4
+        Delete = 4, 
     }
 }

@@ -48,7 +48,6 @@
         </Border>
 
         <TextBlock 
-                Visibility="{Binding ActionType[0], Converter={x:Static local:ActionTypeToVisibilityConverter.Instance}}"
                 Text="{Binding ActionType[0], Converter={x:Static local:ActionTypeToStringConverter.Instance}}" 
                 DockPanel.Dock="Bottom" 
                 Height="20"
@@ -58,7 +57,7 @@
 
         <TextBlock 
                 x:Name="btnNewUser"
-                Visibility="Visible"
+                Visibility="{Binding CurrentUser, Converter={x:Static local:UserToVisibilityConverter.Instance}}"
                 FontSize="15"
                 VerticalAlignment="Bottom"
                 HorizontalAlignment="Left"

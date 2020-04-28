@@ -5,15 +5,14 @@ using System.Windows;
 
 namespace GoogleDriveTreeView
 {
-    [ValueConversion(typeof(DirectoryItemActionType), typeof(Visibility))]
-    class ActionTypeToVisibilityConverter : IValueConverter
+    [ValueConversion(typeof(string), typeof(Visibility))]
+    public class UserToVisibilityConverter : IValueConverter
     {
-        public static ActionTypeToVisibilityConverter Instance = new ActionTypeToVisibilityConverter();
+        public static UserToVisibilityConverter Instance = new UserToVisibilityConverter();
 
         public object Convert(object value, Type targetType, object parameter, CultureInfo culture)
         {
-            //Console.WriteLine($"CONVERTER {(DirectoryItemActionType)value}");
-            if ((DirectoryItemActionType)value != DirectoryItemActionType.None)
+            if ((string)value == "admin")
                 return Visibility.Visible;
             else
                 return Visibility.Hidden;

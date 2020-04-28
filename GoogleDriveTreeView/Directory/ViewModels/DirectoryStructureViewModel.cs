@@ -27,6 +27,8 @@ namespace GoogleDriveTreeView
             ActionType.Add(DirectoryItemActionType.None);
         }
 
+        public string CurrentUser { get; set; }
+
         public static ObservableCollection<DirectoryItemActionType> ActionType { get; set; }
 
 
