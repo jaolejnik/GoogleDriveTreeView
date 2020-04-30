@@ -1,0 +1,142 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.18">
+  <compounddef id="class_google_drive_tree_view_1_1_login_page" kind="class" language="C#" prot="public">
+    <compoundname>GoogleDriveTreeView::LoginPage</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">Page</basecompoundref>
+    <basecompoundref prot="public" virt="non-virtual">IComponentConnector</basecompoundref>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_google_drive_tree_view_1_1_login_page_1a815a8df4af282a7dc137ee9e0ea7d8b0" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool GoogleDriveTreeView.LoginPage::_contentLoaded</definition>
+        <argsstring></argsstring>
+        <name>_contentLoaded</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Kuba/source/repos/GoogleDriveTreeView/GoogleDriveTreeView/obj/Debug/Pages/Login/LoginPage.g.i.cs" line="43" column="22" bodyfile="C:/Users/Kuba/source/repos/GoogleDriveTreeView/GoogleDriveTreeView/obj/Debug/Pages/Login/LoginPage.g.i.cs" bodystart="43" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_google_drive_tree_view_1_1_login_page_1ae79d783512e78aa67a6a309339325619" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void GoogleDriveTreeView.LoginPage.InitializeComponent</definition>
+        <argsstring>()</argsstring>
+        <name>InitializeComponent</name>
+        <briefdescription>
+<para>InitializeComponent </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Kuba/source/repos/GoogleDriveTreeView/GoogleDriveTreeView/obj/Debug/Pages/Login/LoginPage.g.i.cs" line="50" column="21" bodyfile="C:/Users/Kuba/source/repos/GoogleDriveTreeView/GoogleDriveTreeView/obj/Debug/Pages/Login/LoginPage.g.i.cs" bodystart="50" bodyend="62"/>
+      </memberdef>
+      <memberdef kind="function" id="class_google_drive_tree_view_1_1_login_page_1ae79d783512e78aa67a6a309339325619" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void GoogleDriveTreeView.LoginPage.InitializeComponent</definition>
+        <argsstring>()</argsstring>
+        <name>InitializeComponent</name>
+        <briefdescription>
+<para>InitializeComponent </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Kuba/source/repos/GoogleDriveTreeView/GoogleDriveTreeView/obj/Debug/Windows/Login/LoginPage.g.i.cs" line="50" column="21" bodyfile="C:/Users/Kuba/source/repos/GoogleDriveTreeView/GoogleDriveTreeView/obj/Debug/Windows/Login/LoginPage.g.i.cs" bodystart="50" bodyend="62"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_google_drive_tree_view_1_1_login_page_1ab34edbf418847c31d66c875837c430a1" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void System.Windows.Markup.IComponentConnector.</type>
+        <definition>void System.Windows.Markup.IComponentConnector. GoogleDriveTreeView.LoginPage.Connect</definition>
+        <argsstring>(int connectionId, object target)</argsstring>
+        <name>Connect</name>
+        <param>
+          <type>int</type>
+          <declname>connectionId</declname>
+        </param>
+        <param>
+          <type>object</type>
+          <declname>target</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Kuba/source/repos/GoogleDriveTreeView/GoogleDriveTreeView/obj/Debug/Pages/Login/LoginPage.g.i.cs" line="70" column="52" bodyfile="C:/Users/Kuba/source/repos/GoogleDriveTreeView/GoogleDriveTreeView/obj/Debug/Pages/Login/LoginPage.g.i.cs" bodystart="70" bodyend="72"/>
+      </memberdef>
+      <memberdef kind="function" id="class_google_drive_tree_view_1_1_login_page_1ab34edbf418847c31d66c875837c430a1" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void System.Windows.Markup.IComponentConnector.</type>
+        <definition>void System.Windows.Markup.IComponentConnector. GoogleDriveTreeView.LoginPage.Connect</definition>
+        <argsstring>(int connectionId, object target)</argsstring>
+        <name>Connect</name>
+        <param>
+          <type>int</type>
+          <declname>connectionId</declname>
+        </param>
+        <param>
+          <type>object</type>
+          <declname>target</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Kuba/source/repos/GoogleDriveTreeView/GoogleDriveTreeView/obj/Debug/Windows/Login/LoginPage.g.i.cs" line="70" column="52" bodyfile="C:/Users/Kuba/source/repos/GoogleDriveTreeView/GoogleDriveTreeView/obj/Debug/Windows/Login/LoginPage.g.i.cs" bodystart="70" bodyend="72"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para><ref refid="class_google_drive_tree_view_1_1_login_page" kindref="compound">LoginPage</ref> </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>GoogleDriveTreeView.LoginPage</label>
+        <link refid="class_google_drive_tree_view_1_1_login_page"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>System::Windows::Markup::IComponentConnector</label>
+      </node>
+      <node id="2">
+        <label>System::Windows::Controls::Page</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>GoogleDriveTreeView.LoginPage</label>
+        <link refid="class_google_drive_tree_view_1_1_login_page"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>System::Windows::Markup::IComponentConnector</label>
+      </node>
+      <node id="2">
+        <label>System::Windows::Controls::Page</label>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/Kuba/source/repos/GoogleDriveTreeView/GoogleDriveTreeView/obj/Debug/Pages/Login/LoginPage.g.i.cs" line="41" column="19" bodyfile="C:/Users/Kuba/source/repos/GoogleDriveTreeView/GoogleDriveTreeView/obj/Debug/Pages/Login/LoginPage.g.i.cs" bodystart="41" bodyend="73"/>
+    <listofallmembers>
+      <member refid="class_google_drive_tree_view_1_1_login_page_1a815a8df4af282a7dc137ee9e0ea7d8b0" prot="private" virt="non-virtual"><scope>GoogleDriveTreeView::LoginPage</scope><name>_contentLoaded</name></member>
+      <member refid="class_google_drive_tree_view_1_1_login_page_1ab34edbf418847c31d66c875837c430a1" prot="private" virt="non-virtual"><scope>GoogleDriveTreeView::LoginPage</scope><name>Connect</name></member>
+      <member refid="class_google_drive_tree_view_1_1_login_page_1ab34edbf418847c31d66c875837c430a1" prot="private" virt="non-virtual"><scope>GoogleDriveTreeView::LoginPage</scope><name>Connect</name></member>
+      <member refid="class_google_drive_tree_view_1_1_login_page_1ae79d783512e78aa67a6a309339325619" prot="public" virt="non-virtual"><scope>GoogleDriveTreeView::LoginPage</scope><name>InitializeComponent</name></member>
+      <member refid="class_google_drive_tree_view_1_1_login_page_1ae79d783512e78aa67a6a309339325619" prot="public" virt="non-virtual"><scope>GoogleDriveTreeView::LoginPage</scope><name>InitializeComponent</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

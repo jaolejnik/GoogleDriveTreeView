@@ -1,0 +1,290 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.18">
+  <compounddef id="class_google_drive_tree_view_1_1_main_window" kind="class" language="C#" prot="public">
+    <compoundname>GoogleDriveTreeView::MainWindow</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">Window</basecompoundref>
+    <basecompoundref prot="public" virt="non-virtual">IComponentConnector</basecompoundref>
+      <sectiondef kind="package-attrib">
+      <memberdef kind="variable" id="class_google_drive_tree_view_1_1_main_window_1ad2f0a7ed1827cfcb4d79478b009a7336" prot="package" static="no" mutable="no">
+        <type>System.Windows.Controls.TreeView</type>
+        <definition>System Windows Controls TreeView GoogleDriveTreeView.MainWindow::FolderView</definition>
+        <argsstring></argsstring>
+        <name>FolderView</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Kuba/source/repos/GoogleDriveTreeView/GoogleDriveTreeView/obj/Debug/MainWindow.g.i.cs" line="46" column="48" bodyfile="C:/Users/Kuba/source/repos/GoogleDriveTreeView/GoogleDriveTreeView/obj/Debug/MainWindow.g.i.cs" bodystart="46" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_google_drive_tree_view_1_1_main_window_1a9716a9558c8faca2e281fced290ea409" prot="package" static="no" mutable="no">
+        <type>System.Windows.Controls.Frame</type>
+        <definition>System Windows Controls Frame GoogleDriveTreeView.MainWindow::MainFrame</definition>
+        <argsstring></argsstring>
+        <name>MainFrame</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Kuba/source/repos/GoogleDriveTreeView/GoogleDriveTreeView/obj/Debug/Pages/Main/MainWindow.g.i.cs" line="46" column="45" bodyfile="C:/Users/Kuba/source/repos/GoogleDriveTreeView/GoogleDriveTreeView/obj/Debug/Pages/Main/MainWindow.g.i.cs" bodystart="46" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_google_drive_tree_view_1_1_main_window_1a6a373a796c0096ed89e8ef04b57d9363" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool GoogleDriveTreeView.MainWindow::_contentLoaded</definition>
+        <argsstring></argsstring>
+        <name>_contentLoaded</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Kuba/source/repos/GoogleDriveTreeView/GoogleDriveTreeView/obj/Debug/MainWindow.g.i.cs" line="51" column="22" bodyfile="C:/Users/Kuba/source/repos/GoogleDriveTreeView/GoogleDriveTreeView/obj/Debug/MainWindow.g.i.cs" bodystart="51" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_google_drive_tree_view_1_1_main_window_1adb4244676ad130f0522ebe2ec3246e97" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void GoogleDriveTreeView.MainWindow.InitializeComponent</definition>
+        <argsstring>()</argsstring>
+        <name>InitializeComponent</name>
+        <briefdescription>
+<para>InitializeComponent </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Kuba/source/repos/GoogleDriveTreeView/GoogleDriveTreeView/obj/Debug/MainWindow.g.i.cs" line="58" column="21" bodyfile="C:/Users/Kuba/source/repos/GoogleDriveTreeView/GoogleDriveTreeView/obj/Debug/MainWindow.g.i.cs" bodystart="58" bodyend="70"/>
+      </memberdef>
+      <memberdef kind="function" id="class_google_drive_tree_view_1_1_main_window_1adb4244676ad130f0522ebe2ec3246e97" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void GoogleDriveTreeView.MainWindow.InitializeComponent</definition>
+        <argsstring>()</argsstring>
+        <name>InitializeComponent</name>
+        <briefdescription>
+<para>InitializeComponent </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Kuba/source/repos/GoogleDriveTreeView/GoogleDriveTreeView/obj/Debug/Pages/Main/MainWindow.g.i.cs" line="66" column="21" bodyfile="C:/Users/Kuba/source/repos/GoogleDriveTreeView/GoogleDriveTreeView/obj/Debug/Pages/Main/MainWindow.g.i.cs" bodystart="66" bodyend="78"/>
+      </memberdef>
+      <memberdef kind="function" id="class_google_drive_tree_view_1_1_main_window_1adb4244676ad130f0522ebe2ec3246e97" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void GoogleDriveTreeView.MainWindow.InitializeComponent</definition>
+        <argsstring>()</argsstring>
+        <name>InitializeComponent</name>
+        <briefdescription>
+<para>InitializeComponent </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Kuba/source/repos/GoogleDriveTreeView/GoogleDriveTreeView/obj/Debug/Windows/Drive/MainWindow.g.i.cs" line="58" column="21" bodyfile="C:/Users/Kuba/source/repos/GoogleDriveTreeView/GoogleDriveTreeView/obj/Debug/Windows/Drive/MainWindow.g.i.cs" bodystart="58" bodyend="70"/>
+      </memberdef>
+      <memberdef kind="function" id="class_google_drive_tree_view_1_1_main_window_1adb4244676ad130f0522ebe2ec3246e97" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void GoogleDriveTreeView.MainWindow.InitializeComponent</definition>
+        <argsstring>()</argsstring>
+        <name>InitializeComponent</name>
+        <briefdescription>
+<para>InitializeComponent </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Kuba/source/repos/GoogleDriveTreeView/GoogleDriveTreeView/obj/Debug/Windows/Main/MainWindow.g.i.cs" line="66" column="21" bodyfile="C:/Users/Kuba/source/repos/GoogleDriveTreeView/GoogleDriveTreeView/obj/Debug/Windows/Main/MainWindow.g.i.cs" bodystart="66" bodyend="78"/>
+      </memberdef>
+      <memberdef kind="function" id="class_google_drive_tree_view_1_1_main_window_1adb4244676ad130f0522ebe2ec3246e97" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void GoogleDriveTreeView.MainWindow.InitializeComponent</definition>
+        <argsstring>()</argsstring>
+        <name>InitializeComponent</name>
+        <briefdescription>
+<para>InitializeComponent </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Kuba/source/repos/GoogleDriveTreeView/GoogleDriveTreeView/obj/Release/MainWindow.g.cs" line="58" column="21" bodyfile="C:/Users/Kuba/source/repos/GoogleDriveTreeView/GoogleDriveTreeView/obj/Release/MainWindow.g.cs" bodystart="58" bodyend="70"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_google_drive_tree_view_1_1_main_window_1a67955e6f766e6c8169d3528b617739cf" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void System.Windows.Markup.IComponentConnector.</type>
+        <definition>void System.Windows.Markup.IComponentConnector. GoogleDriveTreeView.MainWindow.Connect</definition>
+        <argsstring>(int connectionId, object target)</argsstring>
+        <name>Connect</name>
+        <param>
+          <type>int</type>
+          <declname>connectionId</declname>
+        </param>
+        <param>
+          <type>object</type>
+          <declname>target</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Kuba/source/repos/GoogleDriveTreeView/GoogleDriveTreeView/obj/Debug/MainWindow.g.i.cs" line="78" column="52" bodyfile="C:/Users/Kuba/source/repos/GoogleDriveTreeView/GoogleDriveTreeView/obj/Debug/MainWindow.g.i.cs" bodystart="78" bodyend="86"/>
+      </memberdef>
+      <memberdef kind="function" id="class_google_drive_tree_view_1_1_main_window_1a67955e6f766e6c8169d3528b617739cf" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void System.Windows.Markup.IComponentConnector.</type>
+        <definition>void System.Windows.Markup.IComponentConnector. GoogleDriveTreeView.MainWindow.Connect</definition>
+        <argsstring>(int connectionId, object target)</argsstring>
+        <name>Connect</name>
+        <param>
+          <type>int</type>
+          <declname>connectionId</declname>
+        </param>
+        <param>
+          <type>object</type>
+          <declname>target</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Kuba/source/repos/GoogleDriveTreeView/GoogleDriveTreeView/obj/Debug/Pages/Main/MainWindow.g.i.cs" line="86" column="52" bodyfile="C:/Users/Kuba/source/repos/GoogleDriveTreeView/GoogleDriveTreeView/obj/Debug/Pages/Main/MainWindow.g.i.cs" bodystart="86" bodyend="97"/>
+      </memberdef>
+      <memberdef kind="function" id="class_google_drive_tree_view_1_1_main_window_1a67955e6f766e6c8169d3528b617739cf" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void System.Windows.Markup.IComponentConnector.</type>
+        <definition>void System.Windows.Markup.IComponentConnector. GoogleDriveTreeView.MainWindow.Connect</definition>
+        <argsstring>(int connectionId, object target)</argsstring>
+        <name>Connect</name>
+        <param>
+          <type>int</type>
+          <declname>connectionId</declname>
+        </param>
+        <param>
+          <type>object</type>
+          <declname>target</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Kuba/source/repos/GoogleDriveTreeView/GoogleDriveTreeView/obj/Debug/Windows/Drive/MainWindow.g.i.cs" line="78" column="52" bodyfile="C:/Users/Kuba/source/repos/GoogleDriveTreeView/GoogleDriveTreeView/obj/Debug/Windows/Drive/MainWindow.g.i.cs" bodystart="78" bodyend="86"/>
+      </memberdef>
+      <memberdef kind="function" id="class_google_drive_tree_view_1_1_main_window_1a67955e6f766e6c8169d3528b617739cf" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void System.Windows.Markup.IComponentConnector.</type>
+        <definition>void System.Windows.Markup.IComponentConnector. GoogleDriveTreeView.MainWindow.Connect</definition>
+        <argsstring>(int connectionId, object target)</argsstring>
+        <name>Connect</name>
+        <param>
+          <type>int</type>
+          <declname>connectionId</declname>
+        </param>
+        <param>
+          <type>object</type>
+          <declname>target</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Kuba/source/repos/GoogleDriveTreeView/GoogleDriveTreeView/obj/Debug/Windows/Main/MainWindow.g.i.cs" line="86" column="52" bodyfile="C:/Users/Kuba/source/repos/GoogleDriveTreeView/GoogleDriveTreeView/obj/Debug/Windows/Main/MainWindow.g.i.cs" bodystart="86" bodyend="97"/>
+      </memberdef>
+      <memberdef kind="function" id="class_google_drive_tree_view_1_1_main_window_1a67955e6f766e6c8169d3528b617739cf" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void System.Windows.Markup.IComponentConnector.</type>
+        <definition>void System.Windows.Markup.IComponentConnector. GoogleDriveTreeView.MainWindow.Connect</definition>
+        <argsstring>(int connectionId, object target)</argsstring>
+        <name>Connect</name>
+        <param>
+          <type>int</type>
+          <declname>connectionId</declname>
+        </param>
+        <param>
+          <type>object</type>
+          <declname>target</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Kuba/source/repos/GoogleDriveTreeView/GoogleDriveTreeView/obj/Release/MainWindow.g.cs" line="78" column="52" bodyfile="C:/Users/Kuba/source/repos/GoogleDriveTreeView/GoogleDriveTreeView/obj/Release/MainWindow.g.cs" bodystart="78" bodyend="86"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para><ref refid="class_google_drive_tree_view_1_1_main_window" kindref="compound">MainWindow</ref> </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>System::Windows::Window</label>
+      </node>
+      <node id="1">
+        <label>GoogleDriveTreeView.MainWindow</label>
+        <link refid="class_google_drive_tree_view_1_1_main_window"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>System::Windows::Markup::IComponentConnector</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2">
+        <label>System::Windows::Window</label>
+      </node>
+      <node id="1">
+        <label>GoogleDriveTreeView.MainWindow</label>
+        <link refid="class_google_drive_tree_view_1_1_main_window"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+        <childnode refid="4" relation="usage">
+          <edgelabel>FolderView</edgelabel>
+          <edgelabel>MainFrame</edgelabel>
+        </childnode>
+      </node>
+      <node id="4">
+        <label>System</label>
+      </node>
+      <node id="3">
+        <label>System::Windows::Markup::IComponentConnector</label>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/Kuba/source/repos/GoogleDriveTreeView/GoogleDriveTreeView/obj/Debug/MainWindow.g.i.cs" line="41" column="19" bodyfile="C:/Users/Kuba/source/repos/GoogleDriveTreeView/GoogleDriveTreeView/obj/Debug/MainWindow.g.i.cs" bodystart="41" bodyend="87"/>
+    <listofallmembers>
+      <member refid="class_google_drive_tree_view_1_1_main_window_1a6a373a796c0096ed89e8ef04b57d9363" prot="private" virt="non-virtual"><scope>GoogleDriveTreeView::MainWindow</scope><name>_contentLoaded</name></member>
+      <member refid="class_google_drive_tree_view_1_1_main_window_1a67955e6f766e6c8169d3528b617739cf" prot="private" virt="non-virtual"><scope>GoogleDriveTreeView::MainWindow</scope><name>Connect</name></member>
+      <member refid="class_google_drive_tree_view_1_1_main_window_1a67955e6f766e6c8169d3528b617739cf" prot="private" virt="non-virtual"><scope>GoogleDriveTreeView::MainWindow</scope><name>Connect</name></member>
+      <member refid="class_google_drive_tree_view_1_1_main_window_1a67955e6f766e6c8169d3528b617739cf" prot="private" virt="non-virtual"><scope>GoogleDriveTreeView::MainWindow</scope><name>Connect</name></member>
+      <member refid="class_google_drive_tree_view_1_1_main_window_1a67955e6f766e6c8169d3528b617739cf" prot="private" virt="non-virtual"><scope>GoogleDriveTreeView::MainWindow</scope><name>Connect</name></member>
+      <member refid="class_google_drive_tree_view_1_1_main_window_1a67955e6f766e6c8169d3528b617739cf" prot="private" virt="non-virtual"><scope>GoogleDriveTreeView::MainWindow</scope><name>Connect</name></member>
+      <member refid="class_google_drive_tree_view_1_1_main_window_1ad2f0a7ed1827cfcb4d79478b009a7336" prot="package" virt="non-virtual"><scope>GoogleDriveTreeView::MainWindow</scope><name>FolderView</name></member>
+      <member refid="class_google_drive_tree_view_1_1_main_window_1adb4244676ad130f0522ebe2ec3246e97" prot="public" virt="non-virtual"><scope>GoogleDriveTreeView::MainWindow</scope><name>InitializeComponent</name></member>
+      <member refid="class_google_drive_tree_view_1_1_main_window_1adb4244676ad130f0522ebe2ec3246e97" prot="public" virt="non-virtual"><scope>GoogleDriveTreeView::MainWindow</scope><name>InitializeComponent</name></member>
+      <member refid="class_google_drive_tree_view_1_1_main_window_1adb4244676ad130f0522ebe2ec3246e97" prot="public" virt="non-virtual"><scope>GoogleDriveTreeView::MainWindow</scope><name>InitializeComponent</name></member>
+      <member refid="class_google_drive_tree_view_1_1_main_window_1adb4244676ad130f0522ebe2ec3246e97" prot="public" virt="non-virtual"><scope>GoogleDriveTreeView::MainWindow</scope><name>InitializeComponent</name></member>
+      <member refid="class_google_drive_tree_view_1_1_main_window_1adb4244676ad130f0522ebe2ec3246e97" prot="public" virt="non-virtual"><scope>GoogleDriveTreeView::MainWindow</scope><name>InitializeComponent</name></member>
+      <member refid="class_google_drive_tree_view_1_1_main_window_1a9716a9558c8faca2e281fced290ea409" prot="package" virt="non-virtual"><scope>GoogleDriveTreeView::MainWindow</scope><name>MainFrame</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,21 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.18">
+  <compounddef id="dir_7038c13f09b5dceda4161973de9987a2" kind="dir">
+    <compoundname>C:/Users/Kuba/source/repos/GoogleDriveTreeView/GoogleDriveTreeView/obj/Debug</compoundname>
+    <innerdir refid="dir_a22cadd63ef7468872bd0054247767f4">C:/Users/Kuba/source/repos/GoogleDriveTreeView/GoogleDriveTreeView/obj/Debug/Converters</innerdir>
+    <innerdir refid="dir_8cf66eec0c337c4734102a1eb4e6f243">C:/Users/Kuba/source/repos/GoogleDriveTreeView/GoogleDriveTreeView/obj/Debug/Database</innerdir>
+    <innerdir refid="dir_86fd7722169b192a9a1aad5006cf413d">C:/Users/Kuba/source/repos/GoogleDriveTreeView/GoogleDriveTreeView/obj/Debug/Pages</innerdir>
+    <innerdir refid="dir_2188252cbfb390e4da13303ce2e5ab9e">C:/Users/Kuba/source/repos/GoogleDriveTreeView/GoogleDriveTreeView/obj/Debug/Windows</innerdir>
+    <innerfile refid="_debug_2_app_8g_8cs">App.g.cs</innerfile>
+    <innerfile refid="_app_8g_8i_8cs">App.g.i.cs</innerfile>
+    <innerfile refid="_drive_window_8g_8i_8cs">DriveWindow.g.i.cs</innerfile>
+    <innerfile refid="_generated_internal_type_helper_8g_8i_8cs">GeneratedInternalTypeHelper.g.i.cs</innerfile>
+    <innerfile refid="_main_window_8g_8i_8cs">MainWindow.g.i.cs</innerfile>
+    <innerfile refid="_wpf_tree_view___content_8g_8i_8cs">WpfTreeView_Content.g.i.cs</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Users/Kuba/source/repos/GoogleDriveTreeView/GoogleDriveTreeView/obj/Debug/"/>
+  </compounddef>
+</doxygen>

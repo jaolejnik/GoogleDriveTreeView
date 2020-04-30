@@ -11,8 +11,15 @@ using System.Threading;
 
 namespace GoogleDriveTreeView
 {
+    /// <summary>
+    /// Class for better API usage.
+    /// </summary>
     public static class GoogleDriveAPI
     {
+        /// <summary>
+        /// Inits API service.
+        /// </summary>
+        /// <returns></returns>
         public static DriveService initService()
         {
             // If modifying these scopes, delete your previously saved credentials
@@ -134,6 +141,10 @@ namespace GoogleDriveTreeView
             }
         }
 
+        /// <summary>
+        /// Deletes the item with the given id.
+        /// </summary>
+        /// <param name="itemId">The id of the item to delete</param>
         public static void Delete(string itemId)
         {
             service.Files.Delete(itemId).Execute();
@@ -178,6 +189,11 @@ namespace GoogleDriveTreeView
             }
         }
 
+        /// <summary>
+        /// Renames a file with the given id
+        /// </summary>
+        /// <param name="newName">The new name</param>
+        /// <param name="itemId">The id of the item</param>
         public static void Rename(string newName, string itemId)
         {
             var updatedFile = new Google.Apis.Drive.v3.Data.File();

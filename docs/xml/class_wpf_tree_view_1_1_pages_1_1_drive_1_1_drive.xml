@@ -1,0 +1,105 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.18">
+  <compounddef id="class_wpf_tree_view_1_1_pages_1_1_drive_1_1_drive" kind="class" language="C#" prot="public">
+    <compoundname>WpfTreeView::Pages::Drive::Drive</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">Page</basecompoundref>
+    <basecompoundref prot="public" virt="non-virtual">IComponentConnector</basecompoundref>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_wpf_tree_view_1_1_pages_1_1_drive_1_1_drive_1a326c6558c6fc12df5666ff30c88b7542" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool WpfTreeView.Pages.Drive.Drive._contentLoaded</definition>
+        <argsstring></argsstring>
+        <name>_contentLoaded</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Kuba/source/repos/GoogleDriveTreeView/GoogleDriveTreeView/obj/Debug/Converters/Pages/Drive/Drive.g.i.cs" line="43" column="22" bodyfile="C:/Users/Kuba/source/repos/GoogleDriveTreeView/GoogleDriveTreeView/obj/Debug/Converters/Pages/Drive/Drive.g.i.cs" bodystart="43" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_wpf_tree_view_1_1_pages_1_1_drive_1_1_drive_1ab0956f10ab708f74616655377db8b390" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void WpfTreeView.Pages.Drive.Drive.InitializeComponent</definition>
+        <argsstring>()</argsstring>
+        <name>InitializeComponent</name>
+        <briefdescription>
+<para>InitializeComponent </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Kuba/source/repos/GoogleDriveTreeView/GoogleDriveTreeView/obj/Debug/Converters/Pages/Drive/Drive.g.i.cs" line="50" column="21" bodyfile="C:/Users/Kuba/source/repos/GoogleDriveTreeView/GoogleDriveTreeView/obj/Debug/Converters/Pages/Drive/Drive.g.i.cs" bodystart="50" bodyend="62"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_wpf_tree_view_1_1_pages_1_1_drive_1_1_drive_1acc8022d899b7a0d16397fb5e41f9807b" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void System.Windows.Markup.IComponentConnector.</type>
+        <definition>void System.Windows.Markup.IComponentConnector. WpfTreeView.Pages.Drive.Drive.Connect</definition>
+        <argsstring>(int connectionId, object target)</argsstring>
+        <name>Connect</name>
+        <param>
+          <type>int</type>
+          <declname>connectionId</declname>
+        </param>
+        <param>
+          <type>object</type>
+          <declname>target</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Kuba/source/repos/GoogleDriveTreeView/GoogleDriveTreeView/obj/Debug/Converters/Pages/Drive/Drive.g.i.cs" line="70" column="52" bodyfile="C:/Users/Kuba/source/repos/GoogleDriveTreeView/GoogleDriveTreeView/obj/Debug/Converters/Pages/Drive/Drive.g.i.cs" bodystart="70" bodyend="72"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para><ref refid="class_wpf_tree_view_1_1_pages_1_1_drive_1_1_drive" kindref="compound">Drive</ref> </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>WpfTreeView.Pages.Drive.Drive</label>
+        <link refid="class_wpf_tree_view_1_1_pages_1_1_drive_1_1_drive"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>System::Windows::Markup::IComponentConnector</label>
+      </node>
+      <node id="2">
+        <label>System::Windows::Controls::Page</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>WpfTreeView.Pages.Drive.Drive</label>
+        <link refid="class_wpf_tree_view_1_1_pages_1_1_drive_1_1_drive"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>System::Windows::Markup::IComponentConnector</label>
+      </node>
+      <node id="2">
+        <label>System::Windows::Controls::Page</label>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/Kuba/source/repos/GoogleDriveTreeView/GoogleDriveTreeView/obj/Debug/Converters/Pages/Drive/Drive.g.i.cs" line="41" column="19" bodyfile="C:/Users/Kuba/source/repos/GoogleDriveTreeView/GoogleDriveTreeView/obj/Debug/Converters/Pages/Drive/Drive.g.i.cs" bodystart="41" bodyend="73"/>
+    <listofallmembers>
+      <member refid="class_wpf_tree_view_1_1_pages_1_1_drive_1_1_drive_1a326c6558c6fc12df5666ff30c88b7542" prot="private" virt="non-virtual"><scope>WpfTreeView::Pages::Drive::Drive</scope><name>_contentLoaded</name></member>
+      <member refid="class_wpf_tree_view_1_1_pages_1_1_drive_1_1_drive_1acc8022d899b7a0d16397fb5e41f9807b" prot="private" virt="non-virtual"><scope>WpfTreeView::Pages::Drive::Drive</scope><name>Connect</name></member>
+      <member refid="class_wpf_tree_view_1_1_pages_1_1_drive_1_1_drive_1ab0956f10ab708f74616655377db8b390" prot="public" virt="non-virtual"><scope>WpfTreeView::Pages::Drive::Drive</scope><name>InitializeComponent</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,16 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.18">
+  <compounddef id="dir_6e3dcb3474ec04558c24c4800e9213e6" kind="dir">
+    <compoundname>C:/Users/Kuba/source/repos/GoogleDriveTreeView/GoogleDriveTreeView/Windows</compoundname>
+    <innerfile refid="_drive_window_8xaml_8cs">DriveWindow.xaml.cs</innerfile>
+    <innerfile refid="_input_window_8xaml_8cs">InputWindow.xaml.cs</innerfile>
+    <innerfile refid="_loading_window_8xaml_8cs">LoadingWindow.xaml.cs</innerfile>
+    <innerfile refid="_login_window_8xaml_8cs">LoginWindow.xaml.cs</innerfile>
+    <innerfile refid="_new_user_window_8xaml_8cs">NewUserWindow.xaml.cs</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Users/Kuba/source/repos/GoogleDriveTreeView/GoogleDriveTreeView/Windows/"/>
+  </compounddef>
+</doxygen>

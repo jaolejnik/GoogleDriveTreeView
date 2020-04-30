@@ -1,0 +1,104 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.18">
+  <compounddef id="class_google_drive_tree_view_1_1_user" kind="class" language="C#" prot="public">
+    <compoundname>GoogleDriveTreeView::User</compoundname>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="class_google_drive_tree_view_1_1_user_1ab3d87c811138eb53121163801e0354de" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>string</type>
+        <definition>string GoogleDriveTreeView.User.Username</definition>
+        <argsstring></argsstring>
+        <name>Username</name>
+        <briefdescription>
+<para><ref refid="class_google_drive_tree_view_1_1_user" kindref="compound">User</ref>&apos;s username (marked as PrimaryKey) </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Kuba/source/repos/GoogleDriveTreeView/GoogleDriveTreeView/Database/User.cs" line="35" column="23" bodyfile="C:/Users/Kuba/source/repos/GoogleDriveTreeView/GoogleDriveTreeView/Database/User.cs" bodystart="35" bodyend="35"/>
+      </memberdef>
+      <memberdef kind="property" id="class_google_drive_tree_view_1_1_user_1ab55a66444955a999517c8d5074b7009b" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>string</type>
+        <definition>string GoogleDriveTreeView.User.Password</definition>
+        <argsstring></argsstring>
+        <name>Password</name>
+        <briefdescription>
+<para><ref refid="class_google_drive_tree_view_1_1_user" kindref="compound">User</ref>&apos;s password </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Kuba/source/repos/GoogleDriveTreeView/GoogleDriveTreeView/Database/User.cs" line="40" column="23" bodyfile="C:/Users/Kuba/source/repos/GoogleDriveTreeView/GoogleDriveTreeView/Database/User.cs" bodystart="40" bodyend="40"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_google_drive_tree_view_1_1_user_1af9e80fe206f2235f8deba04714739be5" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>GoogleDriveTreeView.User.User</definition>
+        <argsstring>(string username, string password)</argsstring>
+        <name>User</name>
+        <param>
+          <type>string</type>
+          <declname>username</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>password</declname>
+        </param>
+        <briefdescription>
+<para>Default constructor </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>username</parametername>
+</parameternamelist>
+<parameterdescription>
+<para><ref refid="class_google_drive_tree_view_1_1_user" kindref="compound">User</ref>&apos;s username</para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>password</parametername>
+</parameternamelist>
+<parameterdescription>
+<para><ref refid="class_google_drive_tree_view_1_1_user" kindref="compound">User</ref>&apos;s password</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Kuba/source/repos/GoogleDriveTreeView/GoogleDriveTreeView/Database/User.cs" line="17" column="16" bodyfile="C:/Users/Kuba/source/repos/GoogleDriveTreeView/GoogleDriveTreeView/Database/User.cs" bodystart="17" bodyend="21"/>
+      </memberdef>
+      <memberdef kind="function" id="class_google_drive_tree_view_1_1_user_1a6cd99c7875e55f0afb9c2324ce7a4adb" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>GoogleDriveTreeView.User.User</definition>
+        <argsstring>()</argsstring>
+        <name>User</name>
+        <briefdescription>
+<para>Argumentless constructor </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Kuba/source/repos/GoogleDriveTreeView/GoogleDriveTreeView/Database/User.cs" line="26" column="16" bodyfile="C:/Users/Kuba/source/repos/GoogleDriveTreeView/GoogleDriveTreeView/Database/User.cs" bodystart="26" bodyend="26"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>Class that stores user data </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Users/Kuba/source/repos/GoogleDriveTreeView/GoogleDriveTreeView/Database/User.cs" line="8" column="11" bodyfile="C:/Users/Kuba/source/repos/GoogleDriveTreeView/GoogleDriveTreeView/Database/User.cs" bodystart="9" bodyend="43"/>
+    <listofallmembers>
+      <member refid="class_google_drive_tree_view_1_1_user_1ab55a66444955a999517c8d5074b7009b" prot="public" virt="non-virtual"><scope>GoogleDriveTreeView::User</scope><name>Password</name></member>
+      <member refid="class_google_drive_tree_view_1_1_user_1af9e80fe206f2235f8deba04714739be5" prot="public" virt="non-virtual"><scope>GoogleDriveTreeView::User</scope><name>User</name></member>
+      <member refid="class_google_drive_tree_view_1_1_user_1a6cd99c7875e55f0afb9c2324ce7a4adb" prot="public" virt="non-virtual"><scope>GoogleDriveTreeView::User</scope><name>User</name></member>
+      <member refid="class_google_drive_tree_view_1_1_user_1ab3d87c811138eb53121163801e0354de" prot="public" virt="non-virtual"><scope>GoogleDriveTreeView::User</scope><name>Username</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

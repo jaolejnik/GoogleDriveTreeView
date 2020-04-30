@@ -1,0 +1,12 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.18">
+  <compounddef id="namespace_wpf_tree_view_1_1_pages" kind="namespace" language="C#">
+    <compoundname>WpfTreeView::Pages</compoundname>
+    <innernamespace refid="namespace_wpf_tree_view_1_1_pages_1_1_drive">WpfTreeView::Pages::Drive</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Users/Kuba/source/repos/GoogleDriveTreeView/GoogleDriveTreeView/obj/Debug/Converters/Pages/Drive/Drive.g.i.cs" line="35" column="1"/>
+  </compounddef>
+</doxygen>

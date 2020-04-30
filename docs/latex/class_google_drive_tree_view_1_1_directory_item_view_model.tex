@@ -1,0 +1,240 @@
+\hypertarget{class_google_drive_tree_view_1_1_directory_item_view_model}{}\doxysection{Google\+Drive\+Tree\+View.\+Directory\+Item\+View\+Model Class Reference}
+\label{class_google_drive_tree_view_1_1_directory_item_view_model}\index{GoogleDriveTreeView.DirectoryItemViewModel@{GoogleDriveTreeView.DirectoryItemViewModel}}
+
+
+A view model for every directory item  
+
+
+Inheritance diagram for Google\+Drive\+Tree\+View.\+Directory\+Item\+View\+Model\+:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=3.000000cm]{class_google_drive_tree_view_1_1_directory_item_view_model}
+\end{center}
+\end{figure}
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{class_google_drive_tree_view_1_1_directory_item_view_model_a0b824e60166eb754d80c53bfc1ade78f}{Directory\+Item\+View\+Model}} (\mbox{\hyperlink{class_google_drive_tree_view_1_1_directory_item_view_model}{Directory\+Item\+View\+Model}} parent, string name, string id, Directory\+Item\+Type type)
+\begin{DoxyCompactList}\small\item\em Default constructor \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_google_drive_tree_view_1_1_directory_item_view_model_a9593476cf1e42244cbaf71f9292f58af}{Download\+Item}} ()
+\begin{DoxyCompactList}\small\item\em Downloads the item and saves it to the chosen path. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_google_drive_tree_view_1_1_directory_item_view_model_ab8dfd1100e20ba7e8db6f27ec4728f11}{Delete\+Item}} ()
+\begin{DoxyCompactList}\small\item\em Deletes the item \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_google_drive_tree_view_1_1_directory_item_view_model_a4dcac23ad28bba9ae9356930c81681f7}{Create\+Directory}} ()
+\begin{DoxyCompactList}\small\item\em Creates a new directory inside the item (if it\textquotesingle{}s a drive or a directory) \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_google_drive_tree_view_1_1_directory_item_view_model_aaba534beee58239d1e68905002eda0c0}{Upload\+File}} ()
+\begin{DoxyCompactList}\small\item\em Uploads a file to the item (if it\textquotesingle{}s a drive or a directory) \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_google_drive_tree_view_1_1_directory_item_view_model_a541235219d02d5f0575d99dc7248d9e8}{Rename\+Item}} ()
+\begin{DoxyCompactList}\small\item\em Renames the item. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsection*{Properties}
+\begin{DoxyCompactItemize}
+\item 
+Directory\+Item\+Type \mbox{\hyperlink{class_google_drive_tree_view_1_1_directory_item_view_model_aba3f943be49a383f02377439e798ec2c}{Type}}\hspace{0.3cm}{\ttfamily  \mbox{[}get, set\mbox{]}}
+\begin{DoxyCompactList}\small\item\em The type of the item \end{DoxyCompactList}\item 
+string \mbox{\hyperlink{class_google_drive_tree_view_1_1_directory_item_view_model_a8437e63f9f79ef50d1fa1f7082ac589b}{Id}}\hspace{0.3cm}{\ttfamily  \mbox{[}get, set\mbox{]}}
+\begin{DoxyCompactList}\small\item\em The full path of the item \end{DoxyCompactList}\item 
+string \mbox{\hyperlink{class_google_drive_tree_view_1_1_directory_item_view_model_a19b110c36bcf31b008baf4cbc7349e84}{Name}}\hspace{0.3cm}{\ttfamily  \mbox{[}get, set\mbox{]}}
+\begin{DoxyCompactList}\small\item\em The name of the item \end{DoxyCompactList}\item 
+string \mbox{\hyperlink{class_google_drive_tree_view_1_1_directory_item_view_model_ad9b9eb937638d97f160f3ed55b97d0a2}{Extension}}\hspace{0.3cm}{\ttfamily  \mbox{[}get, set\mbox{]}}
+\begin{DoxyCompactList}\small\item\em The extension of the item \end{DoxyCompactList}\item 
+\mbox{\hyperlink{class_google_drive_tree_view_1_1_directory_item_view_model}{Directory\+Item\+View\+Model}} \mbox{\hyperlink{class_google_drive_tree_view_1_1_directory_item_view_model_a222ef4eeb31c14a77e382bf4b631eab9}{Parent}}\hspace{0.3cm}{\ttfamily  \mbox{[}get, set\mbox{]}}
+\begin{DoxyCompactList}\small\item\em The parent of the item \end{DoxyCompactList}\item 
+Observable\+Collection$<$ \mbox{\hyperlink{class_google_drive_tree_view_1_1_directory_item_view_model}{Directory\+Item\+View\+Model}} $>$ \mbox{\hyperlink{class_google_drive_tree_view_1_1_directory_item_view_model_ae69e9af79d5d3340b2c1f483799cf2b5}{Children}}\hspace{0.3cm}{\ttfamily  \mbox{[}get, set\mbox{]}}
+\begin{DoxyCompactList}\small\item\em A list of item\textquotesingle{}s children \end{DoxyCompactList}\item 
+List$<$ \mbox{\hyperlink{class_google_drive_tree_view_1_1_context_menu_item}{Context\+Menu\+Item}} $>$ \mbox{\hyperlink{class_google_drive_tree_view_1_1_directory_item_view_model_a99ccf3409ee306b729d70f9990ceafca}{Context\+Menu\+Items}}\hspace{0.3cm}{\ttfamily  \mbox{[}get, set\mbox{]}}
+\begin{DoxyCompactList}\small\item\em A list of item\textquotesingle{}s context menu options. \end{DoxyCompactList}\item 
+I\+Command \mbox{\hyperlink{class_google_drive_tree_view_1_1_directory_item_view_model_ac828b23e07b86b744f88f64fe2163ee1}{Expand\+Command}}\hspace{0.3cm}{\ttfamily  \mbox{[}get, set\mbox{]}}
+\begin{DoxyCompactList}\small\item\em The command to expand the item \end{DoxyCompactList}\item 
+bool \mbox{\hyperlink{class_google_drive_tree_view_1_1_directory_item_view_model_a68baa458da82fe8cbc1cb4612612d129}{Can\+Expand}}\hspace{0.3cm}{\ttfamily  \mbox{[}get\mbox{]}}
+\begin{DoxyCompactList}\small\item\em Indicates if the item can be expanded \end{DoxyCompactList}\item 
+bool? \mbox{\hyperlink{class_google_drive_tree_view_1_1_directory_item_view_model_a75cff286bf96cf34286d37bd7827e119}{Is\+Expanded}}\hspace{0.3cm}{\ttfamily  \mbox{[}get, set\mbox{]}}
+\begin{DoxyCompactList}\small\item\em Indicates if the item is expanded or not \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsection*{Additional Inherited Members}
+
+
+\doxysubsection{Detailed Description}
+A view model for every directory item 
+
+
+
+\doxysubsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{class_google_drive_tree_view_1_1_directory_item_view_model_a0b824e60166eb754d80c53bfc1ade78f}\label{class_google_drive_tree_view_1_1_directory_item_view_model_a0b824e60166eb754d80c53bfc1ade78f}} 
+\index{GoogleDriveTreeView.DirectoryItemViewModel@{GoogleDriveTreeView.DirectoryItemViewModel}!DirectoryItemViewModel@{DirectoryItemViewModel}}
+\index{DirectoryItemViewModel@{DirectoryItemViewModel}!GoogleDriveTreeView.DirectoryItemViewModel@{GoogleDriveTreeView.DirectoryItemViewModel}}
+\doxysubsubsection{\texorpdfstring{DirectoryItemViewModel()}{DirectoryItemViewModel()}}
+{\footnotesize\ttfamily Google\+Drive\+Tree\+View.\+Directory\+Item\+View\+Model.\+Directory\+Item\+View\+Model (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{class_google_drive_tree_view_1_1_directory_item_view_model}{Directory\+Item\+View\+Model}}}]{parent,  }\item[{string}]{name,  }\item[{string}]{id,  }\item[{Directory\+Item\+Type}]{type }\end{DoxyParamCaption})}
+
+
+
+Default constructor 
+
+
+\begin{DoxyParams}{Parameters}
+{\em name} & The full path of the item\\
+\hline
+{\em id} & The id of the item\\
+\hline
+{\em type} & The type of the item\\
+\hline
+\end{DoxyParams}
+
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{class_google_drive_tree_view_1_1_directory_item_view_model_a4dcac23ad28bba9ae9356930c81681f7}\label{class_google_drive_tree_view_1_1_directory_item_view_model_a4dcac23ad28bba9ae9356930c81681f7}} 
+\index{GoogleDriveTreeView.DirectoryItemViewModel@{GoogleDriveTreeView.DirectoryItemViewModel}!CreateDirectory@{CreateDirectory}}
+\index{CreateDirectory@{CreateDirectory}!GoogleDriveTreeView.DirectoryItemViewModel@{GoogleDriveTreeView.DirectoryItemViewModel}}
+\doxysubsubsection{\texorpdfstring{CreateDirectory()}{CreateDirectory()}}
+{\footnotesize\ttfamily void Google\+Drive\+Tree\+View.\+Directory\+Item\+View\+Model.\+Create\+Directory (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Creates a new directory inside the item (if it\textquotesingle{}s a drive or a directory) 
+
+\mbox{\Hypertarget{class_google_drive_tree_view_1_1_directory_item_view_model_ab8dfd1100e20ba7e8db6f27ec4728f11}\label{class_google_drive_tree_view_1_1_directory_item_view_model_ab8dfd1100e20ba7e8db6f27ec4728f11}} 
+\index{GoogleDriveTreeView.DirectoryItemViewModel@{GoogleDriveTreeView.DirectoryItemViewModel}!DeleteItem@{DeleteItem}}
+\index{DeleteItem@{DeleteItem}!GoogleDriveTreeView.DirectoryItemViewModel@{GoogleDriveTreeView.DirectoryItemViewModel}}
+\doxysubsubsection{\texorpdfstring{DeleteItem()}{DeleteItem()}}
+{\footnotesize\ttfamily void Google\+Drive\+Tree\+View.\+Directory\+Item\+View\+Model.\+Delete\+Item (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Deletes the item 
+
+\mbox{\Hypertarget{class_google_drive_tree_view_1_1_directory_item_view_model_a9593476cf1e42244cbaf71f9292f58af}\label{class_google_drive_tree_view_1_1_directory_item_view_model_a9593476cf1e42244cbaf71f9292f58af}} 
+\index{GoogleDriveTreeView.DirectoryItemViewModel@{GoogleDriveTreeView.DirectoryItemViewModel}!DownloadItem@{DownloadItem}}
+\index{DownloadItem@{DownloadItem}!GoogleDriveTreeView.DirectoryItemViewModel@{GoogleDriveTreeView.DirectoryItemViewModel}}
+\doxysubsubsection{\texorpdfstring{DownloadItem()}{DownloadItem()}}
+{\footnotesize\ttfamily void Google\+Drive\+Tree\+View.\+Directory\+Item\+View\+Model.\+Download\+Item (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Downloads the item and saves it to the chosen path. 
+
+\mbox{\Hypertarget{class_google_drive_tree_view_1_1_directory_item_view_model_a541235219d02d5f0575d99dc7248d9e8}\label{class_google_drive_tree_view_1_1_directory_item_view_model_a541235219d02d5f0575d99dc7248d9e8}} 
+\index{GoogleDriveTreeView.DirectoryItemViewModel@{GoogleDriveTreeView.DirectoryItemViewModel}!RenameItem@{RenameItem}}
+\index{RenameItem@{RenameItem}!GoogleDriveTreeView.DirectoryItemViewModel@{GoogleDriveTreeView.DirectoryItemViewModel}}
+\doxysubsubsection{\texorpdfstring{RenameItem()}{RenameItem()}}
+{\footnotesize\ttfamily void Google\+Drive\+Tree\+View.\+Directory\+Item\+View\+Model.\+Rename\+Item (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Renames the item. 
+
+\mbox{\Hypertarget{class_google_drive_tree_view_1_1_directory_item_view_model_aaba534beee58239d1e68905002eda0c0}\label{class_google_drive_tree_view_1_1_directory_item_view_model_aaba534beee58239d1e68905002eda0c0}} 
+\index{GoogleDriveTreeView.DirectoryItemViewModel@{GoogleDriveTreeView.DirectoryItemViewModel}!UploadFile@{UploadFile}}
+\index{UploadFile@{UploadFile}!GoogleDriveTreeView.DirectoryItemViewModel@{GoogleDriveTreeView.DirectoryItemViewModel}}
+\doxysubsubsection{\texorpdfstring{UploadFile()}{UploadFile()}}
+{\footnotesize\ttfamily void Google\+Drive\+Tree\+View.\+Directory\+Item\+View\+Model.\+Upload\+File (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Uploads a file to the item (if it\textquotesingle{}s a drive or a directory) 
+
+
+
+\doxysubsection{Property Documentation}
+\mbox{\Hypertarget{class_google_drive_tree_view_1_1_directory_item_view_model_a68baa458da82fe8cbc1cb4612612d129}\label{class_google_drive_tree_view_1_1_directory_item_view_model_a68baa458da82fe8cbc1cb4612612d129}} 
+\index{GoogleDriveTreeView.DirectoryItemViewModel@{GoogleDriveTreeView.DirectoryItemViewModel}!CanExpand@{CanExpand}}
+\index{CanExpand@{CanExpand}!GoogleDriveTreeView.DirectoryItemViewModel@{GoogleDriveTreeView.DirectoryItemViewModel}}
+\doxysubsubsection{\texorpdfstring{CanExpand}{CanExpand}}
+{\footnotesize\ttfamily bool Google\+Drive\+Tree\+View.\+Directory\+Item\+View\+Model.\+Can\+Expand\hspace{0.3cm}{\ttfamily [get]}}
+
+
+
+Indicates if the item can be expanded 
+
+\mbox{\Hypertarget{class_google_drive_tree_view_1_1_directory_item_view_model_ae69e9af79d5d3340b2c1f483799cf2b5}\label{class_google_drive_tree_view_1_1_directory_item_view_model_ae69e9af79d5d3340b2c1f483799cf2b5}} 
+\index{GoogleDriveTreeView.DirectoryItemViewModel@{GoogleDriveTreeView.DirectoryItemViewModel}!Children@{Children}}
+\index{Children@{Children}!GoogleDriveTreeView.DirectoryItemViewModel@{GoogleDriveTreeView.DirectoryItemViewModel}}
+\doxysubsubsection{\texorpdfstring{Children}{Children}}
+{\footnotesize\ttfamily Observable\+Collection$<$\mbox{\hyperlink{class_google_drive_tree_view_1_1_directory_item_view_model}{Directory\+Item\+View\+Model}}$>$ Google\+Drive\+Tree\+View.\+Directory\+Item\+View\+Model.\+Children\hspace{0.3cm}{\ttfamily [get]}, {\ttfamily [set]}}
+
+
+
+A list of item\textquotesingle{}s children 
+
+\mbox{\Hypertarget{class_google_drive_tree_view_1_1_directory_item_view_model_a99ccf3409ee306b729d70f9990ceafca}\label{class_google_drive_tree_view_1_1_directory_item_view_model_a99ccf3409ee306b729d70f9990ceafca}} 
+\index{GoogleDriveTreeView.DirectoryItemViewModel@{GoogleDriveTreeView.DirectoryItemViewModel}!ContextMenuItems@{ContextMenuItems}}
+\index{ContextMenuItems@{ContextMenuItems}!GoogleDriveTreeView.DirectoryItemViewModel@{GoogleDriveTreeView.DirectoryItemViewModel}}
+\doxysubsubsection{\texorpdfstring{ContextMenuItems}{ContextMenuItems}}
+{\footnotesize\ttfamily List$<$\mbox{\hyperlink{class_google_drive_tree_view_1_1_context_menu_item}{Context\+Menu\+Item}}$>$ Google\+Drive\+Tree\+View.\+Directory\+Item\+View\+Model.\+Context\+Menu\+Items\hspace{0.3cm}{\ttfamily [get]}, {\ttfamily [set]}}
+
+
+
+A list of item\textquotesingle{}s context menu options. 
+
+\mbox{\Hypertarget{class_google_drive_tree_view_1_1_directory_item_view_model_ac828b23e07b86b744f88f64fe2163ee1}\label{class_google_drive_tree_view_1_1_directory_item_view_model_ac828b23e07b86b744f88f64fe2163ee1}} 
+\index{GoogleDriveTreeView.DirectoryItemViewModel@{GoogleDriveTreeView.DirectoryItemViewModel}!ExpandCommand@{ExpandCommand}}
+\index{ExpandCommand@{ExpandCommand}!GoogleDriveTreeView.DirectoryItemViewModel@{GoogleDriveTreeView.DirectoryItemViewModel}}
+\doxysubsubsection{\texorpdfstring{ExpandCommand}{ExpandCommand}}
+{\footnotesize\ttfamily I\+Command Google\+Drive\+Tree\+View.\+Directory\+Item\+View\+Model.\+Expand\+Command\hspace{0.3cm}{\ttfamily [get]}, {\ttfamily [set]}}
+
+
+
+The command to expand the item 
+
+\mbox{\Hypertarget{class_google_drive_tree_view_1_1_directory_item_view_model_ad9b9eb937638d97f160f3ed55b97d0a2}\label{class_google_drive_tree_view_1_1_directory_item_view_model_ad9b9eb937638d97f160f3ed55b97d0a2}} 
+\index{GoogleDriveTreeView.DirectoryItemViewModel@{GoogleDriveTreeView.DirectoryItemViewModel}!Extension@{Extension}}
+\index{Extension@{Extension}!GoogleDriveTreeView.DirectoryItemViewModel@{GoogleDriveTreeView.DirectoryItemViewModel}}
+\doxysubsubsection{\texorpdfstring{Extension}{Extension}}
+{\footnotesize\ttfamily string Google\+Drive\+Tree\+View.\+Directory\+Item\+View\+Model.\+Extension\hspace{0.3cm}{\ttfamily [get]}, {\ttfamily [set]}}
+
+
+
+The extension of the item 
+
+\mbox{\Hypertarget{class_google_drive_tree_view_1_1_directory_item_view_model_a8437e63f9f79ef50d1fa1f7082ac589b}\label{class_google_drive_tree_view_1_1_directory_item_view_model_a8437e63f9f79ef50d1fa1f7082ac589b}} 
+\index{GoogleDriveTreeView.DirectoryItemViewModel@{GoogleDriveTreeView.DirectoryItemViewModel}!Id@{Id}}
+\index{Id@{Id}!GoogleDriveTreeView.DirectoryItemViewModel@{GoogleDriveTreeView.DirectoryItemViewModel}}
+\doxysubsubsection{\texorpdfstring{Id}{Id}}
+{\footnotesize\ttfamily string Google\+Drive\+Tree\+View.\+Directory\+Item\+View\+Model.\+Id\hspace{0.3cm}{\ttfamily [get]}, {\ttfamily [set]}}
+
+
+
+The full path of the item 
+
+\mbox{\Hypertarget{class_google_drive_tree_view_1_1_directory_item_view_model_a75cff286bf96cf34286d37bd7827e119}\label{class_google_drive_tree_view_1_1_directory_item_view_model_a75cff286bf96cf34286d37bd7827e119}} 
+\index{GoogleDriveTreeView.DirectoryItemViewModel@{GoogleDriveTreeView.DirectoryItemViewModel}!IsExpanded@{IsExpanded}}
+\index{IsExpanded@{IsExpanded}!GoogleDriveTreeView.DirectoryItemViewModel@{GoogleDriveTreeView.DirectoryItemViewModel}}
+\doxysubsubsection{\texorpdfstring{IsExpanded}{IsExpanded}}
+{\footnotesize\ttfamily bool? Google\+Drive\+Tree\+View.\+Directory\+Item\+View\+Model.\+Is\+Expanded\hspace{0.3cm}{\ttfamily [get]}, {\ttfamily [set]}}
+
+
+
+Indicates if the item is expanded or not 
+
+\mbox{\Hypertarget{class_google_drive_tree_view_1_1_directory_item_view_model_a19b110c36bcf31b008baf4cbc7349e84}\label{class_google_drive_tree_view_1_1_directory_item_view_model_a19b110c36bcf31b008baf4cbc7349e84}} 
+\index{GoogleDriveTreeView.DirectoryItemViewModel@{GoogleDriveTreeView.DirectoryItemViewModel}!Name@{Name}}
+\index{Name@{Name}!GoogleDriveTreeView.DirectoryItemViewModel@{GoogleDriveTreeView.DirectoryItemViewModel}}
+\doxysubsubsection{\texorpdfstring{Name}{Name}}
+{\footnotesize\ttfamily string Google\+Drive\+Tree\+View.\+Directory\+Item\+View\+Model.\+Name\hspace{0.3cm}{\ttfamily [get]}, {\ttfamily [set]}}
+
+
+
+The name of the item 
+
+\mbox{\Hypertarget{class_google_drive_tree_view_1_1_directory_item_view_model_a222ef4eeb31c14a77e382bf4b631eab9}\label{class_google_drive_tree_view_1_1_directory_item_view_model_a222ef4eeb31c14a77e382bf4b631eab9}} 
+\index{GoogleDriveTreeView.DirectoryItemViewModel@{GoogleDriveTreeView.DirectoryItemViewModel}!Parent@{Parent}}
+\index{Parent@{Parent}!GoogleDriveTreeView.DirectoryItemViewModel@{GoogleDriveTreeView.DirectoryItemViewModel}}
+\doxysubsubsection{\texorpdfstring{Parent}{Parent}}
+{\footnotesize\ttfamily \mbox{\hyperlink{class_google_drive_tree_view_1_1_directory_item_view_model}{Directory\+Item\+View\+Model}} Google\+Drive\+Tree\+View.\+Directory\+Item\+View\+Model.\+Parent\hspace{0.3cm}{\ttfamily [get]}, {\ttfamily [set]}}
+
+
+
+The parent of the item 
+
+\mbox{\Hypertarget{class_google_drive_tree_view_1_1_directory_item_view_model_aba3f943be49a383f02377439e798ec2c}\label{class_google_drive_tree_view_1_1_directory_item_view_model_aba3f943be49a383f02377439e798ec2c}} 
+\index{GoogleDriveTreeView.DirectoryItemViewModel@{GoogleDriveTreeView.DirectoryItemViewModel}!Type@{Type}}
+\index{Type@{Type}!GoogleDriveTreeView.DirectoryItemViewModel@{GoogleDriveTreeView.DirectoryItemViewModel}}
+\doxysubsubsection{\texorpdfstring{Type}{Type}}
+{\footnotesize\ttfamily Directory\+Item\+Type Google\+Drive\+Tree\+View.\+Directory\+Item\+View\+Model.\+Type\hspace{0.3cm}{\ttfamily [get]}, {\ttfamily [set]}}
+
+
+
+The type of the item 
+
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+C\+:/\+Users/\+Kuba/source/repos/\+Google\+Drive\+Tree\+View/\+Google\+Drive\+Tree\+View/\+Directory/\+View\+Models/Directory\+Item\+View\+Model.\+cs\end{DoxyCompactItemize}

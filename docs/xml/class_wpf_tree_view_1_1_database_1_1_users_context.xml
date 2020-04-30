@@ -1,0 +1,105 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.18">
+  <compounddef id="class_wpf_tree_view_1_1_database_1_1_users_context" kind="class" language="C#" prot="public">
+    <compoundname>WpfTreeView::Database::UsersContext</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">Window</basecompoundref>
+    <basecompoundref prot="public" virt="non-virtual">IComponentConnector</basecompoundref>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_wpf_tree_view_1_1_database_1_1_users_context_1a5efdb0fafffa2911b5add4e82e7d8adc" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool WpfTreeView.Database.UsersContext._contentLoaded</definition>
+        <argsstring></argsstring>
+        <name>_contentLoaded</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Kuba/source/repos/GoogleDriveTreeView/GoogleDriveTreeView/obj/Debug/Database/UsersContext.g.i.cs" line="43" column="22" bodyfile="C:/Users/Kuba/source/repos/GoogleDriveTreeView/GoogleDriveTreeView/obj/Debug/Database/UsersContext.g.i.cs" bodystart="43" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_wpf_tree_view_1_1_database_1_1_users_context_1a09a9d54819ad80d4b3f26f2465ff5841" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void WpfTreeView.Database.UsersContext.InitializeComponent</definition>
+        <argsstring>()</argsstring>
+        <name>InitializeComponent</name>
+        <briefdescription>
+<para>InitializeComponent </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Kuba/source/repos/GoogleDriveTreeView/GoogleDriveTreeView/obj/Debug/Database/UsersContext.g.i.cs" line="50" column="21" bodyfile="C:/Users/Kuba/source/repos/GoogleDriveTreeView/GoogleDriveTreeView/obj/Debug/Database/UsersContext.g.i.cs" bodystart="50" bodyend="62"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_wpf_tree_view_1_1_database_1_1_users_context_1ae251c9b5d0aa764ec2a9f2df6919c299" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void System.Windows.Markup.IComponentConnector.</type>
+        <definition>void System.Windows.Markup.IComponentConnector. WpfTreeView.Database.UsersContext.Connect</definition>
+        <argsstring>(int connectionId, object target)</argsstring>
+        <name>Connect</name>
+        <param>
+          <type>int</type>
+          <declname>connectionId</declname>
+        </param>
+        <param>
+          <type>object</type>
+          <declname>target</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Kuba/source/repos/GoogleDriveTreeView/GoogleDriveTreeView/obj/Debug/Database/UsersContext.g.i.cs" line="70" column="52" bodyfile="C:/Users/Kuba/source/repos/GoogleDriveTreeView/GoogleDriveTreeView/obj/Debug/Database/UsersContext.g.i.cs" bodystart="70" bodyend="72"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para><ref refid="class_wpf_tree_view_1_1_database_1_1_users_context" kindref="compound">UsersContext</ref> </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>System::Windows::Window</label>
+      </node>
+      <node id="1">
+        <label>WpfTreeView.Database.UsersContext</label>
+        <link refid="class_wpf_tree_view_1_1_database_1_1_users_context"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>System::Windows::Markup::IComponentConnector</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2">
+        <label>System::Windows::Window</label>
+      </node>
+      <node id="1">
+        <label>WpfTreeView.Database.UsersContext</label>
+        <link refid="class_wpf_tree_view_1_1_database_1_1_users_context"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>System::Windows::Markup::IComponentConnector</label>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/Kuba/source/repos/GoogleDriveTreeView/GoogleDriveTreeView/obj/Debug/Database/UsersContext.g.i.cs" line="41" column="19" bodyfile="C:/Users/Kuba/source/repos/GoogleDriveTreeView/GoogleDriveTreeView/obj/Debug/Database/UsersContext.g.i.cs" bodystart="41" bodyend="73"/>
+    <listofallmembers>
+      <member refid="class_wpf_tree_view_1_1_database_1_1_users_context_1a5efdb0fafffa2911b5add4e82e7d8adc" prot="private" virt="non-virtual"><scope>WpfTreeView::Database::UsersContext</scope><name>_contentLoaded</name></member>
+      <member refid="class_wpf_tree_view_1_1_database_1_1_users_context_1ae251c9b5d0aa764ec2a9f2df6919c299" prot="private" virt="non-virtual"><scope>WpfTreeView::Database::UsersContext</scope><name>Connect</name></member>
+      <member refid="class_wpf_tree_view_1_1_database_1_1_users_context_1a09a9d54819ad80d4b3f26f2465ff5841" prot="public" virt="non-virtual"><scope>WpfTreeView::Database::UsersContext</scope><name>InitializeComponent</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

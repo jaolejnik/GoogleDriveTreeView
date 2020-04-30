@@ -1,0 +1,120 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.18">
+  <compounddef id="namespace_google_drive_tree_view" kind="namespace" language="C#">
+    <compoundname>GoogleDriveTreeView</compoundname>
+    <innerclass refid="class_google_drive_tree_view_1_1_action_type_to_string_converter" prot="public">GoogleDriveTreeView::ActionTypeToStringConverter</innerclass>
+    <innerclass refid="class_google_drive_tree_view_1_1_app" prot="public">GoogleDriveTreeView::App</innerclass>
+    <innerclass refid="class_google_drive_tree_view_1_1_base_view_model" prot="public">GoogleDriveTreeView::BaseViewModel</innerclass>
+    <innerclass refid="class_google_drive_tree_view_1_1_context_menu_item" prot="public">GoogleDriveTreeView::ContextMenuItem</innerclass>
+    <innerclass refid="class_google_drive_tree_view_1_1_directory_item" prot="public">GoogleDriveTreeView::DirectoryItem</innerclass>
+    <innerclass refid="class_google_drive_tree_view_1_1_directory_item_view_model" prot="public">GoogleDriveTreeView::DirectoryItemViewModel</innerclass>
+    <innerclass refid="class_google_drive_tree_view_1_1_directory_structure" prot="public">GoogleDriveTreeView::DirectoryStructure</innerclass>
+    <innerclass refid="class_google_drive_tree_view_1_1_directory_structure_view_model" prot="public">GoogleDriveTreeView::DirectoryStructureViewModel</innerclass>
+    <innerclass refid="class_google_drive_tree_view_1_1_drive" prot="public">GoogleDriveTreeView::Drive</innerclass>
+    <innerclass refid="class_google_drive_tree_view_1_1_drive_page" prot="public">GoogleDriveTreeView::DrivePage</innerclass>
+    <innerclass refid="class_google_drive_tree_view_1_1_drive_window" prot="public">GoogleDriveTreeView::DriveWindow</innerclass>
+    <innerclass refid="class_google_drive_tree_view_1_1_google_drive_a_p_i" prot="public">GoogleDriveTreeView::GoogleDriveAPI</innerclass>
+    <innerclass refid="class_google_drive_tree_view_1_1_header_to_image_converter" prot="public">GoogleDriveTreeView::HeaderToImageConverter</innerclass>
+    <innerclass refid="class_google_drive_tree_view_1_1_input_window" prot="public">GoogleDriveTreeView::InputWindow</innerclass>
+    <innerclass refid="class_google_drive_tree_view_1_1_loading_window" prot="public">GoogleDriveTreeView::LoadingWindow</innerclass>
+    <innerclass refid="class_google_drive_tree_view_1_1_login_page" prot="public">GoogleDriveTreeView::LoginPage</innerclass>
+    <innerclass refid="class_google_drive_tree_view_1_1_login_window" prot="public">GoogleDriveTreeView::LoginWindow</innerclass>
+    <innerclass refid="class_google_drive_tree_view_1_1_main_window" prot="public">GoogleDriveTreeView::MainWindow</innerclass>
+    <innerclass refid="class_google_drive_tree_view_1_1_new_user_window" prot="public">GoogleDriveTreeView::NewUserWindow</innerclass>
+    <innerclass refid="class_google_drive_tree_view_1_1_relay_command" prot="public">GoogleDriveTreeView::RelayCommand</innerclass>
+    <innerclass refid="class_google_drive_tree_view_1_1_user" prot="public">GoogleDriveTreeView::User</innerclass>
+    <innerclass refid="class_google_drive_tree_view_1_1_users_context" prot="public">GoogleDriveTreeView::UsersContext</innerclass>
+    <innerclass refid="class_google_drive_tree_view_1_1_user_to_visibility_converter" prot="public">GoogleDriveTreeView::UserToVisibilityConverter</innerclass>
+    <innernamespace refid="namespace_google_drive_tree_view_1_1_properties">GoogleDriveTreeView::Properties</innernamespace>
+      <sectiondef kind="enum">
+      <memberdef kind="enum" id="namespace_google_drive_tree_view_1ad4025e498bb65d28f80c31acf9bd970c" prot="public" static="no" strong="yes">
+        <type></type>
+        <name>DirectoryItemActionType</name>
+        <enumvalue id="namespace_google_drive_tree_view_1ad4025e498bb65d28f80c31acf9bd970ca6adf97f83acf6453d4a6a4b1070f3754" prot="public">
+          <name>None</name>
+          <initializer>= 0</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_google_drive_tree_view_1ad4025e498bb65d28f80c31acf9bd970ca801ab24683a4a8c433c6eb40c48bcd9d" prot="public">
+          <name>Download</name>
+          <initializer>= 1</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_google_drive_tree_view_1ad4025e498bb65d28f80c31acf9bd970ca91412465ea9169dfd901dd5e7c96dd99" prot="public">
+          <name>Upload</name>
+          <initializer>= 2</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_google_drive_tree_view_1ad4025e498bb65d28f80c31acf9bd970ca686e697538050e4664636337cc3b834f" prot="public">
+          <name>Create</name>
+          <initializer>= 3</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_google_drive_tree_view_1ad4025e498bb65d28f80c31acf9bd970caf2a6c498fb90ee345d997f888fce3b18" prot="public">
+          <name>Delete</name>
+          <initializer>= 4</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Kuba/source/repos/GoogleDriveTreeView/GoogleDriveTreeView/Directory/Data/DirectoryItemActionType.cs" line="9" column="11" bodyfile="C:/Users/Kuba/source/repos/GoogleDriveTreeView/GoogleDriveTreeView/Directory/Data/DirectoryItemActionType.cs" bodystart="10" bodyend="16"/>
+      </memberdef>
+      <memberdef kind="enum" id="namespace_google_drive_tree_view_1a399287f3d1322f33a6f1866571d37c84" prot="public" static="no" strong="yes">
+        <type></type>
+        <name>DirectoryItemType</name>
+        <enumvalue id="namespace_google_drive_tree_view_1a399287f3d1322f33a6f1866571d37c84af2c6151d6c0d99f3666129b97e2100f5" prot="public">
+          <name>Drive</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_google_drive_tree_view_1a399287f3d1322f33a6f1866571d37c84a0b27918290ff5323bea1e3b78a9cf04e" prot="public">
+          <name>File</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_google_drive_tree_view_1a399287f3d1322f33a6f1866571d37c84ab0f2b97dc5d2b76b26e040408bb1d8af" prot="public">
+          <name>Folder</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Kuba/source/repos/GoogleDriveTreeView/GoogleDriveTreeView/Directory/Data/DirectoryItemType.cs" line="3" column="11" bodyfile="C:/Users/Kuba/source/repos/GoogleDriveTreeView/GoogleDriveTreeView/Directory/Data/DirectoryItemType.cs" bodystart="4" bodyend="8"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Users/Kuba/source/repos/GoogleDriveTreeView/GoogleDriveTreeView/App.xaml.cs" line="9" column="1"/>
+  </compounddef>
+</doxygen>

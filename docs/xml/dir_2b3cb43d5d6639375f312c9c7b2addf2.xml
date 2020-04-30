@@ -1,0 +1,19 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.18">
+  <compounddef id="dir_2b3cb43d5d6639375f312c9c7b2addf2" kind="dir">
+    <compoundname>C:/Users/Kuba/source/repos/GoogleDriveTreeView/GoogleDriveTreeView</compoundname>
+    <innerdir refid="dir_4a777046281798eda211c8e688a39fc5">C:/Users/Kuba/source/repos/GoogleDriveTreeView/GoogleDriveTreeView/Converters</innerdir>
+    <innerdir refid="dir_2b332a88e6c1d58db31efa9c84088914">C:/Users/Kuba/source/repos/GoogleDriveTreeView/GoogleDriveTreeView/Database</innerdir>
+    <innerdir refid="dir_47a37862a1373b00c4f73aa8aadc779d">C:/Users/Kuba/source/repos/GoogleDriveTreeView/GoogleDriveTreeView/Directory</innerdir>
+    <innerdir refid="dir_4a49423ea2605944fe968df6461f3a3b">C:/Users/Kuba/source/repos/GoogleDriveTreeView/GoogleDriveTreeView/obj</innerdir>
+    <innerdir refid="dir_afcff79b7480da750bf73659ce67de67">C:/Users/Kuba/source/repos/GoogleDriveTreeView/GoogleDriveTreeView/Properties</innerdir>
+    <innerdir refid="dir_6e3dcb3474ec04558c24c4800e9213e6">C:/Users/Kuba/source/repos/GoogleDriveTreeView/GoogleDriveTreeView/Windows</innerdir>
+    <innerfile refid="_app_8xaml_8cs">App.xaml.cs</innerfile>
+    <innerfile refid="_google_drive_a_p_i_8cs">GoogleDriveAPI.cs</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Users/Kuba/source/repos/GoogleDriveTreeView/GoogleDriveTreeView/"/>
+  </compounddef>
+</doxygen>

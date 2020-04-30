@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.18">
+  <compounddef id="dir_2188252cbfb390e4da13303ce2e5ab9e" kind="dir">
+    <compoundname>C:/Users/Kuba/source/repos/GoogleDriveTreeView/GoogleDriveTreeView/obj/Debug/Windows</compoundname>
+    <innerdir refid="dir_cffddf5f892e478aa9f43fbe1d8db2f0">C:/Users/Kuba/source/repos/GoogleDriveTreeView/GoogleDriveTreeView/obj/Debug/Windows/Drive</innerdir>
+    <innerdir refid="dir_f9cd76660575e13fc63d8bbfec4500b8">C:/Users/Kuba/source/repos/GoogleDriveTreeView/GoogleDriveTreeView/obj/Debug/Windows/Login</innerdir>
+    <innerdir refid="dir_5dda6d47873a140649f517906f8cb128">C:/Users/Kuba/source/repos/GoogleDriveTreeView/GoogleDriveTreeView/obj/Debug/Windows/Main</innerdir>
+    <innerfile refid="_debug_2_windows_2_drive_window_8g_8cs">DriveWindow.g.cs</innerfile>
+    <innerfile refid="_windows_2_drive_window_8g_8i_8cs">DriveWindow.g.i.cs</innerfile>
+    <innerfile refid="_input_window_8g_8cs">InputWindow.g.cs</innerfile>
+    <innerfile refid="_input_window_8g_8i_8cs">InputWindow.g.i.cs</innerfile>
+    <innerfile refid="_debug_2_windows_2_loading_window_8g_8cs">LoadingWindow.g.cs</innerfile>
+    <innerfile refid="_loading_window_8g_8i_8cs">LoadingWindow.g.i.cs</innerfile>
+    <innerfile refid="_debug_2_windows_2_login_window_8g_8cs">LoginWindow.g.cs</innerfile>
+    <innerfile refid="_login_window_8g_8i_8cs">LoginWindow.g.i.cs</innerfile>
+    <innerfile refid="_new_user_window_8g_8cs">NewUserWindow.g.cs</innerfile>
+    <innerfile refid="_new_user_window_8g_8i_8cs">NewUserWindow.g.i.cs</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Users/Kuba/source/repos/GoogleDriveTreeView/GoogleDriveTreeView/obj/Debug/Windows/"/>
+  </compounddef>
+</doxygen>

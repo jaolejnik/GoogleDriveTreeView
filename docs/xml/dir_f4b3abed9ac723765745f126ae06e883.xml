@@ -1,0 +1,13 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.18">
+  <compounddef id="dir_f4b3abed9ac723765745f126ae06e883" kind="dir">
+    <compoundname>C:/Users/Kuba/source/repos/GoogleDriveTreeView/GoogleDriveTreeView/Directory/ViewModels/Base</compoundname>
+    <innerfile refid="_base_view_model_8cs">BaseViewModel.cs</innerfile>
+    <innerfile refid="_relay_command_8cs">RelayCommand.cs</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Users/Kuba/source/repos/GoogleDriveTreeView/GoogleDriveTreeView/Directory/ViewModels/Base/"/>
+  </compounddef>
+</doxygen>

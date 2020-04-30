@@ -1,0 +1,15 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.18">
+  <compounddef id="dir_e2995f0d6cec6092c5f1c0322bb841e8" kind="dir">
+    <compoundname>C:/Users/Kuba/source/repos/GoogleDriveTreeView/GoogleDriveTreeView/Directory/Data</compoundname>
+    <innerfile refid="_contex_menu_item_8cs">ContexMenuItem.cs</innerfile>
+    <innerfile refid="_directory_item_8cs">DirectoryItem.cs</innerfile>
+    <innerfile refid="_directory_item_action_type_8cs">DirectoryItemActionType.cs</innerfile>
+    <innerfile refid="_directory_item_type_8cs">DirectoryItemType.cs</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Users/Kuba/source/repos/GoogleDriveTreeView/GoogleDriveTreeView/Directory/Data/"/>
+  </compounddef>
+</doxygen>

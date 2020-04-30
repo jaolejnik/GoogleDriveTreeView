@@ -1,0 +1,542 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygenindex xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="index.xsd" version="1.8.18">
+  <compound refid="class_google_drive_tree_view_1_1_action_type_to_string_converter" kind="class"><name>GoogleDriveTreeView::ActionTypeToStringConverter</name>
+    <member refid="class_google_drive_tree_view_1_1_action_type_to_string_converter_1a2120ad256a83b257f748758b454e6faa" kind="variable"><name>Instance</name></member>
+    <member refid="class_google_drive_tree_view_1_1_action_type_to_string_converter_1a7926ce95e35c75f1a01a2391d47664b9" kind="function"><name>Convert</name></member>
+    <member refid="class_google_drive_tree_view_1_1_action_type_to_string_converter_1a8fca8838573e3a4dfd87c46a6b12f377" kind="function"><name>ConvertBack</name></member>
+  </compound>
+  <compound refid="class_google_drive_tree_view_1_1_app" kind="class"><name>GoogleDriveTreeView::App</name>
+    <member refid="class_google_drive_tree_view_1_1_app_1a5318b0345abb250e187efe371b243f71" kind="function"><name>InitializeComponent</name></member>
+    <member refid="class_google_drive_tree_view_1_1_app_1a5318b0345abb250e187efe371b243f71" kind="function"><name>InitializeComponent</name></member>
+    <member refid="class_google_drive_tree_view_1_1_app_1a5318b0345abb250e187efe371b243f71" kind="function"><name>InitializeComponent</name></member>
+    <member refid="class_google_drive_tree_view_1_1_app_1a2b56b4803a0dbd80c72805938a3dc8b7" kind="function"><name>Main</name></member>
+    <member refid="class_google_drive_tree_view_1_1_app_1a2b56b4803a0dbd80c72805938a3dc8b7" kind="function"><name>Main</name></member>
+    <member refid="class_google_drive_tree_view_1_1_app_1a2b56b4803a0dbd80c72805938a3dc8b7" kind="function"><name>Main</name></member>
+  </compound>
+  <compound refid="class_google_drive_tree_view_1_1_base_view_model" kind="class"><name>GoogleDriveTreeView::BaseViewModel</name>
+    <member refid="class_google_drive_tree_view_1_1_base_view_model_1a2677a7cd981cc8f27f8f7f8bd6ef9189" kind="event"><name>PropertyChanged</name></member>
+  </compound>
+  <compound refid="class_google_drive_tree_view_1_1_context_menu_item" kind="class"><name>GoogleDriveTreeView::ContextMenuItem</name>
+    <member refid="class_google_drive_tree_view_1_1_context_menu_item_1a75116cc16aeb14d6ed0d6af4a909eb9b" kind="property"><name>ItemHeader</name></member>
+    <member refid="class_google_drive_tree_view_1_1_context_menu_item_1adf067229ab5b6e58fc1856255af5cee5" kind="property"><name>ItemAction</name></member>
+  </compound>
+  <compound refid="class_google_drive_tree_view_1_1_directory_item" kind="class"><name>GoogleDriveTreeView::DirectoryItem</name>
+    <member refid="class_google_drive_tree_view_1_1_directory_item_1a393af18e65a0c24e0132a17fa2709401" kind="property"><name>Name</name></member>
+    <member refid="class_google_drive_tree_view_1_1_directory_item_1a247863294038ed831b92486b5e07b7ec" kind="property"><name>Type</name></member>
+    <member refid="class_google_drive_tree_view_1_1_directory_item_1a370d9d56e028c4430c090948d520176b" kind="property"><name>Id</name></member>
+    <member refid="class_google_drive_tree_view_1_1_directory_item_1a4d3b7fc31d5657c98fbe476a1a4c2a52" kind="function"><name>DirectoryItem</name></member>
+    <member refid="class_google_drive_tree_view_1_1_directory_item_1af178335d1a5f88512cde5cf9bab1a4da" kind="function"><name>DirectoryItem</name></member>
+  </compound>
+  <compound refid="class_google_drive_tree_view_1_1_directory_item_view_model" kind="class"><name>GoogleDriveTreeView::DirectoryItemViewModel</name>
+    <member refid="class_google_drive_tree_view_1_1_directory_item_view_model_1aba3f943be49a383f02377439e798ec2c" kind="property"><name>Type</name></member>
+    <member refid="class_google_drive_tree_view_1_1_directory_item_view_model_1a8437e63f9f79ef50d1fa1f7082ac589b" kind="property"><name>Id</name></member>
+    <member refid="class_google_drive_tree_view_1_1_directory_item_view_model_1a19b110c36bcf31b008baf4cbc7349e84" kind="property"><name>Name</name></member>
+    <member refid="class_google_drive_tree_view_1_1_directory_item_view_model_1ad9b9eb937638d97f160f3ed55b97d0a2" kind="property"><name>Extension</name></member>
+    <member refid="class_google_drive_tree_view_1_1_directory_item_view_model_1a222ef4eeb31c14a77e382bf4b631eab9" kind="property"><name>Parent</name></member>
+    <member refid="class_google_drive_tree_view_1_1_directory_item_view_model_1ae69e9af79d5d3340b2c1f483799cf2b5" kind="property"><name>Children</name></member>
+    <member refid="class_google_drive_tree_view_1_1_directory_item_view_model_1a99ccf3409ee306b729d70f9990ceafca" kind="property"><name>ContextMenuItems</name></member>
+    <member refid="class_google_drive_tree_view_1_1_directory_item_view_model_1ac828b23e07b86b744f88f64fe2163ee1" kind="property"><name>ExpandCommand</name></member>
+    <member refid="class_google_drive_tree_view_1_1_directory_item_view_model_1a68baa458da82fe8cbc1cb4612612d129" kind="property"><name>CanExpand</name></member>
+    <member refid="class_google_drive_tree_view_1_1_directory_item_view_model_1a75cff286bf96cf34286d37bd7827e119" kind="property"><name>IsExpanded</name></member>
+    <member refid="class_google_drive_tree_view_1_1_directory_item_view_model_1a0b824e60166eb754d80c53bfc1ade78f" kind="function"><name>DirectoryItemViewModel</name></member>
+    <member refid="class_google_drive_tree_view_1_1_directory_item_view_model_1a9593476cf1e42244cbaf71f9292f58af" kind="function"><name>DownloadItem</name></member>
+    <member refid="class_google_drive_tree_view_1_1_directory_item_view_model_1ab8dfd1100e20ba7e8db6f27ec4728f11" kind="function"><name>DeleteItem</name></member>
+    <member refid="class_google_drive_tree_view_1_1_directory_item_view_model_1a4dcac23ad28bba9ae9356930c81681f7" kind="function"><name>CreateDirectory</name></member>
+    <member refid="class_google_drive_tree_view_1_1_directory_item_view_model_1aaba534beee58239d1e68905002eda0c0" kind="function"><name>UploadFile</name></member>
+    <member refid="class_google_drive_tree_view_1_1_directory_item_view_model_1a541235219d02d5f0575d99dc7248d9e8" kind="function"><name>RenameItem</name></member>
+    <member refid="class_google_drive_tree_view_1_1_directory_item_view_model_1a6d2c730c4a82203b35d2dbcab49be1fb" kind="function"><name>Expand</name></member>
+    <member refid="class_google_drive_tree_view_1_1_directory_item_view_model_1a6f4f1a6797f089048924c31a221eeeb8" kind="function"><name>ClearChildren</name></member>
+  </compound>
+  <compound refid="class_google_drive_tree_view_1_1_directory_structure" kind="class"><name>GoogleDriveTreeView::DirectoryStructure</name>
+    <member refid="class_google_drive_tree_view_1_1_directory_structure_1af6afc4594b0bd4a53b9c78078a389092" kind="function"><name>GetDrives</name></member>
+    <member refid="class_google_drive_tree_view_1_1_directory_structure_1a8310f7df754c3cd5273b1435a9d67f83" kind="function"><name>GetDirectories</name></member>
+    <member refid="class_google_drive_tree_view_1_1_directory_structure_1a412d9e47d30c2561a83e783701d6fbc8" kind="function"><name>GetFiles</name></member>
+    <member refid="class_google_drive_tree_view_1_1_directory_structure_1ae72e5ff9e1758c9cd8d9e4cbbbd63395" kind="function"><name>GetDirectoryContents</name></member>
+    <member refid="class_google_drive_tree_view_1_1_directory_structure_1a060b70f248026d964f112a04fba7ffae" kind="function"><name>GetFileFolderName</name></member>
+  </compound>
+  <compound refid="class_google_drive_tree_view_1_1_directory_structure_view_model" kind="class"><name>GoogleDriveTreeView::DirectoryStructureViewModel</name>
+    <member refid="class_google_drive_tree_view_1_1_directory_structure_view_model_1a138c4fc471e33b789dcb2ad4cfadfc7c" kind="property"><name>Items</name></member>
+    <member refid="class_google_drive_tree_view_1_1_directory_structure_view_model_1a75e30568ec766b6da0d978387cceaec8" kind="property"><name>CurrentUser</name></member>
+    <member refid="class_google_drive_tree_view_1_1_directory_structure_view_model_1a2690767de645f6d4ce02f4e67e9a1a89" kind="property"><name>ActionType</name></member>
+    <member refid="class_google_drive_tree_view_1_1_directory_structure_view_model_1af1d4125427253bc40d0d9ca8ff920ed3" kind="function"><name>DirectoryStructureViewModel</name></member>
+  </compound>
+  <compound refid="class_google_drive_tree_view_1_1_drive" kind="class"><name>GoogleDriveTreeView::Drive</name>
+    <member refid="class_google_drive_tree_view_1_1_drive_1ac70a9d4e73b8e6f39c7ac8b3ec18f53d" kind="variable"><name>FolderView</name></member>
+    <member refid="class_google_drive_tree_view_1_1_drive_1adeecc499ae5030849dcab2e3faba676e" kind="variable"><name>_contentLoaded</name></member>
+    <member refid="class_google_drive_tree_view_1_1_drive_1a7c47cdb862e6923ef1799094377e8022" kind="function"><name>InitializeComponent</name></member>
+    <member refid="class_google_drive_tree_view_1_1_drive_1a4e29edf53e4f5e743f8ab28e4ac49efd" kind="function"><name>Connect</name></member>
+  </compound>
+  <compound refid="class_wpf_tree_view_1_1_pages_1_1_drive_1_1_drive" kind="class"><name>WpfTreeView::Pages::Drive::Drive</name>
+    <member refid="class_wpf_tree_view_1_1_pages_1_1_drive_1_1_drive_1a326c6558c6fc12df5666ff30c88b7542" kind="variable"><name>_contentLoaded</name></member>
+    <member refid="class_wpf_tree_view_1_1_pages_1_1_drive_1_1_drive_1ab0956f10ab708f74616655377db8b390" kind="function"><name>InitializeComponent</name></member>
+    <member refid="class_wpf_tree_view_1_1_pages_1_1_drive_1_1_drive_1acc8022d899b7a0d16397fb5e41f9807b" kind="function"><name>Connect</name></member>
+  </compound>
+  <compound refid="class_google_drive_tree_view_1_1_drive_page" kind="class"><name>GoogleDriveTreeView::DrivePage</name>
+    <member refid="class_google_drive_tree_view_1_1_drive_page_1ad46fe0a43f5e13c756ee34236d34aee6" kind="variable"><name>_contentLoaded</name></member>
+    <member refid="class_google_drive_tree_view_1_1_drive_page_1aaa6cb8f907507f843d73b6a6c1b19c3b" kind="function"><name>InitializeComponent</name></member>
+    <member refid="class_google_drive_tree_view_1_1_drive_page_1aaa6cb8f907507f843d73b6a6c1b19c3b" kind="function"><name>InitializeComponent</name></member>
+    <member refid="class_google_drive_tree_view_1_1_drive_page_1ab1d031419f61cbb469594181a896cfe5" kind="function"><name>Connect</name></member>
+    <member refid="class_google_drive_tree_view_1_1_drive_page_1ab1d031419f61cbb469594181a896cfe5" kind="function"><name>Connect</name></member>
+  </compound>
+  <compound refid="class_google_drive_tree_view_1_1_drive_window" kind="class"><name>GoogleDriveTreeView::DriveWindow</name>
+    <member refid="class_google_drive_tree_view_1_1_drive_window_1a363aea64b1329f4c8efa96f807f3dd36" kind="variable"><name>FolderView</name></member>
+    <member refid="class_google_drive_tree_view_1_1_drive_window_1afbdeec99ddaba59ac5c314efee7f7154" kind="variable"><name>btnNewUser</name></member>
+    <member refid="class_google_drive_tree_view_1_1_drive_window_1ae50644c57957ca62b4c1436bbf12eb8f" kind="variable"><name>_contentLoaded</name></member>
+    <member refid="class_google_drive_tree_view_1_1_drive_window_1a6e97a6abe18149429184c9cdc8c3bffc" kind="function"><name>InitializeComponent</name></member>
+    <member refid="class_google_drive_tree_view_1_1_drive_window_1a6e97a6abe18149429184c9cdc8c3bffc" kind="function"><name>InitializeComponent</name></member>
+    <member refid="class_google_drive_tree_view_1_1_drive_window_1a6e97a6abe18149429184c9cdc8c3bffc" kind="function"><name>InitializeComponent</name></member>
+    <member refid="class_google_drive_tree_view_1_1_drive_window_1a6e97a6abe18149429184c9cdc8c3bffc" kind="function"><name>InitializeComponent</name></member>
+    <member refid="class_google_drive_tree_view_1_1_drive_window_1a6e97a6abe18149429184c9cdc8c3bffc" kind="function"><name>InitializeComponent</name></member>
+    <member refid="class_google_drive_tree_view_1_1_drive_window_1af724caa8df2ce163dc9bcaa5fb25bba9" kind="function"><name>DriveWindow</name></member>
+    <member refid="class_google_drive_tree_view_1_1_drive_window_1a39a98683e2e9c07e42d625fb8f64491e" kind="function"><name>Connect</name></member>
+    <member refid="class_google_drive_tree_view_1_1_drive_window_1a39a98683e2e9c07e42d625fb8f64491e" kind="function"><name>Connect</name></member>
+    <member refid="class_google_drive_tree_view_1_1_drive_window_1a39a98683e2e9c07e42d625fb8f64491e" kind="function"><name>Connect</name></member>
+    <member refid="class_google_drive_tree_view_1_1_drive_window_1a39a98683e2e9c07e42d625fb8f64491e" kind="function"><name>Connect</name></member>
+    <member refid="class_google_drive_tree_view_1_1_drive_window_1a39a98683e2e9c07e42d625fb8f64491e" kind="function"><name>Connect</name></member>
+    <member refid="class_google_drive_tree_view_1_1_drive_window_1aa2fcefde7d254bdabaf0024c57f3f29d" kind="function"><name>AddNewUser_Click</name></member>
+  </compound>
+  <compound refid="class_xaml_generated_namespace_1_1_generated_internal_type_helper" kind="class"><name>XamlGeneratedNamespace::GeneratedInternalTypeHelper</name>
+    <member refid="class_xaml_generated_namespace_1_1_generated_internal_type_helper_1aefb7a98fceb9c287cef4756942f441d1" kind="function"><name>CreateInstance</name></member>
+    <member refid="class_xaml_generated_namespace_1_1_generated_internal_type_helper_1afdc9fe15b56607d02082908d934480c6" kind="function"><name>GetPropertyValue</name></member>
+    <member refid="class_xaml_generated_namespace_1_1_generated_internal_type_helper_1ade0f04c0f7b18dd5b170e071d5534d38" kind="function"><name>SetPropertyValue</name></member>
+    <member refid="class_xaml_generated_namespace_1_1_generated_internal_type_helper_1a8ec4c37e82d9f4e867e9655f4eac3a78" kind="function"><name>CreateDelegate</name></member>
+    <member refid="class_xaml_generated_namespace_1_1_generated_internal_type_helper_1a73471f4a6d1ca4c4fceec9ad8610f0c8" kind="function"><name>AddEventHandler</name></member>
+  </compound>
+  <compound refid="class_google_drive_tree_view_1_1_google_drive_a_p_i" kind="class"><name>GoogleDriveTreeView::GoogleDriveAPI</name>
+    <member refid="class_google_drive_tree_view_1_1_google_drive_a_p_i_1ae1e26a7e849cabb0f03324ae5b7d131d" kind="variable"><name>service</name></member>
+    <member refid="class_google_drive_tree_view_1_1_google_drive_a_p_i_1a8eb04ad7bddede8e1187c70e620d5b21" kind="function"><name>initService</name></member>
+    <member refid="class_google_drive_tree_view_1_1_google_drive_a_p_i_1a346dfbd1dd5b5c5f0eb0181bd5e1854f" kind="function"><name>GetRootId</name></member>
+    <member refid="class_google_drive_tree_view_1_1_google_drive_a_p_i_1ad8d8ab3d4a9763aa504e3f6ead4c9a84" kind="function"><name>GetDirectories</name></member>
+    <member refid="class_google_drive_tree_view_1_1_google_drive_a_p_i_1a2e58920dc8542078fab9c8e05b58105a" kind="function"><name>GetFiles</name></member>
+    <member refid="class_google_drive_tree_view_1_1_google_drive_a_p_i_1aa547f63b63286eb3c9de3141027bd22f" kind="function"><name>DownloadFile</name></member>
+    <member refid="class_google_drive_tree_view_1_1_google_drive_a_p_i_1a01ce0acdb5e11c7280843f2d9d88c78f" kind="function"><name>DownloadDirectory</name></member>
+    <member refid="class_google_drive_tree_view_1_1_google_drive_a_p_i_1a2d7b1c7ff17792001545527a74ccab84" kind="function"><name>Delete</name></member>
+    <member refid="class_google_drive_tree_view_1_1_google_drive_a_p_i_1acde5c4dd66dd8be804575d6e389fd270" kind="function"><name>CreateDirectory</name></member>
+    <member refid="class_google_drive_tree_view_1_1_google_drive_a_p_i_1acb7d3e6c9d7f3975cc6afb2cb785a9e7" kind="function"><name>UploadFile</name></member>
+    <member refid="class_google_drive_tree_view_1_1_google_drive_a_p_i_1af3be78ae353d58cd71a027f92c0430b9" kind="function"><name>Rename</name></member>
+  </compound>
+  <compound refid="class_google_drive_tree_view_1_1_header_to_image_converter" kind="class"><name>GoogleDriveTreeView::HeaderToImageConverter</name>
+    <member refid="class_google_drive_tree_view_1_1_header_to_image_converter_1ab984e70ce3771f1f4b5e045fe96a4dae" kind="variable"><name>Instance</name></member>
+    <member refid="class_google_drive_tree_view_1_1_header_to_image_converter_1af452e0fd018a45cdbe5991ac0ae247c8" kind="function"><name>Convert</name></member>
+    <member refid="class_google_drive_tree_view_1_1_header_to_image_converter_1a281a6c3674ff71418d5b4ad8d10047fb" kind="function"><name>ConvertBack</name></member>
+  </compound>
+  <compound refid="class_google_drive_tree_view_1_1_input_window" kind="class"><name>GoogleDriveTreeView::InputWindow</name>
+    <member refid="class_google_drive_tree_view_1_1_input_window_1ae51ac839c14b943a23f89f85a14e16f2" kind="variable"><name>lblQuestion</name></member>
+    <member refid="class_google_drive_tree_view_1_1_input_window_1a5931c1293bcc96b497b7099f7c331a33" kind="variable"><name>txtAnswer</name></member>
+    <member refid="class_google_drive_tree_view_1_1_input_window_1a8f6bdb9c566b480c4866717aeb6a5f12" kind="variable"><name>btnDialogOk</name></member>
+    <member refid="class_google_drive_tree_view_1_1_input_window_1a906214216720df8622c049d34635eaa6" kind="variable"><name>_contentLoaded</name></member>
+    <member refid="class_google_drive_tree_view_1_1_input_window_1af58cb3389d140ae4df6b3e8a30055ac3" kind="property"><name>Answer</name></member>
+    <member refid="class_google_drive_tree_view_1_1_input_window_1a0eef1d2de5b1e189049f89c33d5bb0d6" kind="function"><name>InitializeComponent</name></member>
+    <member refid="class_google_drive_tree_view_1_1_input_window_1a0eef1d2de5b1e189049f89c33d5bb0d6" kind="function"><name>InitializeComponent</name></member>
+    <member refid="class_google_drive_tree_view_1_1_input_window_1a2f9157a91d7fe57df3dc001f2e0a74a0" kind="function"><name>InputWindow</name></member>
+    <member refid="class_google_drive_tree_view_1_1_input_window_1a3b00f73b2eede5b42deb5e3f25c04858" kind="function"><name>Connect</name></member>
+    <member refid="class_google_drive_tree_view_1_1_input_window_1a3b00f73b2eede5b42deb5e3f25c04858" kind="function"><name>Connect</name></member>
+    <member refid="class_google_drive_tree_view_1_1_input_window_1ac56fdca3552389557dba790f553f507b" kind="function"><name>btnDialogOk_Click</name></member>
+    <member refid="class_google_drive_tree_view_1_1_input_window_1a66ef8af192a376b2b433814ec3fedc09" kind="function"><name>Window_ContentRendered</name></member>
+  </compound>
+  <compound refid="class_google_drive_tree_view_1_1_loading_window" kind="class"><name>GoogleDriveTreeView::LoadingWindow</name>
+    <member refid="class_google_drive_tree_view_1_1_loading_window_1af01ae23d72c4962548075bf5c50eb87d" kind="variable"><name>MyAnimatedTransform</name></member>
+    <member refid="class_google_drive_tree_view_1_1_loading_window_1ae749034acb8923f57f386fd4c2e4bed9" kind="variable"><name>_contentLoaded</name></member>
+    <member refid="class_google_drive_tree_view_1_1_loading_window_1ad353c23329f0176e45dec979b7b61cf7" kind="property"><name>Message</name></member>
+    <member refid="class_google_drive_tree_view_1_1_loading_window_1a88ac25eea1857c544ad23275ef4c6932" kind="function"><name>InitializeComponent</name></member>
+    <member refid="class_google_drive_tree_view_1_1_loading_window_1a88ac25eea1857c544ad23275ef4c6932" kind="function"><name>InitializeComponent</name></member>
+    <member refid="class_google_drive_tree_view_1_1_loading_window_1a88ac25eea1857c544ad23275ef4c6932" kind="function"><name>InitializeComponent</name></member>
+    <member refid="class_google_drive_tree_view_1_1_loading_window_1a110dff13fa6abcb416152b621339e7c5" kind="function"><name>LoadingWindow</name></member>
+    <member refid="class_google_drive_tree_view_1_1_loading_window_1ab828fd7a850354f8e9ce2cd4eba6596f" kind="function"><name>Connect</name></member>
+    <member refid="class_google_drive_tree_view_1_1_loading_window_1ab828fd7a850354f8e9ce2cd4eba6596f" kind="function"><name>Connect</name></member>
+    <member refid="class_google_drive_tree_view_1_1_loading_window_1ab828fd7a850354f8e9ce2cd4eba6596f" kind="function"><name>Connect</name></member>
+  </compound>
+  <compound refid="class_google_drive_tree_view_1_1_login_page" kind="class"><name>GoogleDriveTreeView::LoginPage</name>
+    <member refid="class_google_drive_tree_view_1_1_login_page_1a815a8df4af282a7dc137ee9e0ea7d8b0" kind="variable"><name>_contentLoaded</name></member>
+    <member refid="class_google_drive_tree_view_1_1_login_page_1ae79d783512e78aa67a6a309339325619" kind="function"><name>InitializeComponent</name></member>
+    <member refid="class_google_drive_tree_view_1_1_login_page_1ae79d783512e78aa67a6a309339325619" kind="function"><name>InitializeComponent</name></member>
+    <member refid="class_google_drive_tree_view_1_1_login_page_1ab34edbf418847c31d66c875837c430a1" kind="function"><name>Connect</name></member>
+    <member refid="class_google_drive_tree_view_1_1_login_page_1ab34edbf418847c31d66c875837c430a1" kind="function"><name>Connect</name></member>
+  </compound>
+  <compound refid="class_google_drive_tree_view_1_1_login_window" kind="class"><name>GoogleDriveTreeView::LoginWindow</name>
+    <member refid="class_google_drive_tree_view_1_1_login_window_1aa4ca0cfae7f001cdbaa2e36c13b55b07" kind="variable"><name>txtUsername</name></member>
+    <member refid="class_google_drive_tree_view_1_1_login_window_1affe7c3119dabf8c4b007005c7583adbb" kind="variable"><name>txtPassword</name></member>
+    <member refid="class_google_drive_tree_view_1_1_login_window_1a4c016f0e1e942b47d0dd838572c9d05c" kind="variable"><name>btnSubmit</name></member>
+    <member refid="class_google_drive_tree_view_1_1_login_window_1a1cbfc82b337d25f335c9775f6d5562e8" kind="variable"><name>_contentLoaded</name></member>
+    <member refid="class_google_drive_tree_view_1_1_login_window_1a87b0630c3dc6f92abefce1988e31a515" kind="variable"><name>usersDb</name></member>
+    <member refid="class_google_drive_tree_view_1_1_login_window_1afcc4e3121a14c9e969db4c03b7053ab2" kind="function"><name>InitializeComponent</name></member>
+    <member refid="class_google_drive_tree_view_1_1_login_window_1afcc4e3121a14c9e969db4c03b7053ab2" kind="function"><name>InitializeComponent</name></member>
+    <member refid="class_google_drive_tree_view_1_1_login_window_1afcc4e3121a14c9e969db4c03b7053ab2" kind="function"><name>InitializeComponent</name></member>
+    <member refid="class_google_drive_tree_view_1_1_login_window_1a4e71a629a07231275c1b18330f2cd8f3" kind="function"><name>LoginWindow</name></member>
+    <member refid="class_google_drive_tree_view_1_1_login_window_1a0701eacb62ab83a096ae97ff241272f0" kind="function"><name>Connect</name></member>
+    <member refid="class_google_drive_tree_view_1_1_login_window_1a0701eacb62ab83a096ae97ff241272f0" kind="function"><name>Connect</name></member>
+    <member refid="class_google_drive_tree_view_1_1_login_window_1a0701eacb62ab83a096ae97ff241272f0" kind="function"><name>Connect</name></member>
+    <member refid="class_google_drive_tree_view_1_1_login_window_1a23ebea10c0513c4c5ae11362a7e4eb4a" kind="function"><name>btnSubmit_Click</name></member>
+  </compound>
+  <compound refid="class_google_drive_tree_view_1_1_main_window" kind="class"><name>GoogleDriveTreeView::MainWindow</name>
+    <member refid="class_google_drive_tree_view_1_1_main_window_1ad2f0a7ed1827cfcb4d79478b009a7336" kind="variable"><name>FolderView</name></member>
+    <member refid="class_google_drive_tree_view_1_1_main_window_1a9716a9558c8faca2e281fced290ea409" kind="variable"><name>MainFrame</name></member>
+    <member refid="class_google_drive_tree_view_1_1_main_window_1a6a373a796c0096ed89e8ef04b57d9363" kind="variable"><name>_contentLoaded</name></member>
+    <member refid="class_google_drive_tree_view_1_1_main_window_1adb4244676ad130f0522ebe2ec3246e97" kind="function"><name>InitializeComponent</name></member>
+    <member refid="class_google_drive_tree_view_1_1_main_window_1adb4244676ad130f0522ebe2ec3246e97" kind="function"><name>InitializeComponent</name></member>
+    <member refid="class_google_drive_tree_view_1_1_main_window_1adb4244676ad130f0522ebe2ec3246e97" kind="function"><name>InitializeComponent</name></member>
+    <member refid="class_google_drive_tree_view_1_1_main_window_1adb4244676ad130f0522ebe2ec3246e97" kind="function"><name>InitializeComponent</name></member>
+    <member refid="class_google_drive_tree_view_1_1_main_window_1adb4244676ad130f0522ebe2ec3246e97" kind="function"><name>InitializeComponent</name></member>
+    <member refid="class_google_drive_tree_view_1_1_main_window_1a67955e6f766e6c8169d3528b617739cf" kind="function"><name>Connect</name></member>
+    <member refid="class_google_drive_tree_view_1_1_main_window_1a67955e6f766e6c8169d3528b617739cf" kind="function"><name>Connect</name></member>
+    <member refid="class_google_drive_tree_view_1_1_main_window_1a67955e6f766e6c8169d3528b617739cf" kind="function"><name>Connect</name></member>
+    <member refid="class_google_drive_tree_view_1_1_main_window_1a67955e6f766e6c8169d3528b617739cf" kind="function"><name>Connect</name></member>
+    <member refid="class_google_drive_tree_view_1_1_main_window_1a67955e6f766e6c8169d3528b617739cf" kind="function"><name>Connect</name></member>
+  </compound>
+  <compound refid="class_google_drive_tree_view_1_1_new_user_window" kind="class"><name>GoogleDriveTreeView::NewUserWindow</name>
+    <member refid="class_google_drive_tree_view_1_1_new_user_window_1adfbc4eb8612dd0d5c664aa0b916d5d2f" kind="variable"><name>txtUsername</name></member>
+    <member refid="class_google_drive_tree_view_1_1_new_user_window_1adf2ceb0ddbac71e795fc20b96ada7f73" kind="variable"><name>txtPassword</name></member>
+    <member refid="class_google_drive_tree_view_1_1_new_user_window_1a5b4b4678b698753c2c6745bc4219968b" kind="variable"><name>txtPasswordConfirm</name></member>
+    <member refid="class_google_drive_tree_view_1_1_new_user_window_1a3f9faf4c6c73f067b03635de1529a24f" kind="variable"><name>btnCancel</name></member>
+    <member refid="class_google_drive_tree_view_1_1_new_user_window_1a899f607d976af3d71a70ef85890b9eea" kind="variable"><name>btnAdd</name></member>
+    <member refid="class_google_drive_tree_view_1_1_new_user_window_1a3d1c17a34fa21f2c9996f3894c62e17c" kind="variable"><name>_contentLoaded</name></member>
+    <member refid="class_google_drive_tree_view_1_1_new_user_window_1a814c1aa6c35d94b5df445c0317ac8ed2" kind="variable"><name>usersDb</name></member>
+    <member refid="class_google_drive_tree_view_1_1_new_user_window_1a93dd399cda6cd57a37ada9f3ef704d64" kind="property"><name>Username</name></member>
+    <member refid="class_google_drive_tree_view_1_1_new_user_window_1aa1b14da342e2ec719c7566dff45922d3" kind="property"><name>Password</name></member>
+    <member refid="class_google_drive_tree_view_1_1_new_user_window_1a407a1908b589a62e2917325f57f112dc" kind="function"><name>InitializeComponent</name></member>
+    <member refid="class_google_drive_tree_view_1_1_new_user_window_1a407a1908b589a62e2917325f57f112dc" kind="function"><name>InitializeComponent</name></member>
+    <member refid="class_google_drive_tree_view_1_1_new_user_window_1ad5641777ad8cabff515c1ea34dc1371c" kind="function"><name>NewUserWindow</name></member>
+    <member refid="class_google_drive_tree_view_1_1_new_user_window_1ae0b8f89efacc92eb62e4e209f97b39ea" kind="function"><name>Connect</name></member>
+    <member refid="class_google_drive_tree_view_1_1_new_user_window_1ae0b8f89efacc92eb62e4e209f97b39ea" kind="function"><name>Connect</name></member>
+    <member refid="class_google_drive_tree_view_1_1_new_user_window_1ab7267b386b7515772bddfe2e4e187e4a" kind="function"><name>btnAdd_Click</name></member>
+  </compound>
+  <compound refid="class_wpf_tree_view_1_1_windows_1_1_login_1_1_page1" kind="class"><name>WpfTreeView::Windows::Login::Page1</name>
+    <member refid="class_wpf_tree_view_1_1_windows_1_1_login_1_1_page1_1ac4686078b97baad1f36f35bd2e3c4653" kind="variable"><name>_contentLoaded</name></member>
+    <member refid="class_wpf_tree_view_1_1_windows_1_1_login_1_1_page1_1a8eb50d6ec2bb8aceffa1524ae3d9e866" kind="function"><name>InitializeComponent</name></member>
+    <member refid="class_wpf_tree_view_1_1_windows_1_1_login_1_1_page1_1a131f035939ec2f934d750ac30e47e510" kind="function"><name>Connect</name></member>
+  </compound>
+  <compound refid="class_google_drive_tree_view_1_1_relay_command" kind="class"><name>GoogleDriveTreeView::RelayCommand</name>
+    <member refid="class_google_drive_tree_view_1_1_relay_command_1a23db77b40fae5a54a5674d3d89a0ee7a" kind="variable"><name>mAction</name></member>
+    <member refid="class_google_drive_tree_view_1_1_relay_command_1aa1de55c184d555edd50dd22b434cdec8" kind="event"><name>CanExecuteChanged</name></member>
+    <member refid="class_google_drive_tree_view_1_1_relay_command_1a1162fdbf4e2d1449e44709d7a246b84f" kind="function"><name>RelayCommand</name></member>
+    <member refid="class_google_drive_tree_view_1_1_relay_command_1a43718dcbe671129789cf46a4d58374ea" kind="function"><name>CanExecute</name></member>
+    <member refid="class_google_drive_tree_view_1_1_relay_command_1ad53414464d249fa6420ef510279485f8" kind="function"><name>Execute</name></member>
+  </compound>
+  <compound refid="class_google_drive_tree_view_1_1_properties_1_1_resources" kind="class"><name>GoogleDriveTreeView::Properties::Resources</name>
+    <member refid="class_google_drive_tree_view_1_1_properties_1_1_resources_1a6902442713d25a519e57ed7708a74bf2" kind="variable"><name>resourceMan</name></member>
+    <member refid="class_google_drive_tree_view_1_1_properties_1_1_resources_1a8c71b7dab7c6fec81297c794ccbbe187" kind="variable"><name>resourceCulture</name></member>
+    <member refid="class_google_drive_tree_view_1_1_properties_1_1_resources_1ac11e010a8f15d32aab9dd31a0ce39885" kind="property"><name>ResourceManager</name></member>
+    <member refid="class_google_drive_tree_view_1_1_properties_1_1_resources_1a72ab522fef22012fbdbcb35fd8c607bd" kind="property"><name>Culture</name></member>
+    <member refid="class_google_drive_tree_view_1_1_properties_1_1_resources_1acb36dd9991f9c780a149b282bf573546" kind="function"><name>Resources</name></member>
+  </compound>
+  <compound refid="class_google_drive_tree_view_1_1_properties_1_1_settings" kind="class"><name>GoogleDriveTreeView::Properties::Settings</name>
+    <member refid="class_google_drive_tree_view_1_1_properties_1_1_settings_1ac13b99d8f164e97a256703d047155b40" kind="variable"><name>defaultInstance</name></member>
+    <member refid="class_google_drive_tree_view_1_1_properties_1_1_settings_1ac873d0157468e2693bce83d0d07460b3" kind="property"><name>Default</name></member>
+  </compound>
+  <compound refid="class_google_drive_tree_view_1_1_user" kind="class"><name>GoogleDriveTreeView::User</name>
+    <member refid="class_google_drive_tree_view_1_1_user_1ab3d87c811138eb53121163801e0354de" kind="property"><name>Username</name></member>
+    <member refid="class_google_drive_tree_view_1_1_user_1ab55a66444955a999517c8d5074b7009b" kind="property"><name>Password</name></member>
+    <member refid="class_google_drive_tree_view_1_1_user_1af9e80fe206f2235f8deba04714739be5" kind="function"><name>User</name></member>
+    <member refid="class_google_drive_tree_view_1_1_user_1a6cd99c7875e55f0afb9c2324ce7a4adb" kind="function"><name>User</name></member>
+  </compound>
+  <compound refid="class_google_drive_tree_view_1_1_users_context" kind="class"><name>GoogleDriveTreeView::UsersContext</name>
+    <member refid="class_google_drive_tree_view_1_1_users_context_1a010160a35841db3528bd8dd633186fee" kind="property"><name>Users</name></member>
+    <member refid="class_google_drive_tree_view_1_1_users_context_1a0597be1be0d10a40cbcadf853d57c407" kind="function"><name>UsersContext</name></member>
+    <member refid="class_google_drive_tree_view_1_1_users_context_1a99617490a1c0969b8ecd01f07148263d" kind="function"><name>ValidCredentials</name></member>
+    <member refid="class_google_drive_tree_view_1_1_users_context_1a75d555c97f8418f1cfec505a220c2a25" kind="function"><name>UserExists</name></member>
+  </compound>
+  <compound refid="class_wpf_tree_view_1_1_database_1_1_users_context" kind="class"><name>WpfTreeView::Database::UsersContext</name>
+    <member refid="class_wpf_tree_view_1_1_database_1_1_users_context_1a5efdb0fafffa2911b5add4e82e7d8adc" kind="variable"><name>_contentLoaded</name></member>
+    <member refid="class_wpf_tree_view_1_1_database_1_1_users_context_1a09a9d54819ad80d4b3f26f2465ff5841" kind="function"><name>InitializeComponent</name></member>
+    <member refid="class_wpf_tree_view_1_1_database_1_1_users_context_1ae251c9b5d0aa764ec2a9f2df6919c299" kind="function"><name>Connect</name></member>
+  </compound>
+  <compound refid="class_google_drive_tree_view_1_1_user_to_visibility_converter" kind="class"><name>GoogleDriveTreeView::UserToVisibilityConverter</name>
+    <member refid="class_google_drive_tree_view_1_1_user_to_visibility_converter_1a54c547b88958c1c74ea25aab0d7146da" kind="variable"><name>Instance</name></member>
+    <member refid="class_google_drive_tree_view_1_1_user_to_visibility_converter_1a589298481aa0748ef3d468d6de1ca8ca" kind="function"><name>Convert</name></member>
+    <member refid="class_google_drive_tree_view_1_1_user_to_visibility_converter_1ac5bb213c6e8c8d5691f02276a1aaf776" kind="function"><name>ConvertBack</name></member>
+  </compound>
+  <compound refid="namespace_google_1_1_apis_1_1_auth_1_1_o_auth2" kind="namespace"><name>Google::Apis::Auth::OAuth2</name>
+  </compound>
+  <compound refid="namespace_google_1_1_apis_1_1_drive_1_1v3" kind="namespace"><name>Google::Apis::Drive::v3</name>
+  </compound>
+  <compound refid="namespace_google_1_1_apis_1_1_drive_1_1v3_1_1_data" kind="namespace"><name>Google::Apis::Drive::v3::Data</name>
+  </compound>
+  <compound refid="namespace_google_1_1_apis_1_1_services" kind="namespace"><name>Google::Apis::Services</name>
+  </compound>
+  <compound refid="namespace_google_1_1_apis_1_1_util_1_1_store" kind="namespace"><name>Google::Apis::Util::Store</name>
+  </compound>
+  <compound refid="namespace_google_drive_tree_view" kind="namespace"><name>GoogleDriveTreeView</name>
+    <member refid="namespace_google_drive_tree_view_1ad4025e498bb65d28f80c31acf9bd970c" kind="enum"><name>DirectoryItemActionType</name></member>
+    <member refid="namespace_google_drive_tree_view_1ad4025e498bb65d28f80c31acf9bd970ca6adf97f83acf6453d4a6a4b1070f3754" kind="enumvalue"><name>None</name></member>
+    <member refid="namespace_google_drive_tree_view_1ad4025e498bb65d28f80c31acf9bd970ca801ab24683a4a8c433c6eb40c48bcd9d" kind="enumvalue"><name>Download</name></member>
+    <member refid="namespace_google_drive_tree_view_1ad4025e498bb65d28f80c31acf9bd970ca91412465ea9169dfd901dd5e7c96dd99" kind="enumvalue"><name>Upload</name></member>
+    <member refid="namespace_google_drive_tree_view_1ad4025e498bb65d28f80c31acf9bd970ca686e697538050e4664636337cc3b834f" kind="enumvalue"><name>Create</name></member>
+    <member refid="namespace_google_drive_tree_view_1ad4025e498bb65d28f80c31acf9bd970caf2a6c498fb90ee345d997f888fce3b18" kind="enumvalue"><name>Delete</name></member>
+    <member refid="namespace_google_drive_tree_view_1a399287f3d1322f33a6f1866571d37c84" kind="enum"><name>DirectoryItemType</name></member>
+    <member refid="namespace_google_drive_tree_view_1a399287f3d1322f33a6f1866571d37c84af2c6151d6c0d99f3666129b97e2100f5" kind="enumvalue"><name>Drive</name></member>
+    <member refid="namespace_google_drive_tree_view_1a399287f3d1322f33a6f1866571d37c84a0b27918290ff5323bea1e3b78a9cf04e" kind="enumvalue"><name>File</name></member>
+    <member refid="namespace_google_drive_tree_view_1a399287f3d1322f33a6f1866571d37c84ab0f2b97dc5d2b76b26e040408bb1d8af" kind="enumvalue"><name>Folder</name></member>
+  </compound>
+  <compound refid="namespace_google_drive_tree_view_1_1_properties" kind="namespace"><name>GoogleDriveTreeView::Properties</name>
+  </compound>
+  <compound refid="namespace_property_changed" kind="namespace"><name>PropertyChanged</name>
+  </compound>
+  <compound refid="namespace_system" kind="namespace"><name>System</name>
+  </compound>
+  <compound refid="namespace_system_1_1_collections_1_1_generic" kind="namespace"><name>System::Collections::Generic</name>
+  </compound>
+  <compound refid="namespace_system_1_1_collections_1_1_object_model" kind="namespace"><name>System::Collections::ObjectModel</name>
+  </compound>
+  <compound refid="namespace_system_1_1_component_model" kind="namespace"><name>System::ComponentModel</name>
+  </compound>
+  <compound refid="namespace_system_1_1_component_model_1_1_data_annotations" kind="namespace"><name>System::ComponentModel::DataAnnotations</name>
+  </compound>
+  <compound refid="namespace_system_1_1_configuration" kind="namespace"><name>System::Configuration</name>
+  </compound>
+  <compound refid="namespace_system_1_1_data" kind="namespace"><name>System::Data</name>
+  </compound>
+  <compound refid="namespace_system_1_1_data_1_1_entity" kind="namespace"><name>System::Data::Entity</name>
+  </compound>
+  <compound refid="namespace_system_1_1_diagnostics" kind="namespace"><name>System::Diagnostics</name>
+  </compound>
+  <compound refid="namespace_system_1_1_globalization" kind="namespace"><name>System::Globalization</name>
+  </compound>
+  <compound refid="namespace_system_1_1_i_o" kind="namespace"><name>System::IO</name>
+  </compound>
+  <compound refid="namespace_system_1_1_linq" kind="namespace"><name>System::Linq</name>
+  </compound>
+  <compound refid="namespace_system_1_1_reflection" kind="namespace"><name>System::Reflection</name>
+  </compound>
+  <compound refid="namespace_system_1_1_resources" kind="namespace"><name>System::Resources</name>
+  </compound>
+  <compound refid="namespace_system_1_1_runtime_1_1_compiler_services" kind="namespace"><name>System::Runtime::CompilerServices</name>
+  </compound>
+  <compound refid="namespace_system_1_1_runtime_1_1_interop_services" kind="namespace"><name>System::Runtime::InteropServices</name>
+  </compound>
+  <compound refid="namespace_system_1_1_text" kind="namespace"><name>System::Text</name>
+  </compound>
+  <compound refid="namespace_system_1_1_threading" kind="namespace"><name>System::Threading</name>
+  </compound>
+  <compound refid="namespace_system_1_1_threading_1_1_tasks" kind="namespace"><name>System::Threading::Tasks</name>
+  </compound>
+  <compound refid="namespace_system_1_1_windows" kind="namespace"><name>System::Windows</name>
+  </compound>
+  <compound refid="namespace_system_1_1_windows_1_1_automation" kind="namespace"><name>System::Windows::Automation</name>
+  </compound>
+  <compound refid="namespace_system_1_1_windows_1_1_controls" kind="namespace"><name>System::Windows::Controls</name>
+  </compound>
+  <compound refid="namespace_system_1_1_windows_1_1_controls_1_1_primitives" kind="namespace"><name>System::Windows::Controls::Primitives</name>
+  </compound>
+  <compound refid="namespace_system_1_1_windows_1_1_data" kind="namespace"><name>System::Windows::Data</name>
+  </compound>
+  <compound refid="namespace_system_1_1_windows_1_1_documents" kind="namespace"><name>System::Windows::Documents</name>
+  </compound>
+  <compound refid="namespace_system_1_1_windows_1_1_forms" kind="namespace"><name>System::Windows::Forms</name>
+  </compound>
+  <compound refid="namespace_system_1_1_windows_1_1_ink" kind="namespace"><name>System::Windows::Ink</name>
+  </compound>
+  <compound refid="namespace_system_1_1_windows_1_1_input" kind="namespace"><name>System::Windows::Input</name>
+  </compound>
+  <compound refid="namespace_system_1_1_windows_1_1_markup" kind="namespace"><name>System::Windows::Markup</name>
+  </compound>
+  <compound refid="namespace_system_1_1_windows_1_1_media" kind="namespace"><name>System::Windows::Media</name>
+  </compound>
+  <compound refid="namespace_system_1_1_windows_1_1_media_1_1_animation" kind="namespace"><name>System::Windows::Media::Animation</name>
+  </compound>
+  <compound refid="namespace_system_1_1_windows_1_1_media_1_1_effects" kind="namespace"><name>System::Windows::Media::Effects</name>
+  </compound>
+  <compound refid="namespace_system_1_1_windows_1_1_media_1_1_imaging" kind="namespace"><name>System::Windows::Media::Imaging</name>
+  </compound>
+  <compound refid="namespace_system_1_1_windows_1_1_media_1_1_media3_d" kind="namespace"><name>System::Windows::Media::Media3D</name>
+  </compound>
+  <compound refid="namespace_system_1_1_windows_1_1_media_1_1_text_formatting" kind="namespace"><name>System::Windows::Media::TextFormatting</name>
+  </compound>
+  <compound refid="namespace_system_1_1_windows_1_1_navigation" kind="namespace"><name>System::Windows::Navigation</name>
+  </compound>
+  <compound refid="namespace_system_1_1_windows_1_1_shapes" kind="namespace"><name>System::Windows::Shapes</name>
+  </compound>
+  <compound refid="namespace_system_1_1_windows_1_1_shell" kind="namespace"><name>System::Windows::Shell</name>
+  </compound>
+  <compound refid="namespace_wpf_tree_view" kind="namespace"><name>WpfTreeView</name>
+  </compound>
+  <compound refid="namespace_wpf_tree_view_1_1_database" kind="namespace"><name>WpfTreeView::Database</name>
+  </compound>
+  <compound refid="namespace_wpf_tree_view_1_1_pages" kind="namespace"><name>WpfTreeView::Pages</name>
+  </compound>
+  <compound refid="namespace_wpf_tree_view_1_1_pages_1_1_drive" kind="namespace"><name>WpfTreeView::Pages::Drive</name>
+  </compound>
+  <compound refid="namespace_wpf_tree_view_1_1_windows" kind="namespace"><name>WpfTreeView::Windows</name>
+  </compound>
+  <compound refid="namespace_wpf_tree_view_1_1_windows_1_1_login" kind="namespace"><name>WpfTreeView::Windows::Login</name>
+  </compound>
+  <compound refid="namespace_xaml_generated_namespace" kind="namespace"><name>XamlGeneratedNamespace</name>
+  </compound>
+  <compound refid="_app_8xaml_8cs" kind="file"><name>App.xaml.cs</name>
+  </compound>
+  <compound refid="_action_type_to_string_converter_8cs" kind="file"><name>ActionTypeToStringConverter.cs</name>
+  </compound>
+  <compound refid="_header_to_image_converter_8cs" kind="file"><name>HeaderToImageConverter.cs</name>
+  </compound>
+  <compound refid="_user_to_visibility_converter_8cs" kind="file"><name>UserToVisibilityConverter.cs</name>
+  </compound>
+  <compound refid="_user_8cs" kind="file"><name>User.cs</name>
+  </compound>
+  <compound refid="_users_context_8cs" kind="file"><name>UsersContext.cs</name>
+  </compound>
+  <compound refid="_contex_menu_item_8cs" kind="file"><name>ContexMenuItem.cs</name>
+  </compound>
+  <compound refid="_directory_item_8cs" kind="file"><name>DirectoryItem.cs</name>
+  </compound>
+  <compound refid="_directory_item_action_type_8cs" kind="file"><name>DirectoryItemActionType.cs</name>
+  </compound>
+  <compound refid="_directory_item_type_8cs" kind="file"><name>DirectoryItemType.cs</name>
+  </compound>
+  <compound refid="_directory_structure_8cs" kind="file"><name>DirectoryStructure.cs</name>
+  </compound>
+  <compound refid="_base_view_model_8cs" kind="file"><name>BaseViewModel.cs</name>
+  </compound>
+  <compound refid="_relay_command_8cs" kind="file"><name>RelayCommand.cs</name>
+  </compound>
+  <compound refid="_directory_item_view_model_8cs" kind="file"><name>DirectoryItemViewModel.cs</name>
+  </compound>
+  <compound refid="_directory_structure_view_model_8cs" kind="file"><name>DirectoryStructureViewModel.cs</name>
+  </compound>
+  <compound refid="_google_drive_a_p_i_8cs" kind="file"><name>GoogleDriveAPI.cs</name>
+  </compound>
+  <compound refid="_debug_2_app_8g_8cs" kind="file"><name>App.g.cs</name>
+  </compound>
+  <compound refid="_release_2_app_8g_8cs" kind="file"><name>App.g.cs</name>
+  </compound>
+  <compound refid="_app_8g_8i_8cs" kind="file"><name>App.g.i.cs</name>
+  </compound>
+  <compound refid="_converters_2_pages_2_drive_2_drive_8g_8i_8cs" kind="file"><name>Drive.g.i.cs</name>
+  </compound>
+  <compound refid="_pages_2_drive_2_drive_8g_8i_8cs" kind="file"><name>Drive.g.i.cs</name>
+  </compound>
+  <compound refid="_users_context_8g_8i_8cs" kind="file"><name>UsersContext.g.i.cs</name>
+  </compound>
+  <compound refid="_drive_window_8g_8i_8cs" kind="file"><name>DriveWindow.g.i.cs</name>
+  </compound>
+  <compound refid="_windows_2_drive_2_drive_window_8g_8i_8cs" kind="file"><name>DriveWindow.g.i.cs</name>
+  </compound>
+  <compound refid="_windows_2_drive_window_8g_8i_8cs" kind="file"><name>DriveWindow.g.i.cs</name>
+  </compound>
+  <compound refid="_generated_internal_type_helper_8g_8i_8cs" kind="file"><name>GeneratedInternalTypeHelper.g.i.cs</name>
+  </compound>
+  <compound refid="_google_drive_tree_view_8csproj_8_file_list_absolute_8txt" kind="file"><name>GoogleDriveTreeView.csproj.FileListAbsolute.txt</name>
+  </compound>
+  <compound refid="_main_window_8g_8i_8cs" kind="file"><name>MainWindow.g.i.cs</name>
+  </compound>
+  <compound refid="_pages_2_main_2_main_window_8g_8i_8cs" kind="file"><name>MainWindow.g.i.cs</name>
+  </compound>
+  <compound refid="_windows_2_drive_2_main_window_8g_8i_8cs" kind="file"><name>MainWindow.g.i.cs</name>
+  </compound>
+  <compound refid="_windows_2_main_2_main_window_8g_8i_8cs" kind="file"><name>MainWindow.g.i.cs</name>
+  </compound>
+  <compound refid="_pages_2_drive_2_drive_page_8g_8i_8cs" kind="file"><name>DrivePage.g.i.cs</name>
+  </compound>
+  <compound refid="_windows_2_drive_2_drive_page_8g_8i_8cs" kind="file"><name>DrivePage.g.i.cs</name>
+  </compound>
+  <compound refid="_pages_2_login_2_login_page_8g_8i_8cs" kind="file"><name>LoginPage.g.i.cs</name>
+  </compound>
+  <compound refid="_windows_2_login_2_login_page_8g_8i_8cs" kind="file"><name>LoginPage.g.i.cs</name>
+  </compound>
+  <compound refid="_debug_2_windows_2_drive_window_8g_8cs" kind="file"><name>DriveWindow.g.cs</name>
+  </compound>
+  <compound refid="_release_2_windows_2_drive_window_8g_8cs" kind="file"><name>DriveWindow.g.cs</name>
+  </compound>
+  <compound refid="_input_window_8g_8cs" kind="file"><name>InputWindow.g.cs</name>
+  </compound>
+  <compound refid="_input_window_8g_8i_8cs" kind="file"><name>InputWindow.g.i.cs</name>
+  </compound>
+  <compound refid="_debug_2_windows_2_loading_window_8g_8cs" kind="file"><name>LoadingWindow.g.cs</name>
+  </compound>
+  <compound refid="_release_2_windows_2_loading_window_8g_8cs" kind="file"><name>LoadingWindow.g.cs</name>
+  </compound>
+  <compound refid="_loading_window_8g_8i_8cs" kind="file"><name>LoadingWindow.g.i.cs</name>
+  </compound>
+  <compound refid="_page1_8g_8i_8cs" kind="file"><name>Page1.g.i.cs</name>
+  </compound>
+  <compound refid="_debug_2_windows_2_login_window_8g_8cs" kind="file"><name>LoginWindow.g.cs</name>
+  </compound>
+  <compound refid="_release_2_windows_2_login_window_8g_8cs" kind="file"><name>LoginWindow.g.cs</name>
+  </compound>
+  <compound refid="_login_window_8g_8i_8cs" kind="file"><name>LoginWindow.g.i.cs</name>
+  </compound>
+  <compound refid="_new_user_window_8g_8cs" kind="file"><name>NewUserWindow.g.cs</name>
+  </compound>
+  <compound refid="_new_user_window_8g_8i_8cs" kind="file"><name>NewUserWindow.g.i.cs</name>
+  </compound>
+  <compound refid="_wpf_tree_view_8csproj_8_file_list_absolute_8txt" kind="file"><name>WpfTreeView.csproj.FileListAbsolute.txt</name>
+  </compound>
+  <compound refid="_wpf_tree_view___content_8g_8i_8cs" kind="file"><name>WpfTreeView_Content.g.i.cs</name>
+  </compound>
+  <compound refid="_main_window_8g_8cs" kind="file"><name>MainWindow.g.cs</name>
+  </compound>
+  <compound refid="_assembly_info_8cs" kind="file"><name>AssemblyInfo.cs</name>
+  </compound>
+  <compound refid="_resources_8_designer_8cs" kind="file"><name>Resources.Designer.cs</name>
+  </compound>
+  <compound refid="_settings_8_designer_8cs" kind="file"><name>Settings.Designer.cs</name>
+  </compound>
+  <compound refid="_drive_window_8xaml_8cs" kind="file"><name>DriveWindow.xaml.cs</name>
+  </compound>
+  <compound refid="_input_window_8xaml_8cs" kind="file"><name>InputWindow.xaml.cs</name>
+  </compound>
+  <compound refid="_loading_window_8xaml_8cs" kind="file"><name>LoadingWindow.xaml.cs</name>
+  </compound>
+  <compound refid="_login_window_8xaml_8cs" kind="file"><name>LoginWindow.xaml.cs</name>
+  </compound>
+  <compound refid="_new_user_window_8xaml_8cs" kind="file"><name>NewUserWindow.xaml.cs</name>
+  </compound>
+  <compound refid="dir_f4b3abed9ac723765745f126ae06e883" kind="dir"><name>C:/Users/Kuba/source/repos/GoogleDriveTreeView/GoogleDriveTreeView/Directory/ViewModels/Base</name>
+  </compound>
+  <compound refid="dir_a22cadd63ef7468872bd0054247767f4" kind="dir"><name>C:/Users/Kuba/source/repos/GoogleDriveTreeView/GoogleDriveTreeView/obj/Debug/Converters</name>
+  </compound>
+  <compound refid="dir_4a777046281798eda211c8e688a39fc5" kind="dir"><name>C:/Users/Kuba/source/repos/GoogleDriveTreeView/GoogleDriveTreeView/Converters</name>
+  </compound>
+  <compound refid="dir_e2995f0d6cec6092c5f1c0322bb841e8" kind="dir"><name>C:/Users/Kuba/source/repos/GoogleDriveTreeView/GoogleDriveTreeView/Directory/Data</name>
+  </compound>
+  <compound refid="dir_2b332a88e6c1d58db31efa9c84088914" kind="dir"><name>C:/Users/Kuba/source/repos/GoogleDriveTreeView/GoogleDriveTreeView/Database</name>
+  </compound>
+  <compound refid="dir_8cf66eec0c337c4734102a1eb4e6f243" kind="dir"><name>C:/Users/Kuba/source/repos/GoogleDriveTreeView/GoogleDriveTreeView/obj/Debug/Database</name>
+  </compound>
+  <compound refid="dir_7038c13f09b5dceda4161973de9987a2" kind="dir"><name>C:/Users/Kuba/source/repos/GoogleDriveTreeView/GoogleDriveTreeView/obj/Debug</name>
+  </compound>
+  <compound refid="dir_47a37862a1373b00c4f73aa8aadc779d" kind="dir"><name>C:/Users/Kuba/source/repos/GoogleDriveTreeView/GoogleDriveTreeView/Directory</name>
+  </compound>
+  <compound refid="dir_94edb9dce74b1bfb6e99b28283964216" kind="dir"><name>C:/Users/Kuba/source/repos/GoogleDriveTreeView/GoogleDriveTreeView/obj/Debug/Converters/Pages/Drive</name>
+  </compound>
+  <compound refid="dir_1df293b8ab97c1c1a69c7b56fb61b7d4" kind="dir"><name>C:/Users/Kuba/source/repos/GoogleDriveTreeView/GoogleDriveTreeView/obj/Debug/Pages/Drive</name>
+  </compound>
+  <compound refid="dir_cffddf5f892e478aa9f43fbe1d8db2f0" kind="dir"><name>C:/Users/Kuba/source/repos/GoogleDriveTreeView/GoogleDriveTreeView/obj/Debug/Windows/Drive</name>
+  </compound>
+  <compound refid="dir_5a4ce3d701ceac9525925076447bf731" kind="dir"><name>C:/Users/Kuba/source/repos/GoogleDriveTreeView</name>
+  </compound>
+  <compound refid="dir_2b3cb43d5d6639375f312c9c7b2addf2" kind="dir"><name>C:/Users/Kuba/source/repos/GoogleDriveTreeView/GoogleDriveTreeView</name>
+  </compound>
+  <compound refid="dir_de04431a6a17747a5845002f2e122e50" kind="dir"><name>C:/Users/Kuba</name>
+  </compound>
+  <compound refid="dir_f9cd76660575e13fc63d8bbfec4500b8" kind="dir"><name>C:/Users/Kuba/source/repos/GoogleDriveTreeView/GoogleDriveTreeView/obj/Debug/Windows/Login</name>
+  </compound>
+  <compound refid="dir_a7fac78149fd78f201e4fc4606581e71" kind="dir"><name>C:/Users/Kuba/source/repos/GoogleDriveTreeView/GoogleDriveTreeView/obj/Debug/Pages/Login</name>
+  </compound>
+  <compound refid="dir_5357a7a75955f50e42deec7917019ac4" kind="dir"><name>C:/Users/Kuba/source/repos/GoogleDriveTreeView/GoogleDriveTreeView/obj/Debug/Pages/Main</name>
+  </compound>
+  <compound refid="dir_5dda6d47873a140649f517906f8cb128" kind="dir"><name>C:/Users/Kuba/source/repos/GoogleDriveTreeView/GoogleDriveTreeView/obj/Debug/Windows/Main</name>
+  </compound>
+  <compound refid="dir_4a49423ea2605944fe968df6461f3a3b" kind="dir"><name>C:/Users/Kuba/source/repos/GoogleDriveTreeView/GoogleDriveTreeView/obj</name>
+  </compound>
+  <compound refid="dir_a0ccfcfb56f6d8b78302b441c6948d30" kind="dir"><name>C:/Users/Kuba/source/repos/GoogleDriveTreeView/GoogleDriveTreeView/obj/Debug/Converters/Pages</name>
+  </compound>
+  <compound refid="dir_86fd7722169b192a9a1aad5006cf413d" kind="dir"><name>C:/Users/Kuba/source/repos/GoogleDriveTreeView/GoogleDriveTreeView/obj/Debug/Pages</name>
+  </compound>
+  <compound refid="dir_afcff79b7480da750bf73659ce67de67" kind="dir"><name>C:/Users/Kuba/source/repos/GoogleDriveTreeView/GoogleDriveTreeView/Properties</name>
+  </compound>
+  <compound refid="dir_6d20f47bf442f9197b76a16e8e96a427" kind="dir"><name>C:/Users/Kuba/source/repos/GoogleDriveTreeView/GoogleDriveTreeView/obj/Release</name>
+  </compound>
+  <compound refid="dir_37ee3b520232899ed8a4556bff601f15" kind="dir"><name>C:/Users/Kuba/source/repos</name>
+  </compound>
+  <compound refid="dir_15ecc25ffa7666720804ccd83fce0fca" kind="dir"><name>C:/Users/Kuba/source</name>
+  </compound>
+  <compound refid="dir_d522931ffa1371640980b621734a4381" kind="dir"><name>C:/Users</name>
+  </compound>
+  <compound refid="dir_b3f57a27f8e9db776d20caed50de115a" kind="dir"><name>C:/Users/Kuba/source/repos/GoogleDriveTreeView/GoogleDriveTreeView/Directory/ViewModels</name>
+  </compound>
+  <compound refid="dir_2188252cbfb390e4da13303ce2e5ab9e" kind="dir"><name>C:/Users/Kuba/source/repos/GoogleDriveTreeView/GoogleDriveTreeView/obj/Debug/Windows</name>
+  </compound>
+  <compound refid="dir_c146bb75ac908e9e3ca41fbc943548b6" kind="dir"><name>C:/Users/Kuba/source/repos/GoogleDriveTreeView/GoogleDriveTreeView/obj/Release/Windows</name>
+  </compound>
+  <compound refid="dir_6e3dcb3474ec04558c24c4800e9213e6" kind="dir"><name>C:/Users/Kuba/source/repos/GoogleDriveTreeView/GoogleDriveTreeView/Windows</name>
+  </compound>
+</doxygenindex>

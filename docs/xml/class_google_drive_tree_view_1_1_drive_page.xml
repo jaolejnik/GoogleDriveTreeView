@@ -1,0 +1,142 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.18">
+  <compounddef id="class_google_drive_tree_view_1_1_drive_page" kind="class" language="C#" prot="public">
+    <compoundname>GoogleDriveTreeView::DrivePage</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">Page</basecompoundref>
+    <basecompoundref prot="public" virt="non-virtual">IComponentConnector</basecompoundref>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_google_drive_tree_view_1_1_drive_page_1ad46fe0a43f5e13c756ee34236d34aee6" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool GoogleDriveTreeView.DrivePage::_contentLoaded</definition>
+        <argsstring></argsstring>
+        <name>_contentLoaded</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Kuba/source/repos/GoogleDriveTreeView/GoogleDriveTreeView/obj/Debug/Pages/Drive/DrivePage.g.i.cs" line="43" column="22" bodyfile="C:/Users/Kuba/source/repos/GoogleDriveTreeView/GoogleDriveTreeView/obj/Debug/Pages/Drive/DrivePage.g.i.cs" bodystart="43" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_google_drive_tree_view_1_1_drive_page_1aaa6cb8f907507f843d73b6a6c1b19c3b" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void GoogleDriveTreeView.DrivePage.InitializeComponent</definition>
+        <argsstring>()</argsstring>
+        <name>InitializeComponent</name>
+        <briefdescription>
+<para>InitializeComponent </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Kuba/source/repos/GoogleDriveTreeView/GoogleDriveTreeView/obj/Debug/Pages/Drive/DrivePage.g.i.cs" line="50" column="21" bodyfile="C:/Users/Kuba/source/repos/GoogleDriveTreeView/GoogleDriveTreeView/obj/Debug/Pages/Drive/DrivePage.g.i.cs" bodystart="50" bodyend="62"/>
+      </memberdef>
+      <memberdef kind="function" id="class_google_drive_tree_view_1_1_drive_page_1aaa6cb8f907507f843d73b6a6c1b19c3b" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void GoogleDriveTreeView.DrivePage.InitializeComponent</definition>
+        <argsstring>()</argsstring>
+        <name>InitializeComponent</name>
+        <briefdescription>
+<para>InitializeComponent </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Kuba/source/repos/GoogleDriveTreeView/GoogleDriveTreeView/obj/Debug/Windows/Drive/DrivePage.g.i.cs" line="50" column="21" bodyfile="C:/Users/Kuba/source/repos/GoogleDriveTreeView/GoogleDriveTreeView/obj/Debug/Windows/Drive/DrivePage.g.i.cs" bodystart="50" bodyend="62"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_google_drive_tree_view_1_1_drive_page_1ab1d031419f61cbb469594181a896cfe5" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void System.Windows.Markup.IComponentConnector.</type>
+        <definition>void System.Windows.Markup.IComponentConnector. GoogleDriveTreeView.DrivePage.Connect</definition>
+        <argsstring>(int connectionId, object target)</argsstring>
+        <name>Connect</name>
+        <param>
+          <type>int</type>
+          <declname>connectionId</declname>
+        </param>
+        <param>
+          <type>object</type>
+          <declname>target</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Kuba/source/repos/GoogleDriveTreeView/GoogleDriveTreeView/obj/Debug/Pages/Drive/DrivePage.g.i.cs" line="70" column="52" bodyfile="C:/Users/Kuba/source/repos/GoogleDriveTreeView/GoogleDriveTreeView/obj/Debug/Pages/Drive/DrivePage.g.i.cs" bodystart="70" bodyend="72"/>
+      </memberdef>
+      <memberdef kind="function" id="class_google_drive_tree_view_1_1_drive_page_1ab1d031419f61cbb469594181a896cfe5" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void System.Windows.Markup.IComponentConnector.</type>
+        <definition>void System.Windows.Markup.IComponentConnector. GoogleDriveTreeView.DrivePage.Connect</definition>
+        <argsstring>(int connectionId, object target)</argsstring>
+        <name>Connect</name>
+        <param>
+          <type>int</type>
+          <declname>connectionId</declname>
+        </param>
+        <param>
+          <type>object</type>
+          <declname>target</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Kuba/source/repos/GoogleDriveTreeView/GoogleDriveTreeView/obj/Debug/Windows/Drive/DrivePage.g.i.cs" line="70" column="52" bodyfile="C:/Users/Kuba/source/repos/GoogleDriveTreeView/GoogleDriveTreeView/obj/Debug/Windows/Drive/DrivePage.g.i.cs" bodystart="70" bodyend="72"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para><ref refid="class_google_drive_tree_view_1_1_drive_page" kindref="compound">DrivePage</ref> </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>GoogleDriveTreeView.DrivePage</label>
+        <link refid="class_google_drive_tree_view_1_1_drive_page"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>System::Windows::Markup::IComponentConnector</label>
+      </node>
+      <node id="2">
+        <label>System::Windows::Controls::Page</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>GoogleDriveTreeView.DrivePage</label>
+        <link refid="class_google_drive_tree_view_1_1_drive_page"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>System::Windows::Markup::IComponentConnector</label>
+      </node>
+      <node id="2">
+        <label>System::Windows::Controls::Page</label>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/Kuba/source/repos/GoogleDriveTreeView/GoogleDriveTreeView/obj/Debug/Pages/Drive/DrivePage.g.i.cs" line="41" column="19" bodyfile="C:/Users/Kuba/source/repos/GoogleDriveTreeView/GoogleDriveTreeView/obj/Debug/Pages/Drive/DrivePage.g.i.cs" bodystart="41" bodyend="73"/>
+    <listofallmembers>
+      <member refid="class_google_drive_tree_view_1_1_drive_page_1ad46fe0a43f5e13c756ee34236d34aee6" prot="private" virt="non-virtual"><scope>GoogleDriveTreeView::DrivePage</scope><name>_contentLoaded</name></member>
+      <member refid="class_google_drive_tree_view_1_1_drive_page_1ab1d031419f61cbb469594181a896cfe5" prot="private" virt="non-virtual"><scope>GoogleDriveTreeView::DrivePage</scope><name>Connect</name></member>
+      <member refid="class_google_drive_tree_view_1_1_drive_page_1ab1d031419f61cbb469594181a896cfe5" prot="private" virt="non-virtual"><scope>GoogleDriveTreeView::DrivePage</scope><name>Connect</name></member>
+      <member refid="class_google_drive_tree_view_1_1_drive_page_1aaa6cb8f907507f843d73b6a6c1b19c3b" prot="public" virt="non-virtual"><scope>GoogleDriveTreeView::DrivePage</scope><name>InitializeComponent</name></member>
+      <member refid="class_google_drive_tree_view_1_1_drive_page_1aaa6cb8f907507f843d73b6a6c1b19c3b" prot="public" virt="non-virtual"><scope>GoogleDriveTreeView::DrivePage</scope><name>InitializeComponent</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

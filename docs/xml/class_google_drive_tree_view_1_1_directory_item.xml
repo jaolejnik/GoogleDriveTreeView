@@ -1,0 +1,131 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.18">
+  <compounddef id="class_google_drive_tree_view_1_1_directory_item" kind="class" language="C#" prot="public">
+    <compoundname>GoogleDriveTreeView::DirectoryItem</compoundname>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="class_google_drive_tree_view_1_1_directory_item_1a393af18e65a0c24e0132a17fa2709401" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>string</type>
+        <definition>string GoogleDriveTreeView.DirectoryItem.Name</definition>
+        <argsstring></argsstring>
+        <name>Name</name>
+        <briefdescription>
+<para>The name of the item </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Kuba/source/repos/GoogleDriveTreeView/GoogleDriveTreeView/Directory/Data/DirectoryItem.cs" line="29" column="23" bodyfile="C:/Users/Kuba/source/repos/GoogleDriveTreeView/GoogleDriveTreeView/Directory/Data/DirectoryItem.cs" bodystart="29" bodyend="29"/>
+      </memberdef>
+      <memberdef kind="property" id="class_google_drive_tree_view_1_1_directory_item_1a247863294038ed831b92486b5e07b7ec" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>DirectoryItemType</type>
+        <definition>DirectoryItemType GoogleDriveTreeView.DirectoryItem.Type</definition>
+        <argsstring></argsstring>
+        <name>Type</name>
+        <briefdescription>
+<para>Type of the item </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Kuba/source/repos/GoogleDriveTreeView/GoogleDriveTreeView/Directory/Data/DirectoryItem.cs" line="34" column="34" bodyfile="C:/Users/Kuba/source/repos/GoogleDriveTreeView/GoogleDriveTreeView/Directory/Data/DirectoryItem.cs" bodystart="34" bodyend="34"/>
+      </memberdef>
+      <memberdef kind="property" id="class_google_drive_tree_view_1_1_directory_item_1a370d9d56e028c4430c090948d520176b" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>string</type>
+        <definition>string GoogleDriveTreeView.DirectoryItem.Id</definition>
+        <argsstring></argsstring>
+        <name>Id</name>
+        <briefdescription>
+<para>The id of the item </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Kuba/source/repos/GoogleDriveTreeView/GoogleDriveTreeView/Directory/Data/DirectoryItem.cs" line="39" column="23" bodyfile="C:/Users/Kuba/source/repos/GoogleDriveTreeView/GoogleDriveTreeView/Directory/Data/DirectoryItem.cs" bodystart="39" bodyend="39"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_google_drive_tree_view_1_1_directory_item_1a4d3b7fc31d5657c98fbe476a1a4c2a52" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>GoogleDriveTreeView.DirectoryItem.DirectoryItem</definition>
+        <argsstring>()</argsstring>
+        <name>DirectoryItem</name>
+        <briefdescription>
+<para>Default constructor </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Kuba/source/repos/GoogleDriveTreeView/GoogleDriveTreeView/Directory/Data/DirectoryItem.cs" line="11" column="16" bodyfile="C:/Users/Kuba/source/repos/GoogleDriveTreeView/GoogleDriveTreeView/Directory/Data/DirectoryItem.cs" bodystart="11" bodyend="11"/>
+      </memberdef>
+      <memberdef kind="function" id="class_google_drive_tree_view_1_1_directory_item_1af178335d1a5f88512cde5cf9bab1a4da" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>GoogleDriveTreeView.DirectoryItem.DirectoryItem</definition>
+        <argsstring>(string name, string id, DirectoryItemType type)</argsstring>
+        <name>DirectoryItem</name>
+        <param>
+          <type>string</type>
+          <declname>name</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>id</declname>
+        </param>
+        <param>
+          <type>DirectoryItemType</type>
+          <declname>type</declname>
+        </param>
+        <briefdescription>
+<para>Constructor with essential arguments </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>name</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The name of the item</para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>id</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The id of the item</para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>type</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The type of the item</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Kuba/source/repos/GoogleDriveTreeView/GoogleDriveTreeView/Directory/Data/DirectoryItem.cs" line="19" column="16" bodyfile="C:/Users/Kuba/source/repos/GoogleDriveTreeView/GoogleDriveTreeView/Directory/Data/DirectoryItem.cs" bodystart="19" bodyend="24"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>Helper class to help classify if item is a drive, a file or a folder </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Users/Kuba/source/repos/GoogleDriveTreeView/GoogleDriveTreeView/Directory/Data/DirectoryItem.cs" line="6" column="11" bodyfile="C:/Users/Kuba/source/repos/GoogleDriveTreeView/GoogleDriveTreeView/Directory/Data/DirectoryItem.cs" bodystart="7" bodyend="40"/>
+    <listofallmembers>
+      <member refid="class_google_drive_tree_view_1_1_directory_item_1a4d3b7fc31d5657c98fbe476a1a4c2a52" prot="public" virt="non-virtual"><scope>GoogleDriveTreeView::DirectoryItem</scope><name>DirectoryItem</name></member>
+      <member refid="class_google_drive_tree_view_1_1_directory_item_1af178335d1a5f88512cde5cf9bab1a4da" prot="public" virt="non-virtual"><scope>GoogleDriveTreeView::DirectoryItem</scope><name>DirectoryItem</name></member>
+      <member refid="class_google_drive_tree_view_1_1_directory_item_1a370d9d56e028c4430c090948d520176b" prot="public" virt="non-virtual"><scope>GoogleDriveTreeView::DirectoryItem</scope><name>Id</name></member>
+      <member refid="class_google_drive_tree_view_1_1_directory_item_1a393af18e65a0c24e0132a17fa2709401" prot="public" virt="non-virtual"><scope>GoogleDriveTreeView::DirectoryItem</scope><name>Name</name></member>
+      <member refid="class_google_drive_tree_view_1_1_directory_item_1a247863294038ed831b92486b5e07b7ec" prot="public" virt="non-virtual"><scope>GoogleDriveTreeView::DirectoryItem</scope><name>Type</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

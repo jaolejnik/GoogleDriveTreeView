@@ -1,0 +1,112 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.18">
+  <compounddef id="class_google_drive_tree_view_1_1_directory_structure_view_model" kind="class" language="C#" prot="public">
+    <compoundname>GoogleDriveTreeView::DirectoryStructureViewModel</compoundname>
+    <basecompoundref refid="class_google_drive_tree_view_1_1_base_view_model" prot="public" virt="non-virtual">GoogleDriveTreeView.BaseViewModel</basecompoundref>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="class_google_drive_tree_view_1_1_directory_structure_view_model_1a138c4fc471e33b789dcb2ad4cfadfc7c" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>ObservableCollection&lt; <ref refid="class_google_drive_tree_view_1_1_directory_item_view_model" kindref="compound">DirectoryItemViewModel</ref> &gt;</type>
+        <definition>ObservableCollection&lt;DirectoryItemViewModel&gt; GoogleDriveTreeView.DirectoryStructureViewModel.Items</definition>
+        <argsstring></argsstring>
+        <name>Items</name>
+        <briefdescription>
+<para>Default constructor </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Kuba/source/repos/GoogleDriveTreeView/GoogleDriveTreeView/Directory/ViewModels/DirectoryStructureViewModel.cs" line="16" column="37" bodyfile="C:/Users/Kuba/source/repos/GoogleDriveTreeView/GoogleDriveTreeView/Directory/ViewModels/DirectoryStructureViewModel.cs" bodystart="16" bodyend="16"/>
+      </memberdef>
+      <memberdef kind="property" id="class_google_drive_tree_view_1_1_directory_structure_view_model_1a75e30568ec766b6da0d978387cceaec8" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>string</type>
+        <definition>string GoogleDriveTreeView.DirectoryStructureViewModel.CurrentUser</definition>
+        <argsstring></argsstring>
+        <name>CurrentUser</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Kuba/source/repos/GoogleDriveTreeView/GoogleDriveTreeView/Directory/ViewModels/DirectoryStructureViewModel.cs" line="30" column="23" bodyfile="C:/Users/Kuba/source/repos/GoogleDriveTreeView/GoogleDriveTreeView/Directory/ViewModels/DirectoryStructureViewModel.cs" bodystart="30" bodyend="30"/>
+      </memberdef>
+      <memberdef kind="property" id="class_google_drive_tree_view_1_1_directory_structure_view_model_1a2690767de645f6d4ce02f4e67e9a1a89" prot="public" static="yes" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>ObservableCollection&lt; DirectoryItemActionType &gt;</type>
+        <definition>ObservableCollection&lt;DirectoryItemActionType&gt; GoogleDriveTreeView.DirectoryStructureViewModel.ActionType</definition>
+        <argsstring></argsstring>
+        <name>ActionType</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Kuba/source/repos/GoogleDriveTreeView/GoogleDriveTreeView/Directory/ViewModels/DirectoryStructureViewModel.cs" line="32" column="44" bodyfile="C:/Users/Kuba/source/repos/GoogleDriveTreeView/GoogleDriveTreeView/Directory/ViewModels/DirectoryStructureViewModel.cs" bodystart="32" bodyend="32"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_google_drive_tree_view_1_1_directory_structure_view_model_1af1d4125427253bc40d0d9ca8ff920ed3" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>GoogleDriveTreeView.DirectoryStructureViewModel.DirectoryStructureViewModel</definition>
+        <argsstring>()</argsstring>
+        <name>DirectoryStructureViewModel</name>
+        <briefdescription>
+<para>A list of all directories on the drive </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Kuba/source/repos/GoogleDriveTreeView/GoogleDriveTreeView/Directory/ViewModels/DirectoryStructureViewModel.cs" line="21" column="16" bodyfile="C:/Users/Kuba/source/repos/GoogleDriveTreeView/GoogleDriveTreeView/Directory/ViewModels/DirectoryStructureViewModel.cs" bodystart="21" bodyend="28"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>The view model for the main directory structure view </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>BaseViewModel</label>
+        <link refid="class_google_drive_tree_view_1_1_base_view_model"/>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>INotifyPropertyChanged</label>
+      </node>
+      <node id="1">
+        <label>GoogleDriveTreeView.DirectoryStructureViewModel</label>
+        <link refid="class_google_drive_tree_view_1_1_directory_structure_view_model"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2">
+        <label>BaseViewModel</label>
+        <link refid="class_google_drive_tree_view_1_1_base_view_model"/>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>INotifyPropertyChanged</label>
+      </node>
+      <node id="1">
+        <label>GoogleDriveTreeView.DirectoryStructureViewModel</label>
+        <link refid="class_google_drive_tree_view_1_1_directory_structure_view_model"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/Kuba/source/repos/GoogleDriveTreeView/GoogleDriveTreeView/Directory/ViewModels/DirectoryStructureViewModel.cs" line="11" column="11" bodyfile="C:/Users/Kuba/source/repos/GoogleDriveTreeView/GoogleDriveTreeView/Directory/ViewModels/DirectoryStructureViewModel.cs" bodystart="12" bodyend="36"/>
+    <listofallmembers>
+      <member refid="class_google_drive_tree_view_1_1_directory_structure_view_model_1a2690767de645f6d4ce02f4e67e9a1a89" prot="public" virt="non-virtual"><scope>GoogleDriveTreeView::DirectoryStructureViewModel</scope><name>ActionType</name></member>
+      <member refid="class_google_drive_tree_view_1_1_directory_structure_view_model_1a75e30568ec766b6da0d978387cceaec8" prot="public" virt="non-virtual"><scope>GoogleDriveTreeView::DirectoryStructureViewModel</scope><name>CurrentUser</name></member>
+      <member refid="class_google_drive_tree_view_1_1_directory_structure_view_model_1af1d4125427253bc40d0d9ca8ff920ed3" prot="public" virt="non-virtual"><scope>GoogleDriveTreeView::DirectoryStructureViewModel</scope><name>DirectoryStructureViewModel</name></member>
+      <member refid="class_google_drive_tree_view_1_1_directory_structure_view_model_1a138c4fc471e33b789dcb2ad4cfadfc7c" prot="public" virt="non-virtual"><scope>GoogleDriveTreeView::DirectoryStructureViewModel</scope><name>Items</name></member>
+      <member refid="class_google_drive_tree_view_1_1_base_view_model_1a2677a7cd981cc8f27f8f7f8bd6ef9189" prot="public" virt="non-virtual"><scope>GoogleDriveTreeView::DirectoryStructureViewModel</scope><name>PropertyChanged</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

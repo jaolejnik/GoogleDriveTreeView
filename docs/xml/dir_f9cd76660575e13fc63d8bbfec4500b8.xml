@@ -1,0 +1,13 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.18">
+  <compounddef id="dir_f9cd76660575e13fc63d8bbfec4500b8" kind="dir">
+    <compoundname>C:/Users/Kuba/source/repos/GoogleDriveTreeView/GoogleDriveTreeView/obj/Debug/Windows/Login</compoundname>
+    <innerfile refid="_windows_2_login_2_login_page_8g_8i_8cs">LoginPage.g.i.cs</innerfile>
+    <innerfile refid="_page1_8g_8i_8cs">Page1.g.i.cs</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Users/Kuba/source/repos/GoogleDriveTreeView/GoogleDriveTreeView/obj/Debug/Windows/Login/"/>
+  </compounddef>
+</doxygen>

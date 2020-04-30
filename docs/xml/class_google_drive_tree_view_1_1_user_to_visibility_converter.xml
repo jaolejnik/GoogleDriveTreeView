@@ -1,0 +1,118 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.18">
+  <compounddef id="class_google_drive_tree_view_1_1_user_to_visibility_converter" kind="class" language="C#" prot="public">
+    <compoundname>GoogleDriveTreeView::UserToVisibilityConverter</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">IValueConverter</basecompoundref>
+      <sectiondef kind="public-static-attrib">
+      <memberdef kind="variable" id="class_google_drive_tree_view_1_1_user_to_visibility_converter_1a54c547b88958c1c74ea25aab0d7146da" prot="public" static="yes" mutable="no">
+        <type><ref refid="class_google_drive_tree_view_1_1_user_to_visibility_converter" kindref="compound">UserToVisibilityConverter</ref></type>
+        <definition>UserToVisibilityConverter GoogleDriveTreeView.UserToVisibilityConverter.Instance</definition>
+        <argsstring></argsstring>
+        <name>Instance</name>
+        <initializer>= new <ref refid="class_google_drive_tree_view_1_1_user_to_visibility_converter" kindref="compound">UserToVisibilityConverter</ref>()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Kuba/source/repos/GoogleDriveTreeView/GoogleDriveTreeView/Converters/UserToVisibilityConverter.cs" line="11" column="49" bodyfile="C:/Users/Kuba/source/repos/GoogleDriveTreeView/GoogleDriveTreeView/Converters/UserToVisibilityConverter.cs" bodystart="11" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_google_drive_tree_view_1_1_user_to_visibility_converter_1a589298481aa0748ef3d468d6de1ca8ca" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>object</type>
+        <definition>object GoogleDriveTreeView.UserToVisibilityConverter.Convert</definition>
+        <argsstring>(object value, Type targetType, object parameter, CultureInfo culture)</argsstring>
+        <name>Convert</name>
+        <param>
+          <type>object</type>
+          <declname>value</declname>
+        </param>
+        <param>
+          <type>Type</type>
+          <declname>targetType</declname>
+        </param>
+        <param>
+          <type>object</type>
+          <declname>parameter</declname>
+        </param>
+        <param>
+          <type>CultureInfo</type>
+          <declname>culture</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Kuba/source/repos/GoogleDriveTreeView/GoogleDriveTreeView/Converters/UserToVisibilityConverter.cs" line="13" column="23" bodyfile="C:/Users/Kuba/source/repos/GoogleDriveTreeView/GoogleDriveTreeView/Converters/UserToVisibilityConverter.cs" bodystart="13" bodyend="19"/>
+      </memberdef>
+      <memberdef kind="function" id="class_google_drive_tree_view_1_1_user_to_visibility_converter_1ac5bb213c6e8c8d5691f02276a1aaf776" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>object</type>
+        <definition>object GoogleDriveTreeView.UserToVisibilityConverter.ConvertBack</definition>
+        <argsstring>(object value, Type targetType, object parameter, CultureInfo culture)</argsstring>
+        <name>ConvertBack</name>
+        <param>
+          <type>object</type>
+          <declname>value</declname>
+        </param>
+        <param>
+          <type>Type</type>
+          <declname>targetType</declname>
+        </param>
+        <param>
+          <type>object</type>
+          <declname>parameter</declname>
+        </param>
+        <param>
+          <type>CultureInfo</type>
+          <declname>culture</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Kuba/source/repos/GoogleDriveTreeView/GoogleDriveTreeView/Converters/UserToVisibilityConverter.cs" line="21" column="23" bodyfile="C:/Users/Kuba/source/repos/GoogleDriveTreeView/GoogleDriveTreeView/Converters/UserToVisibilityConverter.cs" bodystart="21" bodyend="24"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>GoogleDriveTreeView.UserToVisibilityConverter</label>
+        <link refid="class_google_drive_tree_view_1_1_user_to_visibility_converter"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>IValueConverter</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>GoogleDriveTreeView.UserToVisibilityConverter</label>
+        <link refid="class_google_drive_tree_view_1_1_user_to_visibility_converter"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+        <childnode refid="1" relation="usage">
+          <edgelabel>Instance</edgelabel>
+        </childnode>
+      </node>
+      <node id="2">
+        <label>IValueConverter</label>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/Kuba/source/repos/GoogleDriveTreeView/GoogleDriveTreeView/Converters/UserToVisibilityConverter.cs" line="9" column="11" bodyfile="C:/Users/Kuba/source/repos/GoogleDriveTreeView/GoogleDriveTreeView/Converters/UserToVisibilityConverter.cs" bodystart="10" bodyend="25"/>
+    <listofallmembers>
+      <member refid="class_google_drive_tree_view_1_1_user_to_visibility_converter_1a589298481aa0748ef3d468d6de1ca8ca" prot="public" virt="non-virtual"><scope>GoogleDriveTreeView::UserToVisibilityConverter</scope><name>Convert</name></member>
+      <member refid="class_google_drive_tree_view_1_1_user_to_visibility_converter_1ac5bb213c6e8c8d5691f02276a1aaf776" prot="public" virt="non-virtual"><scope>GoogleDriveTreeView::UserToVisibilityConverter</scope><name>ConvertBack</name></member>
+      <member refid="class_google_drive_tree_view_1_1_user_to_visibility_converter_1a54c547b88958c1c74ea25aab0d7146da" prot="public" virt="non-virtual"><scope>GoogleDriveTreeView::UserToVisibilityConverter</scope><name>Instance</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

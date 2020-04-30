@@ -1,0 +1,354 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.18">
+  <compounddef id="class_google_drive_tree_view_1_1_google_drive_a_p_i" kind="class" language="C#" prot="public">
+    <compoundname>GoogleDriveTreeView::GoogleDriveAPI</compoundname>
+      <sectiondef kind="private-static-attrib">
+      <memberdef kind="variable" id="class_google_drive_tree_view_1_1_google_drive_a_p_i_1ae1e26a7e849cabb0f03324ae5b7d131d" prot="private" static="yes" mutable="no">
+        <type>DriveService</type>
+        <definition>DriveService GoogleDriveTreeView.GoogleDriveAPI.service</definition>
+        <argsstring></argsstring>
+        <name>service</name>
+        <initializer>= initService()</initializer>
+        <briefdescription>
+<para>Service field that let&apos;s the app to send requests. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Kuba/source/repos/GoogleDriveTreeView/GoogleDriveTreeView/GoogleDriveAPI.cs" line="60" column="24" bodyfile="C:/Users/Kuba/source/repos/GoogleDriveTreeView/GoogleDriveTreeView/GoogleDriveAPI.cs" bodystart="60" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="class_google_drive_tree_view_1_1_google_drive_a_p_i_1a8eb04ad7bddede8e1187c70e620d5b21" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>DriveService</type>
+        <definition>static DriveService GoogleDriveTreeView.GoogleDriveAPI.initService</definition>
+        <argsstring>()</argsstring>
+        <name>initService</name>
+        <briefdescription>
+<para>Inits API service. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para></para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Kuba/source/repos/GoogleDriveTreeView/GoogleDriveTreeView/GoogleDriveAPI.cs" line="23" column="36" bodyfile="C:/Users/Kuba/source/repos/GoogleDriveTreeView/GoogleDriveTreeView/GoogleDriveAPI.cs" bodystart="23" bodyend="55"/>
+      </memberdef>
+      <memberdef kind="function" id="class_google_drive_tree_view_1_1_google_drive_a_p_i_1a346dfbd1dd5b5c5f0eb0181bd5e1854f" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>Google.Apis.Drive.v3.Data.File</type>
+        <definition>static Google.Apis.Drive.v3.Data.File GoogleDriveTreeView.GoogleDriveAPI.GetRootId</definition>
+        <argsstring>()</argsstring>
+        <name>GetRootId</name>
+        <briefdescription>
+<para>Gets the id of the root directory on the drive (My <ref refid="class_google_drive_tree_view_1_1_drive" kindref="compound">Drive</ref>). </para>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para></para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Kuba/source/repos/GoogleDriveTreeView/GoogleDriveTreeView/GoogleDriveAPI.cs" line="66" column="49" bodyfile="C:/Users/Kuba/source/repos/GoogleDriveTreeView/GoogleDriveTreeView/GoogleDriveAPI.cs" bodystart="66" bodyend="71"/>
+      </memberdef>
+      <memberdef kind="function" id="class_google_drive_tree_view_1_1_google_drive_a_p_i_1ad8d8ab3d4a9763aa504e3f6ead4c9a84" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>FileList</type>
+        <definition>static FileList GoogleDriveTreeView.GoogleDriveAPI.GetDirectories</definition>
+        <argsstring>(string parentId)</argsstring>
+        <name>GetDirectories</name>
+        <param>
+          <type>string</type>
+          <declname>parentId</declname>
+        </param>
+        <briefdescription>
+<para>Gets directories in the parent directory of given id. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>parentId</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The id of the parent directory.</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para></para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Kuba/source/repos/GoogleDriveTreeView/GoogleDriveTreeView/GoogleDriveAPI.cs" line="78" column="32" bodyfile="C:/Users/Kuba/source/repos/GoogleDriveTreeView/GoogleDriveTreeView/GoogleDriveAPI.cs" bodystart="78" bodyend="84"/>
+      </memberdef>
+      <memberdef kind="function" id="class_google_drive_tree_view_1_1_google_drive_a_p_i_1a2e58920dc8542078fab9c8e05b58105a" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>FileList</type>
+        <definition>static FileList GoogleDriveTreeView.GoogleDriveAPI.GetFiles</definition>
+        <argsstring>(string parentId)</argsstring>
+        <name>GetFiles</name>
+        <param>
+          <type>string</type>
+          <declname>parentId</declname>
+        </param>
+        <briefdescription>
+<para>Gets files in the parent directory of given id. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>parentId</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The id of the parent directory.</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para></para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Kuba/source/repos/GoogleDriveTreeView/GoogleDriveTreeView/GoogleDriveAPI.cs" line="91" column="32" bodyfile="C:/Users/Kuba/source/repos/GoogleDriveTreeView/GoogleDriveTreeView/GoogleDriveAPI.cs" bodystart="91" bodyend="97"/>
+      </memberdef>
+      <memberdef kind="function" id="class_google_drive_tree_view_1_1_google_drive_a_p_i_1aa547f63b63286eb3c9de3141027bd22f" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void GoogleDriveTreeView.GoogleDriveAPI.DownloadFile</definition>
+        <argsstring>(string fileId, string fileName, string savePath)</argsstring>
+        <name>DownloadFile</name>
+        <param>
+          <type>string</type>
+          <declname>fileId</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>fileName</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>savePath</declname>
+        </param>
+        <briefdescription>
+<para>Downloads the file </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>fileId</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The id of the file</para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>fileName</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The name of the file</para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>savePath</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The path where to save the file</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Kuba/source/repos/GoogleDriveTreeView/GoogleDriveTreeView/GoogleDriveAPI.cs" line="105" column="28" bodyfile="C:/Users/Kuba/source/repos/GoogleDriveTreeView/GoogleDriveTreeView/GoogleDriveAPI.cs" bodystart="105" bodyend="115"/>
+      </memberdef>
+      <memberdef kind="function" id="class_google_drive_tree_view_1_1_google_drive_a_p_i_1a01ce0acdb5e11c7280843f2d9d88c78f" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void GoogleDriveTreeView.GoogleDriveAPI.DownloadDirectory</definition>
+        <argsstring>(string dirId, string dirName, string savePath)</argsstring>
+        <name>DownloadDirectory</name>
+        <param>
+          <type>string</type>
+          <declname>dirId</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>dirName</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>savePath</declname>
+        </param>
+        <briefdescription>
+<para>Downloads the whole directory and it&apos;s content. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>dirId</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The id of the driectory</para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>dirName</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The name of the directory</para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>savePath</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The path where to save the directory</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Kuba/source/repos/GoogleDriveTreeView/GoogleDriveTreeView/GoogleDriveAPI.cs" line="123" column="28" bodyfile="C:/Users/Kuba/source/repos/GoogleDriveTreeView/GoogleDriveTreeView/GoogleDriveAPI.cs" bodystart="123" bodyend="142"/>
+      </memberdef>
+      <memberdef kind="function" id="class_google_drive_tree_view_1_1_google_drive_a_p_i_1a2d7b1c7ff17792001545527a74ccab84" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void GoogleDriveTreeView.GoogleDriveAPI.Delete</definition>
+        <argsstring>(string itemId)</argsstring>
+        <name>Delete</name>
+        <param>
+          <type>string</type>
+          <declname>itemId</declname>
+        </param>
+        <briefdescription>
+<para>Deletes the item with the given id. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>itemId</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The id of the item to delete</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Kuba/source/repos/GoogleDriveTreeView/GoogleDriveTreeView/GoogleDriveAPI.cs" line="148" column="28" bodyfile="C:/Users/Kuba/source/repos/GoogleDriveTreeView/GoogleDriveTreeView/GoogleDriveAPI.cs" bodystart="148" bodyend="151"/>
+      </memberdef>
+      <memberdef kind="function" id="class_google_drive_tree_view_1_1_google_drive_a_p_i_1acde5c4dd66dd8be804575d6e389fd270" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void GoogleDriveTreeView.GoogleDriveAPI.CreateDirectory</definition>
+        <argsstring>(string dirName, string parentId)</argsstring>
+        <name>CreateDirectory</name>
+        <param>
+          <type>string</type>
+          <declname>dirName</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>parentId</declname>
+        </param>
+        <briefdescription>
+<para>Creates a new directory on the drive </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Kuba/source/repos/GoogleDriveTreeView/GoogleDriveTreeView/GoogleDriveAPI.cs" line="156" column="28" bodyfile="C:/Users/Kuba/source/repos/GoogleDriveTreeView/GoogleDriveTreeView/GoogleDriveAPI.cs" bodystart="156" bodyend="169"/>
+      </memberdef>
+      <memberdef kind="function" id="class_google_drive_tree_view_1_1_google_drive_a_p_i_1acb7d3e6c9d7f3975cc6afb2cb785a9e7" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void GoogleDriveTreeView.GoogleDriveAPI.UploadFile</definition>
+        <argsstring>(string filePath, string parentId)</argsstring>
+        <name>UploadFile</name>
+        <param>
+          <type>string</type>
+          <declname>filePath</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>parentId</declname>
+        </param>
+        <briefdescription>
+<para>Uploads a new file to the drive </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Kuba/source/repos/GoogleDriveTreeView/GoogleDriveTreeView/GoogleDriveAPI.cs" line="174" column="28" bodyfile="C:/Users/Kuba/source/repos/GoogleDriveTreeView/GoogleDriveTreeView/GoogleDriveAPI.cs" bodystart="174" bodyend="190"/>
+      </memberdef>
+      <memberdef kind="function" id="class_google_drive_tree_view_1_1_google_drive_a_p_i_1af3be78ae353d58cd71a027f92c0430b9" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void GoogleDriveTreeView.GoogleDriveAPI.Rename</definition>
+        <argsstring>(string newName, string itemId)</argsstring>
+        <name>Rename</name>
+        <param>
+          <type>string</type>
+          <declname>newName</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>itemId</declname>
+        </param>
+        <briefdescription>
+<para>Renames a file with the given id </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>newName</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The new name</para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>itemId</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The id of the item</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Kuba/source/repos/GoogleDriveTreeView/GoogleDriveTreeView/GoogleDriveAPI.cs" line="197" column="28" bodyfile="C:/Users/Kuba/source/repos/GoogleDriveTreeView/GoogleDriveTreeView/GoogleDriveAPI.cs" bodystart="197" bodyend="203"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>Class for better API usage. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Users/Kuba/source/repos/GoogleDriveTreeView/GoogleDriveTreeView/GoogleDriveAPI.cs" line="17" column="19" bodyfile="C:/Users/Kuba/source/repos/GoogleDriveTreeView/GoogleDriveTreeView/GoogleDriveAPI.cs" bodystart="18" bodyend="204"/>
+    <listofallmembers>
+      <member refid="class_google_drive_tree_view_1_1_google_drive_a_p_i_1acde5c4dd66dd8be804575d6e389fd270" prot="public" virt="non-virtual"><scope>GoogleDriveTreeView::GoogleDriveAPI</scope><name>CreateDirectory</name></member>
+      <member refid="class_google_drive_tree_view_1_1_google_drive_a_p_i_1a2d7b1c7ff17792001545527a74ccab84" prot="public" virt="non-virtual"><scope>GoogleDriveTreeView::GoogleDriveAPI</scope><name>Delete</name></member>
+      <member refid="class_google_drive_tree_view_1_1_google_drive_a_p_i_1a01ce0acdb5e11c7280843f2d9d88c78f" prot="public" virt="non-virtual"><scope>GoogleDriveTreeView::GoogleDriveAPI</scope><name>DownloadDirectory</name></member>
+      <member refid="class_google_drive_tree_view_1_1_google_drive_a_p_i_1aa547f63b63286eb3c9de3141027bd22f" prot="public" virt="non-virtual"><scope>GoogleDriveTreeView::GoogleDriveAPI</scope><name>DownloadFile</name></member>
+      <member refid="class_google_drive_tree_view_1_1_google_drive_a_p_i_1ad8d8ab3d4a9763aa504e3f6ead4c9a84" prot="public" virt="non-virtual"><scope>GoogleDriveTreeView::GoogleDriveAPI</scope><name>GetDirectories</name></member>
+      <member refid="class_google_drive_tree_view_1_1_google_drive_a_p_i_1a2e58920dc8542078fab9c8e05b58105a" prot="public" virt="non-virtual"><scope>GoogleDriveTreeView::GoogleDriveAPI</scope><name>GetFiles</name></member>
+      <member refid="class_google_drive_tree_view_1_1_google_drive_a_p_i_1a346dfbd1dd5b5c5f0eb0181bd5e1854f" prot="public" virt="non-virtual"><scope>GoogleDriveTreeView::GoogleDriveAPI</scope><name>GetRootId</name></member>
+      <member refid="class_google_drive_tree_view_1_1_google_drive_a_p_i_1a8eb04ad7bddede8e1187c70e620d5b21" prot="public" virt="non-virtual"><scope>GoogleDriveTreeView::GoogleDriveAPI</scope><name>initService</name></member>
+      <member refid="class_google_drive_tree_view_1_1_google_drive_a_p_i_1af3be78ae353d58cd71a027f92c0430b9" prot="public" virt="non-virtual"><scope>GoogleDriveTreeView::GoogleDriveAPI</scope><name>Rename</name></member>
+      <member refid="class_google_drive_tree_view_1_1_google_drive_a_p_i_1ae1e26a7e849cabb0f03324ae5b7d131d" prot="private" virt="non-virtual"><scope>GoogleDriveTreeView::GoogleDriveAPI</scope><name>service</name></member>
+      <member refid="class_google_drive_tree_view_1_1_google_drive_a_p_i_1acb7d3e6c9d7f3975cc6afb2cb785a9e7" prot="public" virt="non-virtual"><scope>GoogleDriveTreeView::GoogleDriveAPI</scope><name>UploadFile</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

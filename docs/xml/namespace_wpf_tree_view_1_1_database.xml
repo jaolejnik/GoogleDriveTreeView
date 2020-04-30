@@ -1,0 +1,12 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.18">
+  <compounddef id="namespace_wpf_tree_view_1_1_database" kind="namespace" language="C#">
+    <compoundname>WpfTreeView::Database</compoundname>
+    <innerclass refid="class_wpf_tree_view_1_1_database_1_1_users_context" prot="public">WpfTreeView::Database::UsersContext</innerclass>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Users/Kuba/source/repos/GoogleDriveTreeView/GoogleDriveTreeView/obj/Debug/Database/UsersContext.g.i.cs" line="35" column="1"/>
+  </compounddef>
+</doxygen>

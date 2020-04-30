@@ -1,0 +1,67 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.18">
+  <compounddef id="class_google_drive_tree_view_1_1_properties_1_1_settings" kind="class" language="C#" prot="package">
+    <compoundname>GoogleDriveTreeView::Properties::Settings</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">ApplicationSettingsBase</basecompoundref>
+      <sectiondef kind="private-static-attrib">
+      <memberdef kind="variable" id="class_google_drive_tree_view_1_1_properties_1_1_settings_1ac13b99d8f164e97a256703d047155b40" prot="private" static="yes" mutable="no">
+        <type>Settings</type>
+        <definition>Settings GoogleDriveTreeView.Properties.Settings.defaultInstance</definition>
+        <argsstring></argsstring>
+        <name>defaultInstance</name>
+        <initializer>= ((Settings)(global::System.Configuration.ApplicationSettingsBase.Synchronized(new Settings())))</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Kuba/source/repos/GoogleDriveTreeView/GoogleDriveTreeView/Properties/Settings.Designer.cs" line="18" column="33" bodyfile="C:/Users/Kuba/source/repos/GoogleDriveTreeView/GoogleDriveTreeView/Properties/Settings.Designer.cs" bodystart="18" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="class_google_drive_tree_view_1_1_properties_1_1_settings_1ac873d0157468e2693bce83d0d07460b3" prot="public" static="yes" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>Settings</type>
+        <definition>Settings GoogleDriveTreeView.Properties.Settings.Default</definition>
+        <argsstring></argsstring>
+        <name>Default</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Kuba/source/repos/GoogleDriveTreeView/GoogleDriveTreeView/Properties/Settings.Designer.cs" line="20" column="32" bodyfile="C:/Users/Kuba/source/repos/GoogleDriveTreeView/GoogleDriveTreeView/Properties/Settings.Designer.cs" bodystart="20" bodyend="24"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>GoogleDriveTreeView.Properties.Settings</label>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>global::SystemConfiguration::ApplicationSettingsBase</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>GoogleDriveTreeView.Properties.Settings</label>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>global::SystemConfiguration::ApplicationSettingsBase</label>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/Kuba/source/repos/GoogleDriveTreeView/GoogleDriveTreeView/Properties/Settings.Designer.cs" line="16" column="28" bodyfile="C:/Users/Kuba/source/repos/GoogleDriveTreeView/GoogleDriveTreeView/Properties/Settings.Designer.cs" bodystart="16" bodyend="25"/>
+    <listofallmembers>
+      <member refid="class_google_drive_tree_view_1_1_properties_1_1_settings_1ac873d0157468e2693bce83d0d07460b3" prot="public" virt="non-virtual"><scope>GoogleDriveTreeView::Properties::Settings</scope><name>Default</name></member>
+      <member refid="class_google_drive_tree_view_1_1_properties_1_1_settings_1ac13b99d8f164e97a256703d047155b40" prot="private" virt="non-virtual"><scope>GoogleDriveTreeView::Properties::Settings</scope><name>defaultInstance</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,118 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.18">
+  <compounddef id="class_google_drive_tree_view_1_1_header_to_image_converter" kind="class" language="C#" prot="public">
+    <compoundname>GoogleDriveTreeView::HeaderToImageConverter</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">IValueConverter</basecompoundref>
+      <sectiondef kind="public-static-attrib">
+      <memberdef kind="variable" id="class_google_drive_tree_view_1_1_header_to_image_converter_1ab984e70ce3771f1f4b5e045fe96a4dae" prot="public" static="yes" mutable="no">
+        <type><ref refid="class_google_drive_tree_view_1_1_header_to_image_converter" kindref="compound">HeaderToImageConverter</ref></type>
+        <definition>HeaderToImageConverter GoogleDriveTreeView.HeaderToImageConverter.Instance</definition>
+        <argsstring></argsstring>
+        <name>Instance</name>
+        <initializer>= new <ref refid="class_google_drive_tree_view_1_1_header_to_image_converter" kindref="compound">HeaderToImageConverter</ref>()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Kuba/source/repos/GoogleDriveTreeView/GoogleDriveTreeView/Converters/HeaderToImageConverter.cs" line="12" column="46" bodyfile="C:/Users/Kuba/source/repos/GoogleDriveTreeView/GoogleDriveTreeView/Converters/HeaderToImageConverter.cs" bodystart="12" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_google_drive_tree_view_1_1_header_to_image_converter_1af452e0fd018a45cdbe5991ac0ae247c8" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>object</type>
+        <definition>object GoogleDriveTreeView.HeaderToImageConverter.Convert</definition>
+        <argsstring>(object value, Type targetType, object parameter, CultureInfo culture)</argsstring>
+        <name>Convert</name>
+        <param>
+          <type>object</type>
+          <declname>value</declname>
+        </param>
+        <param>
+          <type>Type</type>
+          <declname>targetType</declname>
+        </param>
+        <param>
+          <type>object</type>
+          <declname>parameter</declname>
+        </param>
+        <param>
+          <type>CultureInfo</type>
+          <declname>culture</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Kuba/source/repos/GoogleDriveTreeView/GoogleDriveTreeView/Converters/HeaderToImageConverter.cs" line="14" column="23" bodyfile="C:/Users/Kuba/source/repos/GoogleDriveTreeView/GoogleDriveTreeView/Converters/HeaderToImageConverter.cs" bodystart="14" bodyend="29"/>
+      </memberdef>
+      <memberdef kind="function" id="class_google_drive_tree_view_1_1_header_to_image_converter_1a281a6c3674ff71418d5b4ad8d10047fb" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>object</type>
+        <definition>object GoogleDriveTreeView.HeaderToImageConverter.ConvertBack</definition>
+        <argsstring>(object value, Type targetType, object parameter, CultureInfo culture)</argsstring>
+        <name>ConvertBack</name>
+        <param>
+          <type>object</type>
+          <declname>value</declname>
+        </param>
+        <param>
+          <type>Type</type>
+          <declname>targetType</declname>
+        </param>
+        <param>
+          <type>object</type>
+          <declname>parameter</declname>
+        </param>
+        <param>
+          <type>CultureInfo</type>
+          <declname>culture</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Kuba/source/repos/GoogleDriveTreeView/GoogleDriveTreeView/Converters/HeaderToImageConverter.cs" line="31" column="23" bodyfile="C:/Users/Kuba/source/repos/GoogleDriveTreeView/GoogleDriveTreeView/Converters/HeaderToImageConverter.cs" bodystart="31" bodyend="34"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>IValueConverter</label>
+      </node>
+      <node id="1">
+        <label>GoogleDriveTreeView.HeaderToImageConverter</label>
+        <link refid="class_google_drive_tree_view_1_1_header_to_image_converter"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2">
+        <label>IValueConverter</label>
+      </node>
+      <node id="1">
+        <label>GoogleDriveTreeView.HeaderToImageConverter</label>
+        <link refid="class_google_drive_tree_view_1_1_header_to_image_converter"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+        <childnode refid="1" relation="usage">
+          <edgelabel>Instance</edgelabel>
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/Kuba/source/repos/GoogleDriveTreeView/GoogleDriveTreeView/Converters/HeaderToImageConverter.cs" line="10" column="11" bodyfile="C:/Users/Kuba/source/repos/GoogleDriveTreeView/GoogleDriveTreeView/Converters/HeaderToImageConverter.cs" bodystart="11" bodyend="35"/>
+    <listofallmembers>
+      <member refid="class_google_drive_tree_view_1_1_header_to_image_converter_1af452e0fd018a45cdbe5991ac0ae247c8" prot="public" virt="non-virtual"><scope>GoogleDriveTreeView::HeaderToImageConverter</scope><name>Convert</name></member>
+      <member refid="class_google_drive_tree_view_1_1_header_to_image_converter_1a281a6c3674ff71418d5b4ad8d10047fb" prot="public" virt="non-virtual"><scope>GoogleDriveTreeView::HeaderToImageConverter</scope><name>ConvertBack</name></member>
+      <member refid="class_google_drive_tree_view_1_1_header_to_image_converter_1ab984e70ce3771f1f4b5e045fe96a4dae" prot="public" virt="non-virtual"><scope>GoogleDriveTreeView::HeaderToImageConverter</scope><name>Instance</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,331 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.18">
+  <compounddef id="class_google_drive_tree_view_1_1_input_window" kind="class" language="C#" prot="public">
+    <compoundname>GoogleDriveTreeView::InputWindow</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">Window</basecompoundref>
+    <basecompoundref prot="public" virt="non-virtual">IComponentConnector</basecompoundref>
+      <sectiondef kind="package-attrib">
+      <memberdef kind="variable" id="class_google_drive_tree_view_1_1_input_window_1ae51ac839c14b943a23f89f85a14e16f2" prot="package" static="no" mutable="no">
+        <type>System.Windows.Controls.Label</type>
+        <definition>System Windows Controls Label GoogleDriveTreeView.InputWindow::lblQuestion</definition>
+        <argsstring></argsstring>
+        <name>lblQuestion</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Kuba/source/repos/GoogleDriveTreeView/GoogleDriveTreeView/obj/Debug/Windows/InputWindow.g.cs" line="45" column="45" bodyfile="C:/Users/Kuba/source/repos/GoogleDriveTreeView/GoogleDriveTreeView/obj/Debug/Windows/InputWindow.g.cs" bodystart="45" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_google_drive_tree_view_1_1_input_window_1a5931c1293bcc96b497b7099f7c331a33" prot="package" static="no" mutable="no">
+        <type>System.Windows.Controls.TextBox</type>
+        <definition>System Windows Controls TextBox GoogleDriveTreeView.InputWindow::txtAnswer</definition>
+        <argsstring></argsstring>
+        <name>txtAnswer</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Kuba/source/repos/GoogleDriveTreeView/GoogleDriveTreeView/obj/Debug/Windows/InputWindow.g.cs" line="53" column="47" bodyfile="C:/Users/Kuba/source/repos/GoogleDriveTreeView/GoogleDriveTreeView/obj/Debug/Windows/InputWindow.g.cs" bodystart="53" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_google_drive_tree_view_1_1_input_window_1a8f6bdb9c566b480c4866717aeb6a5f12" prot="package" static="no" mutable="no">
+        <type>System.Windows.Controls.Button</type>
+        <definition>System Windows Controls Button GoogleDriveTreeView.InputWindow::btnDialogOk</definition>
+        <argsstring></argsstring>
+        <name>btnDialogOk</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Kuba/source/repos/GoogleDriveTreeView/GoogleDriveTreeView/obj/Debug/Windows/InputWindow.g.cs" line="61" column="46" bodyfile="C:/Users/Kuba/source/repos/GoogleDriveTreeView/GoogleDriveTreeView/obj/Debug/Windows/InputWindow.g.cs" bodystart="61" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_google_drive_tree_view_1_1_input_window_1a906214216720df8622c049d34635eaa6" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool GoogleDriveTreeView.InputWindow::_contentLoaded</definition>
+        <argsstring></argsstring>
+        <name>_contentLoaded</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Kuba/source/repos/GoogleDriveTreeView/GoogleDriveTreeView/obj/Debug/Windows/InputWindow.g.cs" line="66" column="22" bodyfile="C:/Users/Kuba/source/repos/GoogleDriveTreeView/GoogleDriveTreeView/obj/Debug/Windows/InputWindow.g.cs" bodystart="66" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="class_google_drive_tree_view_1_1_input_window_1af58cb3389d140ae4df6b3e8a30055ac3" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>string</type>
+        <definition>string GoogleDriveTreeView.InputWindow.Answer</definition>
+        <argsstring></argsstring>
+        <name>Answer</name>
+        <briefdescription>
+<para>The given answer. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Kuba/source/repos/GoogleDriveTreeView/GoogleDriveTreeView/Windows/InputWindow.xaml.cs" line="51" column="15" bodyfile="C:/Users/Kuba/source/repos/GoogleDriveTreeView/GoogleDriveTreeView/Windows/InputWindow.xaml.cs" bodystart="52" bodyend="54"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_google_drive_tree_view_1_1_input_window_1a0eef1d2de5b1e189049f89c33d5bb0d6" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void GoogleDriveTreeView.InputWindow.InitializeComponent</definition>
+        <argsstring>()</argsstring>
+        <name>InitializeComponent</name>
+        <briefdescription>
+<para>InitializeComponent </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Kuba/source/repos/GoogleDriveTreeView/GoogleDriveTreeView/obj/Debug/Windows/InputWindow.g.cs" line="73" column="21" bodyfile="C:/Users/Kuba/source/repos/GoogleDriveTreeView/GoogleDriveTreeView/obj/Debug/Windows/InputWindow.g.cs" bodystart="73" bodyend="85"/>
+      </memberdef>
+      <memberdef kind="function" id="class_google_drive_tree_view_1_1_input_window_1a0eef1d2de5b1e189049f89c33d5bb0d6" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void GoogleDriveTreeView.InputWindow.InitializeComponent</definition>
+        <argsstring>()</argsstring>
+        <name>InitializeComponent</name>
+        <briefdescription>
+<para>InitializeComponent </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Kuba/source/repos/GoogleDriveTreeView/GoogleDriveTreeView/obj/Debug/Windows/InputWindow.g.i.cs" line="73" column="21" bodyfile="C:/Users/Kuba/source/repos/GoogleDriveTreeView/GoogleDriveTreeView/obj/Debug/Windows/InputWindow.g.i.cs" bodystart="73" bodyend="85"/>
+      </memberdef>
+      <memberdef kind="function" id="class_google_drive_tree_view_1_1_input_window_1a2f9157a91d7fe57df3dc001f2e0a74a0" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>GoogleDriveTreeView.InputWindow.InputWindow</definition>
+        <argsstring>(string question, string defaultAnswer=&quot;&quot;)</argsstring>
+        <name>InputWindow</name>
+        <param>
+          <type>string</type>
+          <declname>question</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>defaultAnswer</declname>
+          <defval>&quot;&quot;</defval>
+        </param>
+        <briefdescription>
+<para>Defualt constructor. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>question</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The question to be displayed.</para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>defaultAnswer</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The defualt answer that will be returned if no input was given</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Kuba/source/repos/GoogleDriveTreeView/GoogleDriveTreeView/Windows/InputWindow.xaml.cs" line="17" column="8" bodyfile="C:/Users/Kuba/source/repos/GoogleDriveTreeView/GoogleDriveTreeView/Windows/InputWindow.xaml.cs" bodystart="17" bodyend="22"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_google_drive_tree_view_1_1_input_window_1a3b00f73b2eede5b42deb5e3f25c04858" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void System.Windows.Markup.IComponentConnector.</type>
+        <definition>void System.Windows.Markup.IComponentConnector. GoogleDriveTreeView.InputWindow.Connect</definition>
+        <argsstring>(int connectionId, object target)</argsstring>
+        <name>Connect</name>
+        <param>
+          <type>int</type>
+          <declname>connectionId</declname>
+        </param>
+        <param>
+          <type>object</type>
+          <declname>target</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Kuba/source/repos/GoogleDriveTreeView/GoogleDriveTreeView/obj/Debug/Windows/InputWindow.g.cs" line="93" column="52" bodyfile="C:/Users/Kuba/source/repos/GoogleDriveTreeView/GoogleDriveTreeView/obj/Debug/Windows/InputWindow.g.cs" bodystart="93" bodyend="121"/>
+      </memberdef>
+      <memberdef kind="function" id="class_google_drive_tree_view_1_1_input_window_1a3b00f73b2eede5b42deb5e3f25c04858" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void System.Windows.Markup.IComponentConnector.</type>
+        <definition>void System.Windows.Markup.IComponentConnector. GoogleDriveTreeView.InputWindow.Connect</definition>
+        <argsstring>(int connectionId, object target)</argsstring>
+        <name>Connect</name>
+        <param>
+          <type>int</type>
+          <declname>connectionId</declname>
+        </param>
+        <param>
+          <type>object</type>
+          <declname>target</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Kuba/source/repos/GoogleDriveTreeView/GoogleDriveTreeView/obj/Debug/Windows/InputWindow.g.i.cs" line="93" column="52" bodyfile="C:/Users/Kuba/source/repos/GoogleDriveTreeView/GoogleDriveTreeView/obj/Debug/Windows/InputWindow.g.i.cs" bodystart="93" bodyend="121"/>
+      </memberdef>
+      <memberdef kind="function" id="class_google_drive_tree_view_1_1_input_window_1ac56fdca3552389557dba790f553f507b" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void GoogleDriveTreeView.InputWindow.btnDialogOk_Click</definition>
+        <argsstring>(object sender, RoutedEventArgs e)</argsstring>
+        <name>btnDialogOk_Click</name>
+        <param>
+          <type>object</type>
+          <declname>sender</declname>
+        </param>
+        <param>
+          <type>RoutedEventArgs</type>
+          <declname>e</declname>
+        </param>
+        <briefdescription>
+<para>Click action handler. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>sender</parametername>
+</parameternamelist>
+<parameterdescription>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>e</parametername>
+</parameternamelist>
+<parameterdescription>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Kuba/source/repos/GoogleDriveTreeView/GoogleDriveTreeView/Windows/InputWindow.xaml.cs" line="29" column="14" bodyfile="C:/Users/Kuba/source/repos/GoogleDriveTreeView/GoogleDriveTreeView/Windows/InputWindow.xaml.cs" bodystart="29" bodyend="35"/>
+      </memberdef>
+      <memberdef kind="function" id="class_google_drive_tree_view_1_1_input_window_1a66ef8af192a376b2b433814ec3fedc09" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void GoogleDriveTreeView.InputWindow.Window_ContentRendered</definition>
+        <argsstring>(object sender, EventArgs e)</argsstring>
+        <name>Window_ContentRendered</name>
+        <param>
+          <type>object</type>
+          <declname>sender</declname>
+        </param>
+        <param>
+          <type>EventArgs</type>
+          <declname>e</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>sender</parametername>
+</parameternamelist>
+<parameterdescription>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>e</parametername>
+</parameternamelist>
+<parameterdescription>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Kuba/source/repos/GoogleDriveTreeView/GoogleDriveTreeView/Windows/InputWindow.xaml.cs" line="42" column="14" bodyfile="C:/Users/Kuba/source/repos/GoogleDriveTreeView/GoogleDriveTreeView/Windows/InputWindow.xaml.cs" bodystart="42" bodyend="46"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para><ref refid="class_google_drive_tree_view_1_1_input_window" kindref="compound">InputWindow</ref> </para>
+    </briefdescription>
+    <detaileddescription>
+<para>Interaction logic for InputWindow.xaml. A custom window with input field.</para>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>System::Windows::Window</label>
+      </node>
+      <node id="1">
+        <label>GoogleDriveTreeView.InputWindow</label>
+        <link refid="class_google_drive_tree_view_1_1_input_window"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>System::Windows::Markup::IComponentConnector</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2">
+        <label>System::Windows::Window</label>
+      </node>
+      <node id="1">
+        <label>GoogleDriveTreeView.InputWindow</label>
+        <link refid="class_google_drive_tree_view_1_1_input_window"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+        <childnode refid="4" relation="usage">
+          <edgelabel>btnDialogOk</edgelabel>
+          <edgelabel>lblQuestion</edgelabel>
+          <edgelabel>txtAnswer</edgelabel>
+        </childnode>
+      </node>
+      <node id="4">
+        <label>System</label>
+      </node>
+      <node id="3">
+        <label>System::Windows::Markup::IComponentConnector</label>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/Kuba/source/repos/GoogleDriveTreeView/GoogleDriveTreeView/obj/Debug/Windows/InputWindow.g.cs" line="40" column="19" bodyfile="C:/Users/Kuba/source/repos/GoogleDriveTreeView/GoogleDriveTreeView/obj/Debug/Windows/InputWindow.g.cs" bodystart="40" bodyend="122"/>
+    <listofallmembers>
+      <member refid="class_google_drive_tree_view_1_1_input_window_1a906214216720df8622c049d34635eaa6" prot="private" virt="non-virtual"><scope>GoogleDriveTreeView::InputWindow</scope><name>_contentLoaded</name></member>
+      <member refid="class_google_drive_tree_view_1_1_input_window_1af58cb3389d140ae4df6b3e8a30055ac3" prot="public" virt="non-virtual"><scope>GoogleDriveTreeView::InputWindow</scope><name>Answer</name></member>
+      <member refid="class_google_drive_tree_view_1_1_input_window_1a8f6bdb9c566b480c4866717aeb6a5f12" prot="package" virt="non-virtual"><scope>GoogleDriveTreeView::InputWindow</scope><name>btnDialogOk</name></member>
+      <member refid="class_google_drive_tree_view_1_1_input_window_1ac56fdca3552389557dba790f553f507b" prot="private" virt="non-virtual"><scope>GoogleDriveTreeView::InputWindow</scope><name>btnDialogOk_Click</name></member>
+      <member refid="class_google_drive_tree_view_1_1_input_window_1a3b00f73b2eede5b42deb5e3f25c04858" prot="private" virt="non-virtual"><scope>GoogleDriveTreeView::InputWindow</scope><name>Connect</name></member>
+      <member refid="class_google_drive_tree_view_1_1_input_window_1a3b00f73b2eede5b42deb5e3f25c04858" prot="private" virt="non-virtual"><scope>GoogleDriveTreeView::InputWindow</scope><name>Connect</name></member>
+      <member refid="class_google_drive_tree_view_1_1_input_window_1a0eef1d2de5b1e189049f89c33d5bb0d6" prot="public" virt="non-virtual"><scope>GoogleDriveTreeView::InputWindow</scope><name>InitializeComponent</name></member>
+      <member refid="class_google_drive_tree_view_1_1_input_window_1a0eef1d2de5b1e189049f89c33d5bb0d6" prot="public" virt="non-virtual"><scope>GoogleDriveTreeView::InputWindow</scope><name>InitializeComponent</name></member>
+      <member refid="class_google_drive_tree_view_1_1_input_window_1a2f9157a91d7fe57df3dc001f2e0a74a0" prot="public" virt="non-virtual"><scope>GoogleDriveTreeView::InputWindow</scope><name>InputWindow</name></member>
+      <member refid="class_google_drive_tree_view_1_1_input_window_1ae51ac839c14b943a23f89f85a14e16f2" prot="package" virt="non-virtual"><scope>GoogleDriveTreeView::InputWindow</scope><name>lblQuestion</name></member>
+      <member refid="class_google_drive_tree_view_1_1_input_window_1a5931c1293bcc96b497b7099f7c331a33" prot="package" virt="non-virtual"><scope>GoogleDriveTreeView::InputWindow</scope><name>txtAnswer</name></member>
+      <member refid="class_google_drive_tree_view_1_1_input_window_1a66ef8af192a376b2b433814ec3fedc09" prot="private" virt="non-virtual"><scope>GoogleDriveTreeView::InputWindow</scope><name>Window_ContentRendered</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

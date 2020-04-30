@@ -1,0 +1,68 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.18">
+  <compounddef id="class_google_drive_tree_view_1_1_base_view_model" kind="class" language="C#" prot="public">
+    <compoundname>GoogleDriveTreeView::BaseViewModel</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">INotifyPropertyChanged</basecompoundref>
+    <derivedcompoundref refid="class_google_drive_tree_view_1_1_directory_item_view_model" prot="public" virt="non-virtual">GoogleDriveTreeView.DirectoryItemViewModel</derivedcompoundref>
+    <derivedcompoundref refid="class_google_drive_tree_view_1_1_directory_structure_view_model" prot="public" virt="non-virtual">GoogleDriveTreeView.DirectoryStructureViewModel</derivedcompoundref>
+      <sectiondef kind="event">
+      <memberdef kind="event" id="class_google_drive_tree_view_1_1_base_view_model_1a2677a7cd981cc8f27f8f7f8bd6ef9189" prot="public" static="no" add="no" remove="no" raise="no">
+        <type>PropertyChangedEventHandler</type>
+        <definition>PropertyChangedEventHandler GoogleDriveTreeView.BaseViewModel.PropertyChanged</definition>
+        <argsstring></argsstring>
+        <name>PropertyChanged</name>
+        <initializer>= (sender, e) =&gt; { }</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Kuba/source/repos/GoogleDriveTreeView/GoogleDriveTreeView/Directory/ViewModels/Base/BaseViewModel.cs" line="12" column="50" bodyfile="C:/Users/Kuba/source/repos/GoogleDriveTreeView/GoogleDriveTreeView/Directory/ViewModels/Base/BaseViewModel.cs" bodystart="12" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>A base view model that tracks and fires event when property is changed </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>INotifyPropertyChanged</label>
+      </node>
+      <node id="3">
+        <label>GoogleDriveTreeView.DirectoryItemViewModel</label>
+        <link refid="class_google_drive_tree_view_1_1_directory_item_view_model"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="4">
+        <label>GoogleDriveTreeView.DirectoryStructureViewModel</label>
+        <link refid="class_google_drive_tree_view_1_1_directory_structure_view_model"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>GoogleDriveTreeView.BaseViewModel</label>
+        <link refid="class_google_drive_tree_view_1_1_base_view_model"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2">
+        <label>INotifyPropertyChanged</label>
+      </node>
+      <node id="1">
+        <label>GoogleDriveTreeView.BaseViewModel</label>
+        <link refid="class_google_drive_tree_view_1_1_base_view_model"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/Kuba/source/repos/GoogleDriveTreeView/GoogleDriveTreeView/Directory/ViewModels/Base/BaseViewModel.cs" line="10" column="11" bodyfile="C:/Users/Kuba/source/repos/GoogleDriveTreeView/GoogleDriveTreeView/Directory/ViewModels/Base/BaseViewModel.cs" bodystart="11" bodyend="13"/>
+    <listofallmembers>
+      <member refid="class_google_drive_tree_view_1_1_base_view_model_1a2677a7cd981cc8f27f8f7f8bd6ef9189" prot="public" virt="non-virtual"><scope>GoogleDriveTreeView::BaseViewModel</scope><name>PropertyChanged</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

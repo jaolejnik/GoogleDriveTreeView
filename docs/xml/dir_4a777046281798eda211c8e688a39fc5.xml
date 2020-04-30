@@ -1,0 +1,14 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.18">
+  <compounddef id="dir_4a777046281798eda211c8e688a39fc5" kind="dir">
+    <compoundname>C:/Users/Kuba/source/repos/GoogleDriveTreeView/GoogleDriveTreeView/Converters</compoundname>
+    <innerfile refid="_action_type_to_string_converter_8cs">ActionTypeToStringConverter.cs</innerfile>
+    <innerfile refid="_header_to_image_converter_8cs">HeaderToImageConverter.cs</innerfile>
+    <innerfile refid="_user_to_visibility_converter_8cs">UserToVisibilityConverter.cs</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Users/Kuba/source/repos/GoogleDriveTreeView/GoogleDriveTreeView/Converters/"/>
+  </compounddef>
+</doxygen>

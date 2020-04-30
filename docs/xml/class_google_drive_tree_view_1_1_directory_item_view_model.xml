@@ -1,0 +1,368 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.18">
+  <compounddef id="class_google_drive_tree_view_1_1_directory_item_view_model" kind="class" language="C#" prot="public">
+    <compoundname>GoogleDriveTreeView::DirectoryItemViewModel</compoundname>
+    <basecompoundref refid="class_google_drive_tree_view_1_1_base_view_model" prot="public" virt="non-virtual">GoogleDriveTreeView.BaseViewModel</basecompoundref>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="class_google_drive_tree_view_1_1_directory_item_view_model_1aba3f943be49a383f02377439e798ec2c" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>DirectoryItemType</type>
+        <definition>DirectoryItemType GoogleDriveTreeView.DirectoryItemViewModel.Type</definition>
+        <argsstring></argsstring>
+        <name>Type</name>
+        <briefdescription>
+<para>The type of the item </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Kuba/source/repos/GoogleDriveTreeView/GoogleDriveTreeView/Directory/ViewModels/DirectoryItemViewModel.cs" line="74" column="34" bodyfile="C:/Users/Kuba/source/repos/GoogleDriveTreeView/GoogleDriveTreeView/Directory/ViewModels/DirectoryItemViewModel.cs" bodystart="74" bodyend="74"/>
+      </memberdef>
+      <memberdef kind="property" id="class_google_drive_tree_view_1_1_directory_item_view_model_1a8437e63f9f79ef50d1fa1f7082ac589b" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>string</type>
+        <definition>string GoogleDriveTreeView.DirectoryItemViewModel.Id</definition>
+        <argsstring></argsstring>
+        <name>Id</name>
+        <briefdescription>
+<para>The full path of the item </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Kuba/source/repos/GoogleDriveTreeView/GoogleDriveTreeView/Directory/ViewModels/DirectoryItemViewModel.cs" line="79" column="23" bodyfile="C:/Users/Kuba/source/repos/GoogleDriveTreeView/GoogleDriveTreeView/Directory/ViewModels/DirectoryItemViewModel.cs" bodystart="79" bodyend="79"/>
+      </memberdef>
+      <memberdef kind="property" id="class_google_drive_tree_view_1_1_directory_item_view_model_1a19b110c36bcf31b008baf4cbc7349e84" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>string</type>
+        <definition>string GoogleDriveTreeView.DirectoryItemViewModel.Name</definition>
+        <argsstring></argsstring>
+        <name>Name</name>
+        <briefdescription>
+<para>The name of the item </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Kuba/source/repos/GoogleDriveTreeView/GoogleDriveTreeView/Directory/ViewModels/DirectoryItemViewModel.cs" line="84" column="23" bodyfile="C:/Users/Kuba/source/repos/GoogleDriveTreeView/GoogleDriveTreeView/Directory/ViewModels/DirectoryItemViewModel.cs" bodystart="84" bodyend="84"/>
+      </memberdef>
+      <memberdef kind="property" id="class_google_drive_tree_view_1_1_directory_item_view_model_1ad9b9eb937638d97f160f3ed55b97d0a2" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>string</type>
+        <definition>string GoogleDriveTreeView.DirectoryItemViewModel.Extension</definition>
+        <argsstring></argsstring>
+        <name>Extension</name>
+        <briefdescription>
+<para>The extension of the item </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Kuba/source/repos/GoogleDriveTreeView/GoogleDriveTreeView/Directory/ViewModels/DirectoryItemViewModel.cs" line="89" column="23" bodyfile="C:/Users/Kuba/source/repos/GoogleDriveTreeView/GoogleDriveTreeView/Directory/ViewModels/DirectoryItemViewModel.cs" bodystart="89" bodyend="89"/>
+      </memberdef>
+      <memberdef kind="property" id="class_google_drive_tree_view_1_1_directory_item_view_model_1a222ef4eeb31c14a77e382bf4b631eab9" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type><ref refid="class_google_drive_tree_view_1_1_directory_item_view_model" kindref="compound">DirectoryItemViewModel</ref></type>
+        <definition>DirectoryItemViewModel GoogleDriveTreeView.DirectoryItemViewModel.Parent</definition>
+        <argsstring></argsstring>
+        <name>Parent</name>
+        <briefdescription>
+<para>The parent of the item </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Kuba/source/repos/GoogleDriveTreeView/GoogleDriveTreeView/Directory/ViewModels/DirectoryItemViewModel.cs" line="94" column="39" bodyfile="C:/Users/Kuba/source/repos/GoogleDriveTreeView/GoogleDriveTreeView/Directory/ViewModels/DirectoryItemViewModel.cs" bodystart="94" bodyend="94"/>
+      </memberdef>
+      <memberdef kind="property" id="class_google_drive_tree_view_1_1_directory_item_view_model_1ae69e9af79d5d3340b2c1f483799cf2b5" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>ObservableCollection&lt; <ref refid="class_google_drive_tree_view_1_1_directory_item_view_model" kindref="compound">DirectoryItemViewModel</ref> &gt;</type>
+        <definition>ObservableCollection&lt;DirectoryItemViewModel&gt; GoogleDriveTreeView.DirectoryItemViewModel.Children</definition>
+        <argsstring></argsstring>
+        <name>Children</name>
+        <briefdescription>
+<para>A list of item&apos;s children </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Kuba/source/repos/GoogleDriveTreeView/GoogleDriveTreeView/Directory/ViewModels/DirectoryItemViewModel.cs" line="99" column="37" bodyfile="C:/Users/Kuba/source/repos/GoogleDriveTreeView/GoogleDriveTreeView/Directory/ViewModels/DirectoryItemViewModel.cs" bodystart="99" bodyend="99"/>
+      </memberdef>
+      <memberdef kind="property" id="class_google_drive_tree_view_1_1_directory_item_view_model_1a99ccf3409ee306b729d70f9990ceafca" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>List&lt; <ref refid="class_google_drive_tree_view_1_1_context_menu_item" kindref="compound">ContextMenuItem</ref> &gt;</type>
+        <definition>List&lt;ContextMenuItem&gt; GoogleDriveTreeView.DirectoryItemViewModel.ContextMenuItems</definition>
+        <argsstring></argsstring>
+        <name>ContextMenuItems</name>
+        <briefdescription>
+<para>A list of item&apos;s context menu options. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Kuba/source/repos/GoogleDriveTreeView/GoogleDriveTreeView/Directory/ViewModels/DirectoryItemViewModel.cs" line="104" column="21" bodyfile="C:/Users/Kuba/source/repos/GoogleDriveTreeView/GoogleDriveTreeView/Directory/ViewModels/DirectoryItemViewModel.cs" bodystart="104" bodyend="104"/>
+      </memberdef>
+      <memberdef kind="property" id="class_google_drive_tree_view_1_1_directory_item_view_model_1ac828b23e07b86b744f88f64fe2163ee1" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>ICommand</type>
+        <definition>ICommand GoogleDriveTreeView.DirectoryItemViewModel.ExpandCommand</definition>
+        <argsstring></argsstring>
+        <name>ExpandCommand</name>
+        <briefdescription>
+<para>The command to expand the item </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Kuba/source/repos/GoogleDriveTreeView/GoogleDriveTreeView/Directory/ViewModels/DirectoryItemViewModel.cs" line="109" column="25" bodyfile="C:/Users/Kuba/source/repos/GoogleDriveTreeView/GoogleDriveTreeView/Directory/ViewModels/DirectoryItemViewModel.cs" bodystart="109" bodyend="109"/>
+      </memberdef>
+      <memberdef kind="property" id="class_google_drive_tree_view_1_1_directory_item_view_model_1a68baa458da82fe8cbc1cb4612612d129" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>bool</type>
+        <definition>bool GoogleDriveTreeView.DirectoryItemViewModel.CanExpand</definition>
+        <argsstring></argsstring>
+        <name>CanExpand</name>
+        <briefdescription>
+<para>Indicates if the item can be expanded </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Kuba/source/repos/GoogleDriveTreeView/GoogleDriveTreeView/Directory/ViewModels/DirectoryItemViewModel.cs" line="198" column="21" bodyfile="C:/Users/Kuba/source/repos/GoogleDriveTreeView/GoogleDriveTreeView/Directory/ViewModels/DirectoryItemViewModel.cs" bodystart="198" bodyend="198"/>
+      </memberdef>
+      <memberdef kind="property" id="class_google_drive_tree_view_1_1_directory_item_view_model_1a75cff286bf96cf34286d37bd7827e119" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>bool?</type>
+        <definition>bool? GoogleDriveTreeView.DirectoryItemViewModel.IsExpanded</definition>
+        <argsstring></argsstring>
+        <name>IsExpanded</name>
+        <briefdescription>
+<para>Indicates if the item is expanded or not </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Kuba/source/repos/GoogleDriveTreeView/GoogleDriveTreeView/Directory/ViewModels/DirectoryItemViewModel.cs" line="203" column="21" bodyfile="C:/Users/Kuba/source/repos/GoogleDriveTreeView/GoogleDriveTreeView/Directory/ViewModels/DirectoryItemViewModel.cs" bodystart="204" bodyend="217"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_google_drive_tree_view_1_1_directory_item_view_model_1a0b824e60166eb754d80c53bfc1ade78f" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>GoogleDriveTreeView.DirectoryItemViewModel.DirectoryItemViewModel</definition>
+        <argsstring>(DirectoryItemViewModel parent, string name, string id, DirectoryItemType type)</argsstring>
+        <name>DirectoryItemViewModel</name>
+        <param>
+          <type><ref refid="class_google_drive_tree_view_1_1_directory_item_view_model" kindref="compound">DirectoryItemViewModel</ref></type>
+          <declname>parent</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>name</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>id</declname>
+        </param>
+        <param>
+          <type>DirectoryItemType</type>
+          <declname>type</declname>
+        </param>
+        <briefdescription>
+<para>Default constructor </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>name</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The full path of the item</para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>id</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The id of the item</para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>type</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The type of the item</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Kuba/source/repos/GoogleDriveTreeView/GoogleDriveTreeView/Directory/ViewModels/DirectoryItemViewModel.cs" line="22" column="16" bodyfile="C:/Users/Kuba/source/repos/GoogleDriveTreeView/GoogleDriveTreeView/Directory/ViewModels/DirectoryItemViewModel.cs" bodystart="22" bodyend="67"/>
+      </memberdef>
+      <memberdef kind="function" id="class_google_drive_tree_view_1_1_directory_item_view_model_1a9593476cf1e42244cbaf71f9292f58af" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void GoogleDriveTreeView.DirectoryItemViewModel.DownloadItem</definition>
+        <argsstring>()</argsstring>
+        <name>DownloadItem</name>
+        <briefdescription>
+<para>Downloads the item and saves it to the chosen path. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Kuba/source/repos/GoogleDriveTreeView/GoogleDriveTreeView/Directory/ViewModels/DirectoryItemViewModel.cs" line="117" column="21" bodyfile="C:/Users/Kuba/source/repos/GoogleDriveTreeView/GoogleDriveTreeView/Directory/ViewModels/DirectoryItemViewModel.cs" bodystart="117" bodyend="133"/>
+      </memberdef>
+      <memberdef kind="function" id="class_google_drive_tree_view_1_1_directory_item_view_model_1ab8dfd1100e20ba7e8db6f27ec4728f11" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void GoogleDriveTreeView.DirectoryItemViewModel.DeleteItem</definition>
+        <argsstring>()</argsstring>
+        <name>DeleteItem</name>
+        <briefdescription>
+<para>Deletes the item </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Kuba/source/repos/GoogleDriveTreeView/GoogleDriveTreeView/Directory/ViewModels/DirectoryItemViewModel.cs" line="138" column="21" bodyfile="C:/Users/Kuba/source/repos/GoogleDriveTreeView/GoogleDriveTreeView/Directory/ViewModels/DirectoryItemViewModel.cs" bodystart="138" bodyend="143"/>
+      </memberdef>
+      <memberdef kind="function" id="class_google_drive_tree_view_1_1_directory_item_view_model_1a4dcac23ad28bba9ae9356930c81681f7" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void GoogleDriveTreeView.DirectoryItemViewModel.CreateDirectory</definition>
+        <argsstring>()</argsstring>
+        <name>CreateDirectory</name>
+        <briefdescription>
+<para>Creates a new directory inside the item (if it&apos;s a drive or a directory) </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Kuba/source/repos/GoogleDriveTreeView/GoogleDriveTreeView/Directory/ViewModels/DirectoryItemViewModel.cs" line="148" column="21" bodyfile="C:/Users/Kuba/source/repos/GoogleDriveTreeView/GoogleDriveTreeView/Directory/ViewModels/DirectoryItemViewModel.cs" bodystart="148" bodyend="159"/>
+      </memberdef>
+      <memberdef kind="function" id="class_google_drive_tree_view_1_1_directory_item_view_model_1aaba534beee58239d1e68905002eda0c0" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void GoogleDriveTreeView.DirectoryItemViewModel.UploadFile</definition>
+        <argsstring>()</argsstring>
+        <name>UploadFile</name>
+        <briefdescription>
+<para>Uploads a file to the item (if it&apos;s a drive or a directory) </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Kuba/source/repos/GoogleDriveTreeView/GoogleDriveTreeView/Directory/ViewModels/DirectoryItemViewModel.cs" line="164" column="21" bodyfile="C:/Users/Kuba/source/repos/GoogleDriveTreeView/GoogleDriveTreeView/Directory/ViewModels/DirectoryItemViewModel.cs" bodystart="164" bodyend="175"/>
+      </memberdef>
+      <memberdef kind="function" id="class_google_drive_tree_view_1_1_directory_item_view_model_1a541235219d02d5f0575d99dc7248d9e8" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void GoogleDriveTreeView.DirectoryItemViewModel.RenameItem</definition>
+        <argsstring>()</argsstring>
+        <name>RenameItem</name>
+        <briefdescription>
+<para>Renames the item. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Kuba/source/repos/GoogleDriveTreeView/GoogleDriveTreeView/Directory/ViewModels/DirectoryItemViewModel.cs" line="180" column="21" bodyfile="C:/Users/Kuba/source/repos/GoogleDriveTreeView/GoogleDriveTreeView/Directory/ViewModels/DirectoryItemViewModel.cs" bodystart="180" bodyend="189"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_google_drive_tree_view_1_1_directory_item_view_model_1a6d2c730c4a82203b35d2dbcab49be1fb" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void GoogleDriveTreeView.DirectoryItemViewModel.Expand</definition>
+        <argsstring>()</argsstring>
+        <name>Expand</name>
+        <briefdescription>
+<para>Expands the item and collects all children </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Kuba/source/repos/GoogleDriveTreeView/GoogleDriveTreeView/Directory/ViewModels/DirectoryItemViewModel.cs" line="222" column="22" bodyfile="C:/Users/Kuba/source/repos/GoogleDriveTreeView/GoogleDriveTreeView/Directory/ViewModels/DirectoryItemViewModel.cs" bodystart="222" bodyend="231"/>
+      </memberdef>
+      <memberdef kind="function" id="class_google_drive_tree_view_1_1_directory_item_view_model_1a6f4f1a6797f089048924c31a221eeeb8" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void GoogleDriveTreeView.DirectoryItemViewModel.ClearChildren</definition>
+        <argsstring>()</argsstring>
+        <name>ClearChildren</name>
+        <briefdescription>
+<para>Removes all children </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Kuba/source/repos/GoogleDriveTreeView/GoogleDriveTreeView/Directory/ViewModels/DirectoryItemViewModel.cs" line="236" column="22" bodyfile="C:/Users/Kuba/source/repos/GoogleDriveTreeView/GoogleDriveTreeView/Directory/ViewModels/DirectoryItemViewModel.cs" bodystart="236" bodyend="242"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>A view model for every directory item </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>BaseViewModel</label>
+        <link refid="class_google_drive_tree_view_1_1_base_view_model"/>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>INotifyPropertyChanged</label>
+      </node>
+      <node id="1">
+        <label>GoogleDriveTreeView.DirectoryItemViewModel</label>
+        <link refid="class_google_drive_tree_view_1_1_directory_item_view_model"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2">
+        <label>BaseViewModel</label>
+        <link refid="class_google_drive_tree_view_1_1_base_view_model"/>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>INotifyPropertyChanged</label>
+      </node>
+      <node id="1">
+        <label>GoogleDriveTreeView.DirectoryItemViewModel</label>
+        <link refid="class_google_drive_tree_view_1_1_directory_item_view_model"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/Kuba/source/repos/GoogleDriveTreeView/GoogleDriveTreeView/Directory/ViewModels/DirectoryItemViewModel.cs" line="13" column="11" bodyfile="C:/Users/Kuba/source/repos/GoogleDriveTreeView/GoogleDriveTreeView/Directory/ViewModels/DirectoryItemViewModel.cs" bodystart="14" bodyend="245"/>
+    <listofallmembers>
+      <member refid="class_google_drive_tree_view_1_1_directory_item_view_model_1a68baa458da82fe8cbc1cb4612612d129" prot="public" virt="non-virtual"><scope>GoogleDriveTreeView::DirectoryItemViewModel</scope><name>CanExpand</name></member>
+      <member refid="class_google_drive_tree_view_1_1_directory_item_view_model_1ae69e9af79d5d3340b2c1f483799cf2b5" prot="public" virt="non-virtual"><scope>GoogleDriveTreeView::DirectoryItemViewModel</scope><name>Children</name></member>
+      <member refid="class_google_drive_tree_view_1_1_directory_item_view_model_1a6f4f1a6797f089048924c31a221eeeb8" prot="private" virt="non-virtual"><scope>GoogleDriveTreeView::DirectoryItemViewModel</scope><name>ClearChildren</name></member>
+      <member refid="class_google_drive_tree_view_1_1_directory_item_view_model_1a99ccf3409ee306b729d70f9990ceafca" prot="public" virt="non-virtual"><scope>GoogleDriveTreeView::DirectoryItemViewModel</scope><name>ContextMenuItems</name></member>
+      <member refid="class_google_drive_tree_view_1_1_directory_item_view_model_1a4dcac23ad28bba9ae9356930c81681f7" prot="public" virt="non-virtual"><scope>GoogleDriveTreeView::DirectoryItemViewModel</scope><name>CreateDirectory</name></member>
+      <member refid="class_google_drive_tree_view_1_1_directory_item_view_model_1ab8dfd1100e20ba7e8db6f27ec4728f11" prot="public" virt="non-virtual"><scope>GoogleDriveTreeView::DirectoryItemViewModel</scope><name>DeleteItem</name></member>
+      <member refid="class_google_drive_tree_view_1_1_directory_item_view_model_1a0b824e60166eb754d80c53bfc1ade78f" prot="public" virt="non-virtual"><scope>GoogleDriveTreeView::DirectoryItemViewModel</scope><name>DirectoryItemViewModel</name></member>
+      <member refid="class_google_drive_tree_view_1_1_directory_item_view_model_1a9593476cf1e42244cbaf71f9292f58af" prot="public" virt="non-virtual"><scope>GoogleDriveTreeView::DirectoryItemViewModel</scope><name>DownloadItem</name></member>
+      <member refid="class_google_drive_tree_view_1_1_directory_item_view_model_1a6d2c730c4a82203b35d2dbcab49be1fb" prot="private" virt="non-virtual"><scope>GoogleDriveTreeView::DirectoryItemViewModel</scope><name>Expand</name></member>
+      <member refid="class_google_drive_tree_view_1_1_directory_item_view_model_1ac828b23e07b86b744f88f64fe2163ee1" prot="public" virt="non-virtual"><scope>GoogleDriveTreeView::DirectoryItemViewModel</scope><name>ExpandCommand</name></member>
+      <member refid="class_google_drive_tree_view_1_1_directory_item_view_model_1ad9b9eb937638d97f160f3ed55b97d0a2" prot="public" virt="non-virtual"><scope>GoogleDriveTreeView::DirectoryItemViewModel</scope><name>Extension</name></member>
+      <member refid="class_google_drive_tree_view_1_1_directory_item_view_model_1a8437e63f9f79ef50d1fa1f7082ac589b" prot="public" virt="non-virtual"><scope>GoogleDriveTreeView::DirectoryItemViewModel</scope><name>Id</name></member>
+      <member refid="class_google_drive_tree_view_1_1_directory_item_view_model_1a75cff286bf96cf34286d37bd7827e119" prot="public" virt="non-virtual"><scope>GoogleDriveTreeView::DirectoryItemViewModel</scope><name>IsExpanded</name></member>
+      <member refid="class_google_drive_tree_view_1_1_directory_item_view_model_1a19b110c36bcf31b008baf4cbc7349e84" prot="public" virt="non-virtual"><scope>GoogleDriveTreeView::DirectoryItemViewModel</scope><name>Name</name></member>
+      <member refid="class_google_drive_tree_view_1_1_directory_item_view_model_1a222ef4eeb31c14a77e382bf4b631eab9" prot="public" virt="non-virtual"><scope>GoogleDriveTreeView::DirectoryItemViewModel</scope><name>Parent</name></member>
+      <member refid="class_google_drive_tree_view_1_1_base_view_model_1a2677a7cd981cc8f27f8f7f8bd6ef9189" prot="public" virt="non-virtual"><scope>GoogleDriveTreeView::DirectoryItemViewModel</scope><name>PropertyChanged</name></member>
+      <member refid="class_google_drive_tree_view_1_1_directory_item_view_model_1a541235219d02d5f0575d99dc7248d9e8" prot="public" virt="non-virtual"><scope>GoogleDriveTreeView::DirectoryItemViewModel</scope><name>RenameItem</name></member>
+      <member refid="class_google_drive_tree_view_1_1_directory_item_view_model_1aba3f943be49a383f02377439e798ec2c" prot="public" virt="non-virtual"><scope>GoogleDriveTreeView::DirectoryItemViewModel</scope><name>Type</name></member>
+      <member refid="class_google_drive_tree_view_1_1_directory_item_view_model_1aaba534beee58239d1e68905002eda0c0" prot="public" virt="non-virtual"><scope>GoogleDriveTreeView::DirectoryItemViewModel</scope><name>UploadFile</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

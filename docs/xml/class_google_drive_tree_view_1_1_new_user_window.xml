@@ -1,0 +1,326 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.18">
+  <compounddef id="class_google_drive_tree_view_1_1_new_user_window" kind="class" language="C#" prot="public">
+    <compoundname>GoogleDriveTreeView::NewUserWindow</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">Window</basecompoundref>
+    <basecompoundref prot="public" virt="non-virtual">IComponentConnector</basecompoundref>
+      <sectiondef kind="package-attrib">
+      <memberdef kind="variable" id="class_google_drive_tree_view_1_1_new_user_window_1adfbc4eb8612dd0d5c664aa0b916d5d2f" prot="package" static="no" mutable="no">
+        <type>System.Windows.Controls.TextBox</type>
+        <definition>System Windows Controls TextBox GoogleDriveTreeView.NewUserWindow::txtUsername</definition>
+        <argsstring></argsstring>
+        <name>txtUsername</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Kuba/source/repos/GoogleDriveTreeView/GoogleDriveTreeView/obj/Debug/Windows/NewUserWindow.g.cs" line="46" column="47" bodyfile="C:/Users/Kuba/source/repos/GoogleDriveTreeView/GoogleDriveTreeView/obj/Debug/Windows/NewUserWindow.g.cs" bodystart="46" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_google_drive_tree_view_1_1_new_user_window_1adf2ceb0ddbac71e795fc20b96ada7f73" prot="package" static="no" mutable="no">
+        <type>System.Windows.Controls.PasswordBox</type>
+        <definition>System Windows Controls PasswordBox GoogleDriveTreeView.NewUserWindow::txtPassword</definition>
+        <argsstring></argsstring>
+        <name>txtPassword</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Kuba/source/repos/GoogleDriveTreeView/GoogleDriveTreeView/obj/Debug/Windows/NewUserWindow.g.cs" line="54" column="51" bodyfile="C:/Users/Kuba/source/repos/GoogleDriveTreeView/GoogleDriveTreeView/obj/Debug/Windows/NewUserWindow.g.cs" bodystart="54" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_google_drive_tree_view_1_1_new_user_window_1a5b4b4678b698753c2c6745bc4219968b" prot="package" static="no" mutable="no">
+        <type>System.Windows.Controls.PasswordBox</type>
+        <definition>System Windows Controls PasswordBox GoogleDriveTreeView.NewUserWindow::txtPasswordConfirm</definition>
+        <argsstring></argsstring>
+        <name>txtPasswordConfirm</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Kuba/source/repos/GoogleDriveTreeView/GoogleDriveTreeView/obj/Debug/Windows/NewUserWindow.g.cs" line="62" column="51" bodyfile="C:/Users/Kuba/source/repos/GoogleDriveTreeView/GoogleDriveTreeView/obj/Debug/Windows/NewUserWindow.g.cs" bodystart="62" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_google_drive_tree_view_1_1_new_user_window_1a3f9faf4c6c73f067b03635de1529a24f" prot="package" static="no" mutable="no">
+        <type>System.Windows.Controls.Button</type>
+        <definition>System Windows Controls Button GoogleDriveTreeView.NewUserWindow::btnCancel</definition>
+        <argsstring></argsstring>
+        <name>btnCancel</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Kuba/source/repos/GoogleDriveTreeView/GoogleDriveTreeView/obj/Debug/Windows/NewUserWindow.g.cs" line="70" column="46" bodyfile="C:/Users/Kuba/source/repos/GoogleDriveTreeView/GoogleDriveTreeView/obj/Debug/Windows/NewUserWindow.g.cs" bodystart="70" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_google_drive_tree_view_1_1_new_user_window_1a899f607d976af3d71a70ef85890b9eea" prot="package" static="no" mutable="no">
+        <type>System.Windows.Controls.Button</type>
+        <definition>System Windows Controls Button GoogleDriveTreeView.NewUserWindow::btnAdd</definition>
+        <argsstring></argsstring>
+        <name>btnAdd</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Kuba/source/repos/GoogleDriveTreeView/GoogleDriveTreeView/obj/Debug/Windows/NewUserWindow.g.cs" line="78" column="46" bodyfile="C:/Users/Kuba/source/repos/GoogleDriveTreeView/GoogleDriveTreeView/obj/Debug/Windows/NewUserWindow.g.cs" bodystart="78" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_google_drive_tree_view_1_1_new_user_window_1a3d1c17a34fa21f2c9996f3894c62e17c" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool GoogleDriveTreeView.NewUserWindow::_contentLoaded</definition>
+        <argsstring></argsstring>
+        <name>_contentLoaded</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Kuba/source/repos/GoogleDriveTreeView/GoogleDriveTreeView/obj/Debug/Windows/NewUserWindow.g.cs" line="83" column="22" bodyfile="C:/Users/Kuba/source/repos/GoogleDriveTreeView/GoogleDriveTreeView/obj/Debug/Windows/NewUserWindow.g.cs" bodystart="83" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_google_drive_tree_view_1_1_new_user_window_1a814c1aa6c35d94b5df445c0317ac8ed2" prot="private" static="no" mutable="no">
+        <type><ref refid="class_google_drive_tree_view_1_1_users_context" kindref="compound">UsersContext</ref></type>
+        <definition>UsersContext GoogleDriveTreeView.NewUserWindow.usersDb</definition>
+        <argsstring></argsstring>
+        <name>usersDb</name>
+        <briefdescription>
+<para>The database instance containing users. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Kuba/source/repos/GoogleDriveTreeView/GoogleDriveTreeView/Windows/NewUserWindow.xaml.cs" line="22" column="30" bodyfile="C:/Users/Kuba/source/repos/GoogleDriveTreeView/GoogleDriveTreeView/Windows/NewUserWindow.xaml.cs" bodystart="22" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="class_google_drive_tree_view_1_1_new_user_window_1a93dd399cda6cd57a37ada9f3ef704d64" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>string</type>
+        <definition>string GoogleDriveTreeView.NewUserWindow.Username</definition>
+        <argsstring></argsstring>
+        <name>Username</name>
+        <briefdescription>
+<para>New user&apos;s username </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Kuba/source/repos/GoogleDriveTreeView/GoogleDriveTreeView/Windows/NewUserWindow.xaml.cs" line="27" column="23" bodyfile="C:/Users/Kuba/source/repos/GoogleDriveTreeView/GoogleDriveTreeView/Windows/NewUserWindow.xaml.cs" bodystart="27" bodyend="27"/>
+      </memberdef>
+      <memberdef kind="property" id="class_google_drive_tree_view_1_1_new_user_window_1aa1b14da342e2ec719c7566dff45922d3" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>string</type>
+        <definition>string GoogleDriveTreeView.NewUserWindow.Password</definition>
+        <argsstring></argsstring>
+        <name>Password</name>
+        <briefdescription>
+<para>New user&apos;s password </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Kuba/source/repos/GoogleDriveTreeView/GoogleDriveTreeView/Windows/NewUserWindow.xaml.cs" line="32" column="23" bodyfile="C:/Users/Kuba/source/repos/GoogleDriveTreeView/GoogleDriveTreeView/Windows/NewUserWindow.xaml.cs" bodystart="32" bodyend="32"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_google_drive_tree_view_1_1_new_user_window_1a407a1908b589a62e2917325f57f112dc" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void GoogleDriveTreeView.NewUserWindow.InitializeComponent</definition>
+        <argsstring>()</argsstring>
+        <name>InitializeComponent</name>
+        <briefdescription>
+<para>InitializeComponent </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Kuba/source/repos/GoogleDriveTreeView/GoogleDriveTreeView/obj/Debug/Windows/NewUserWindow.g.cs" line="90" column="21" bodyfile="C:/Users/Kuba/source/repos/GoogleDriveTreeView/GoogleDriveTreeView/obj/Debug/Windows/NewUserWindow.g.cs" bodystart="90" bodyend="102"/>
+      </memberdef>
+      <memberdef kind="function" id="class_google_drive_tree_view_1_1_new_user_window_1a407a1908b589a62e2917325f57f112dc" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void GoogleDriveTreeView.NewUserWindow.InitializeComponent</definition>
+        <argsstring>()</argsstring>
+        <name>InitializeComponent</name>
+        <briefdescription>
+<para>InitializeComponent </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Kuba/source/repos/GoogleDriveTreeView/GoogleDriveTreeView/obj/Debug/Windows/NewUserWindow.g.i.cs" line="90" column="21" bodyfile="C:/Users/Kuba/source/repos/GoogleDriveTreeView/GoogleDriveTreeView/obj/Debug/Windows/NewUserWindow.g.i.cs" bodystart="90" bodyend="102"/>
+      </memberdef>
+      <memberdef kind="function" id="class_google_drive_tree_view_1_1_new_user_window_1ad5641777ad8cabff515c1ea34dc1371c" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>GoogleDriveTreeView.NewUserWindow.NewUserWindow</definition>
+        <argsstring>()</argsstring>
+        <name>NewUserWindow</name>
+        <briefdescription>
+<para>Default constructor </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Kuba/source/repos/GoogleDriveTreeView/GoogleDriveTreeView/Windows/NewUserWindow.xaml.cs" line="13" column="16" bodyfile="C:/Users/Kuba/source/repos/GoogleDriveTreeView/GoogleDriveTreeView/Windows/NewUserWindow.xaml.cs" bodystart="13" bodyend="17"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_google_drive_tree_view_1_1_new_user_window_1ae0b8f89efacc92eb62e4e209f97b39ea" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void System.Windows.Markup.IComponentConnector.</type>
+        <definition>void System.Windows.Markup.IComponentConnector. GoogleDriveTreeView.NewUserWindow.Connect</definition>
+        <argsstring>(int connectionId, object target)</argsstring>
+        <name>Connect</name>
+        <param>
+          <type>int</type>
+          <declname>connectionId</declname>
+        </param>
+        <param>
+          <type>object</type>
+          <declname>target</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Kuba/source/repos/GoogleDriveTreeView/GoogleDriveTreeView/obj/Debug/Windows/NewUserWindow.g.cs" line="110" column="52" bodyfile="C:/Users/Kuba/source/repos/GoogleDriveTreeView/GoogleDriveTreeView/obj/Debug/Windows/NewUserWindow.g.cs" bodystart="110" bodyend="136"/>
+      </memberdef>
+      <memberdef kind="function" id="class_google_drive_tree_view_1_1_new_user_window_1ae0b8f89efacc92eb62e4e209f97b39ea" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void System.Windows.Markup.IComponentConnector.</type>
+        <definition>void System.Windows.Markup.IComponentConnector. GoogleDriveTreeView.NewUserWindow.Connect</definition>
+        <argsstring>(int connectionId, object target)</argsstring>
+        <name>Connect</name>
+        <param>
+          <type>int</type>
+          <declname>connectionId</declname>
+        </param>
+        <param>
+          <type>object</type>
+          <declname>target</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Kuba/source/repos/GoogleDriveTreeView/GoogleDriveTreeView/obj/Debug/Windows/NewUserWindow.g.i.cs" line="110" column="52" bodyfile="C:/Users/Kuba/source/repos/GoogleDriveTreeView/GoogleDriveTreeView/obj/Debug/Windows/NewUserWindow.g.i.cs" bodystart="110" bodyend="136"/>
+      </memberdef>
+      <memberdef kind="function" id="class_google_drive_tree_view_1_1_new_user_window_1ab7267b386b7515772bddfe2e4e187e4a" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void GoogleDriveTreeView.NewUserWindow.btnAdd_Click</definition>
+        <argsstring>(object sender, RoutedEventArgs e)</argsstring>
+        <name>btnAdd_Click</name>
+        <param>
+          <type>object</type>
+          <declname>sender</declname>
+        </param>
+        <param>
+          <type>RoutedEventArgs</type>
+          <declname>e</declname>
+        </param>
+        <briefdescription>
+<para>Click action handler </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>sender</parametername>
+</parameternamelist>
+<parameterdescription>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>e</parametername>
+</parameternamelist>
+<parameterdescription>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Kuba/source/repos/GoogleDriveTreeView/GoogleDriveTreeView/Windows/NewUserWindow.xaml.cs" line="39" column="22" bodyfile="C:/Users/Kuba/source/repos/GoogleDriveTreeView/GoogleDriveTreeView/Windows/NewUserWindow.xaml.cs" bodystart="39" bodyend="61"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para><ref refid="class_google_drive_tree_view_1_1_new_user_window" kindref="compound">NewUserWindow</ref> </para>
+    </briefdescription>
+    <detaileddescription>
+<para>Interaction logic for NewUserWindow.xaml</para>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>GoogleDriveTreeView.NewUserWindow</label>
+        <link refid="class_google_drive_tree_view_1_1_new_user_window"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>System::Windows::Window</label>
+      </node>
+      <node id="3">
+        <label>System::Windows::Markup::IComponentConnector</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>GoogleDriveTreeView.NewUserWindow</label>
+        <link refid="class_google_drive_tree_view_1_1_new_user_window"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+        <childnode refid="4" relation="usage">
+          <edgelabel>txtPasswordConfirm</edgelabel>
+          <edgelabel>btnAdd</edgelabel>
+          <edgelabel>btnCancel</edgelabel>
+          <edgelabel>txtUsername</edgelabel>
+          <edgelabel>txtPassword</edgelabel>
+        </childnode>
+      </node>
+      <node id="2">
+        <label>System::Windows::Window</label>
+      </node>
+      <node id="4">
+        <label>System</label>
+      </node>
+      <node id="3">
+        <label>System::Windows::Markup::IComponentConnector</label>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/Kuba/source/repos/GoogleDriveTreeView/GoogleDriveTreeView/obj/Debug/Windows/NewUserWindow.g.cs" line="41" column="19" bodyfile="C:/Users/Kuba/source/repos/GoogleDriveTreeView/GoogleDriveTreeView/obj/Debug/Windows/NewUserWindow.g.cs" bodystart="41" bodyend="137"/>
+    <listofallmembers>
+      <member refid="class_google_drive_tree_view_1_1_new_user_window_1a3d1c17a34fa21f2c9996f3894c62e17c" prot="private" virt="non-virtual"><scope>GoogleDriveTreeView::NewUserWindow</scope><name>_contentLoaded</name></member>
+      <member refid="class_google_drive_tree_view_1_1_new_user_window_1a899f607d976af3d71a70ef85890b9eea" prot="package" virt="non-virtual"><scope>GoogleDriveTreeView::NewUserWindow</scope><name>btnAdd</name></member>
+      <member refid="class_google_drive_tree_view_1_1_new_user_window_1ab7267b386b7515772bddfe2e4e187e4a" prot="private" virt="non-virtual"><scope>GoogleDriveTreeView::NewUserWindow</scope><name>btnAdd_Click</name></member>
+      <member refid="class_google_drive_tree_view_1_1_new_user_window_1a3f9faf4c6c73f067b03635de1529a24f" prot="package" virt="non-virtual"><scope>GoogleDriveTreeView::NewUserWindow</scope><name>btnCancel</name></member>
+      <member refid="class_google_drive_tree_view_1_1_new_user_window_1ae0b8f89efacc92eb62e4e209f97b39ea" prot="private" virt="non-virtual"><scope>GoogleDriveTreeView::NewUserWindow</scope><name>Connect</name></member>
+      <member refid="class_google_drive_tree_view_1_1_new_user_window_1ae0b8f89efacc92eb62e4e209f97b39ea" prot="private" virt="non-virtual"><scope>GoogleDriveTreeView::NewUserWindow</scope><name>Connect</name></member>
+      <member refid="class_google_drive_tree_view_1_1_new_user_window_1a407a1908b589a62e2917325f57f112dc" prot="public" virt="non-virtual"><scope>GoogleDriveTreeView::NewUserWindow</scope><name>InitializeComponent</name></member>
+      <member refid="class_google_drive_tree_view_1_1_new_user_window_1a407a1908b589a62e2917325f57f112dc" prot="public" virt="non-virtual"><scope>GoogleDriveTreeView::NewUserWindow</scope><name>InitializeComponent</name></member>
+      <member refid="class_google_drive_tree_view_1_1_new_user_window_1ad5641777ad8cabff515c1ea34dc1371c" prot="public" virt="non-virtual"><scope>GoogleDriveTreeView::NewUserWindow</scope><name>NewUserWindow</name></member>
+      <member refid="class_google_drive_tree_view_1_1_new_user_window_1aa1b14da342e2ec719c7566dff45922d3" prot="public" virt="non-virtual"><scope>GoogleDriveTreeView::NewUserWindow</scope><name>Password</name></member>
+      <member refid="class_google_drive_tree_view_1_1_new_user_window_1adf2ceb0ddbac71e795fc20b96ada7f73" prot="package" virt="non-virtual"><scope>GoogleDriveTreeView::NewUserWindow</scope><name>txtPassword</name></member>
+      <member refid="class_google_drive_tree_view_1_1_new_user_window_1a5b4b4678b698753c2c6745bc4219968b" prot="package" virt="non-virtual"><scope>GoogleDriveTreeView::NewUserWindow</scope><name>txtPasswordConfirm</name></member>
+      <member refid="class_google_drive_tree_view_1_1_new_user_window_1adfbc4eb8612dd0d5c664aa0b916d5d2f" prot="package" virt="non-virtual"><scope>GoogleDriveTreeView::NewUserWindow</scope><name>txtUsername</name></member>
+      <member refid="class_google_drive_tree_view_1_1_new_user_window_1a93dd399cda6cd57a37ada9f3ef704d64" prot="public" virt="non-virtual"><scope>GoogleDriveTreeView::NewUserWindow</scope><name>Username</name></member>
+      <member refid="class_google_drive_tree_view_1_1_new_user_window_1a814c1aa6c35d94b5df445c0317ac8ed2" prot="private" virt="non-virtual"><scope>GoogleDriveTreeView::NewUserWindow</scope><name>usersDb</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

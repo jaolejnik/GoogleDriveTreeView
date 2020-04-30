@@ -1,0 +1,118 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.18">
+  <compounddef id="class_google_drive_tree_view_1_1_action_type_to_string_converter" kind="class" language="C#" prot="public">
+    <compoundname>GoogleDriveTreeView::ActionTypeToStringConverter</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">IValueConverter</basecompoundref>
+      <sectiondef kind="public-static-attrib">
+      <memberdef kind="variable" id="class_google_drive_tree_view_1_1_action_type_to_string_converter_1a2120ad256a83b257f748758b454e6faa" prot="public" static="yes" mutable="no">
+        <type><ref refid="class_google_drive_tree_view_1_1_action_type_to_string_converter" kindref="compound">ActionTypeToStringConverter</ref></type>
+        <definition>ActionTypeToStringConverter GoogleDriveTreeView.ActionTypeToStringConverter.Instance</definition>
+        <argsstring></argsstring>
+        <name>Instance</name>
+        <initializer>= new <ref refid="class_google_drive_tree_view_1_1_action_type_to_string_converter" kindref="compound">ActionTypeToStringConverter</ref>()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Kuba/source/repos/GoogleDriveTreeView/GoogleDriveTreeView/Converters/ActionTypeToStringConverter.cs" line="10" column="51" bodyfile="C:/Users/Kuba/source/repos/GoogleDriveTreeView/GoogleDriveTreeView/Converters/ActionTypeToStringConverter.cs" bodystart="10" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_google_drive_tree_view_1_1_action_type_to_string_converter_1a7926ce95e35c75f1a01a2391d47664b9" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>object</type>
+        <definition>object GoogleDriveTreeView.ActionTypeToStringConverter.Convert</definition>
+        <argsstring>(object value, Type targetType, object parameter, CultureInfo culture)</argsstring>
+        <name>Convert</name>
+        <param>
+          <type>object</type>
+          <declname>value</declname>
+        </param>
+        <param>
+          <type>Type</type>
+          <declname>targetType</declname>
+        </param>
+        <param>
+          <type>object</type>
+          <declname>parameter</declname>
+        </param>
+        <param>
+          <type>CultureInfo</type>
+          <declname>culture</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Kuba/source/repos/GoogleDriveTreeView/GoogleDriveTreeView/Converters/ActionTypeToStringConverter.cs" line="12" column="23" bodyfile="C:/Users/Kuba/source/repos/GoogleDriveTreeView/GoogleDriveTreeView/Converters/ActionTypeToStringConverter.cs" bodystart="12" bodyend="29"/>
+      </memberdef>
+      <memberdef kind="function" id="class_google_drive_tree_view_1_1_action_type_to_string_converter_1a8fca8838573e3a4dfd87c46a6b12f377" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>object</type>
+        <definition>object GoogleDriveTreeView.ActionTypeToStringConverter.ConvertBack</definition>
+        <argsstring>(object value, Type targetType, object parameter, CultureInfo culture)</argsstring>
+        <name>ConvertBack</name>
+        <param>
+          <type>object</type>
+          <declname>value</declname>
+        </param>
+        <param>
+          <type>Type</type>
+          <declname>targetType</declname>
+        </param>
+        <param>
+          <type>object</type>
+          <declname>parameter</declname>
+        </param>
+        <param>
+          <type>CultureInfo</type>
+          <declname>culture</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Kuba/source/repos/GoogleDriveTreeView/GoogleDriveTreeView/Converters/ActionTypeToStringConverter.cs" line="31" column="23" bodyfile="C:/Users/Kuba/source/repos/GoogleDriveTreeView/GoogleDriveTreeView/Converters/ActionTypeToStringConverter.cs" bodystart="31" bodyend="34"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>IValueConverter</label>
+      </node>
+      <node id="1">
+        <label>GoogleDriveTreeView.ActionTypeToStringConverter</label>
+        <link refid="class_google_drive_tree_view_1_1_action_type_to_string_converter"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2">
+        <label>IValueConverter</label>
+      </node>
+      <node id="1">
+        <label>GoogleDriveTreeView.ActionTypeToStringConverter</label>
+        <link refid="class_google_drive_tree_view_1_1_action_type_to_string_converter"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+        <childnode refid="1" relation="usage">
+          <edgelabel>Instance</edgelabel>
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/Kuba/source/repos/GoogleDriveTreeView/GoogleDriveTreeView/Converters/ActionTypeToStringConverter.cs" line="8" column="11" bodyfile="C:/Users/Kuba/source/repos/GoogleDriveTreeView/GoogleDriveTreeView/Converters/ActionTypeToStringConverter.cs" bodystart="9" bodyend="35"/>
+    <listofallmembers>
+      <member refid="class_google_drive_tree_view_1_1_action_type_to_string_converter_1a7926ce95e35c75f1a01a2391d47664b9" prot="public" virt="non-virtual"><scope>GoogleDriveTreeView::ActionTypeToStringConverter</scope><name>Convert</name></member>
+      <member refid="class_google_drive_tree_view_1_1_action_type_to_string_converter_1a8fca8838573e3a4dfd87c46a6b12f377" prot="public" virt="non-virtual"><scope>GoogleDriveTreeView::ActionTypeToStringConverter</scope><name>ConvertBack</name></member>
+      <member refid="class_google_drive_tree_view_1_1_action_type_to_string_converter_1a2120ad256a83b257f748758b454e6faa" prot="public" virt="non-virtual"><scope>GoogleDriveTreeView::ActionTypeToStringConverter</scope><name>Instance</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>
